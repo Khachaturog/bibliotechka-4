@@ -1,6 +1,6 @@
 [
 {
-	"cover": https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/covers/001.webp,
+	"cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/covers/001.webp",
 	"group_slug": "designsystem",
 	"subgroup_slug": "text",
 	"title": "Гайд по текстам в интерфейсе",
@@ -9,7 +9,7 @@
 	"@url": "https://www.figma.com/proto/4u5dhL9svYYysmn6xPiTu4/Гайд-по-текстам-в%C2%A0интерфейсе?page-id=67%3A64748&type=design&node-id=67-65212&viewport=814%2C414%2C0.28&t=CGwyNVttYtOE0ltg-1&scaling=contain&starting-point-node-id=67%3A65212&hotspot-hints=0&utm_source=ozondesign&utm_medium=social&utm_campaign=text_guide",
 },
 {
-	"cover": https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/covers/002.webp,
+	"cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/covers/002.webp",
 	"group_slug": "reference",
 	"subgroup_slug": "dribble",
 	"title": "Noona Paul",
