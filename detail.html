@@ -17,44 +17,32 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 const slug = urlParams.get('slug');
                 
-                if (!slug) throw new Error('Не указан slug элемента');
-
                 const response = await fetch('data.json');
-                if (!response.ok) throw new Error('Ошибка загрузки данных');
                 const data = await response.json();
+                const item = data.find(i => i.slug === slug);
                 
-                const item = data.find(i => String(i.slug) === String(slug));
-                
-                if (!item) throw new Error('Элемент не найден');
-                
-                displayDetail(item);
-                
+                if (item) {
+                    displayDetail(item);
+                } else {
+                    document.getElementById('detail-container').innerHTML = 
+                        '<p>Материал не найден</p>';
+                }
             } catch (error) {
                 document.getElementById('detail-container').innerHTML = 
-                    `<p>Ошибка: ${error.message}</p>`;
+                    '<p>Ошибка загрузки</p>';
             }
         }
 
         function displayDetail(item) {
             const container = document.getElementById('detail-container');
-            
-            let html = `
+            container.innerHTML = `
                 <h1>${item.title}</h1>
-                <img src="${item.cover}" alt="${item.title}" width="400" 
-                     onerror="this.src='https://via.placeholder.com/400x300?text=Нет+изображения'">
+                <img src="${item.cover}" alt="${item.title}" width="400">
                 <p><strong>Автор:</strong> ${item.author_slug}</p>
-                <p><strong>Описание:</strong> ${item.summary_ai || item.description || 'Отсутствует'}</p>
+                <p>${item.summary_ai || ''}</p>
+                ${item.url_1 ? `<p><a href="${item.url_1}" target="_blank">${item.url_title_1 || 'Ссылка'}</a></p>` : ''}
+                ${item.url_2 ? `<p><a href="${item.url_2}" target="_blank">${item.url_title_2 || 'Ссылка'}</a></p>` : ''}
             `;
-
-            // Добавляем только основные ссылки
-            if (item.url_1 && item.url_title_1) {
-                html += `<p><strong>${item.url_title_1}:</strong> <a href="${item.url_1}" target="_blank">Открыть</a></p>`;
-            }
-            if (item.url_2 && item.url_title_2) {
-                html += `<p><strong>${item.url_title_2}:</strong> <a href="${item.url_2}" target="_blank">Открыть</a></p>`;
-            }
-
-            container.innerHTML = html;
         }
 
         document.addEventListener('DOMContentLoaded', loadDetailData);
