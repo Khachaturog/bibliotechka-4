@@ -12,7 +12,6 @@
     </div>
 
     <script>
-        // Загрузка данных из JSON
         async function loadData() {
             try {
                 const response = await fetch('data.json');
@@ -21,12 +20,10 @@
                 displayCards(data);
             } catch (error) {
                 document.getElementById('cards-container').innerHTML = 
-                    '<p>Ошибка загрузки данных. Проверьте наличие файла data.json</p>';
-                console.error('Ошибка:', error);
+                    '<p>Ошибка загрузки данных</p>';
             }
         }
 
-        // Отображение карточек
         function displayCards(data) {
             const container = document.getElementById('cards-container');
             container.innerHTML = '';
@@ -52,7 +49,6 @@
             });
         }
 
-        // Загружаем данные при загрузке страницы
         document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
