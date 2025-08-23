@@ -15,11 +15,12 @@
         async function loadData() {
             try {
                 const response = await fetch('data.json');
+                if (!response.ok) throw new Error('Ошибка загрузки данных');
                 const data = await response.json();
                 displayCards(data);
             } catch (error) {
                 document.getElementById('cards-container').innerHTML = 
-                    '<p>Ошибка загрузки данных</p>';
+                    '<p>Ошибка загрузки данных. Проверьте наличие файла data.json</p>';
             }
         }
 
@@ -27,13 +28,27 @@
             const container = document.getElementById('cards-container');
             container.innerHTML = '';
 
-            data.filter(item => item.status_slug === 'published').forEach(item => {
+            const publishedItems = data.filter(item => item.status_slug === 'published');
+            
+            if (publishedItems.length === 0) {
+                container.innerHTML = '<p>Нет опубликованных материалов</p>';
+                return;
+            }
+
+            publishedItems.forEach(item => {
                 const card = document.createElement('div');
+                card.style.border = '1px solid #ccc';
+                card.style.padding = '15px';
+                card.style.margin = '10px 0';
+                
                 card.innerHTML = `
-                    <h3>${item.title}</h3>
-                    <img src="${item.cover}" alt="${item.title}" width="300" height="200">
-                    <p>${item.summary_ai || 'Описание отсутствует'}</p>
-                    <a href="detail.html?slug=${item.slug}">Подробнее</a>
+                    <h2>${item.title}</h2>
+                    <img src="${item.cover}" alt="${item.title}" width="300" height="200" 
+                         onerror="this.src='https://via.placeholder.com/300x200?text=Нет+изображения'">
+                    <p><strong>Автор:</strong> ${item.author_slug}</p>
+                    <p><strong>Группа:</strong> ${item.group_slug} / ${item.subgroup_slug}</p>
+                    <p>${item.summary_ai || item.description || 'Описание отсутствует'}</p>
+                    <a href="detail.html?slug=${encodeURIComponent(item.slug)}">Посмотреть все детали →</a>
                     <hr>
                 `;
                 container.appendChild(card);
