@@ -15,7 +15,6 @@
         async function loadData() {
             try {
                 const response = await fetch('data.json');
-                if (!response.ok) throw new Error('Ошибка загрузки данных');
                 const data = await response.json();
                 displayCards(data);
             } catch (error) {
@@ -28,21 +27,13 @@
             const container = document.getElementById('cards-container');
             container.innerHTML = '';
 
-            const publishedItems = data.filter(item => item.status_slug === 'published');
-            
-            if (publishedItems.length === 0) {
-                container.innerHTML = '<p>Нет опубликованных материалов</p>';
-                return;
-            }
-
-            publishedItems.forEach(item => {
+            data.filter(item => item.status_slug === 'published').forEach(item => {
                 const card = document.createElement('div');
                 card.innerHTML = `
                     <h3>${item.title}</h3>
-                    <img src="${item.cover}" alt="${item.title}" width="300" height="200" 
-                         onerror="this.src='https://via.placeholder.com/300x200?text=Нет+изображения'">
-                    <p>${item.summary_ai || item.description || 'Описание отсутствует'}</p>
-                    <a href="detail.html?slug=${encodeURIComponent(item.slug)}">Подробнее</a>
+                    <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+                    <p>${item.summary_ai || 'Описание отсутствует'}</p>
+                    <a href="detail.html?slug=${item.slug}">Подробнее</a>
                     <hr>
                 `;
                 container.appendChild(card);
