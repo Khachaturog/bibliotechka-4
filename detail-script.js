@@ -1,3 +1,6 @@
+// SVG placeholder для детальной страницы
+const detailPlaceholderSVG = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300"><rect width="600" height="300" fill="#f0f0f0"/><text x="300" y="150" font-family="Arial" font-size="16" fill="#666" text-anchor="middle">Нет изображения</text></svg>';
+
 async function loadDetailData() {
     try {
         const urlParams = new URLSearchParams(window.location.search);
@@ -27,7 +30,7 @@ function displayDetail(item) {
     let html = `
         <div class="detail-card">
             <img src="${item.cover}" alt="${item.title}" 
-                 onerror="this.src='https://via.placeholder.com/600x300?text=Нет+изображения'">
+                 onerror="this.src='${detailPlaceholderSVG}'">
             
             <h1>${item.title}</h1>
             
