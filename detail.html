@@ -12,47 +12,29 @@
     <a href="index.html">← Назад к каталогу</a>
 
     <script>
-        // Получаем slug из URL
-        function getUrlParams() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const slug = urlParams.get('slug');
-            console.log('Полученный slug из URL:', slug);
-            return { slug };
-        }
-
-        // Загрузка данных из JSON
         async function loadDetailData() {
             try {
-                const params = getUrlParams();
-                if (!params.slug) throw new Error('Не указан slug элемента');
+                const urlParams = new URLSearchParams(window.location.search);
+                const slug = urlParams.get('slug');
+                
+                if (!slug) throw new Error('Не указан slug элемента');
 
                 const response = await fetch('data.json');
                 if (!response.ok) throw new Error('Ошибка загрузки данных');
                 const data = await response.json();
                 
-                console.log('Все данные из JSON:', data);
-                console.log('Ищем slug:', params.slug);
+                const item = data.find(i => String(i.slug) === String(slug));
                 
-                // Ищем элемент по slug (приводим к строке для сравнения)
-                const item = data.find(i => String(i.slug) === String(params.slug));
+                if (!item) throw new Error('Элемент не найден');
                 
-                if (!item) {
-                    console.log('Slug не найден. Доступные slug:');
-                    data.forEach(i => console.log('-', i.slug, typeof i.slug));
-                    throw new Error(`Элемент с slug "${params.slug}" не найден`);
-                }
-                
-                console.log('Найденный элемент:', item);
                 displayDetail(item);
                 
             } catch (error) {
                 document.getElementById('detail-container').innerHTML = 
                     `<p>Ошибка: ${error.message}</p>`;
-                console.error('Ошибка:', error);
             }
         }
 
-        // Отображение детальной информации
         function displayDetail(item) {
             const container = document.getElementById('detail-container');
             
@@ -60,42 +42,21 @@
                 <h1>${item.title}</h1>
                 <img src="${item.cover}" alt="${item.title}" width="400" 
                      onerror="this.src='https://via.placeholder.com/400x300?text=Нет+изображения'">
-                <p><strong>Slug:</strong> ${item.slug}</p>
                 <p><strong>Автор:</strong> ${item.author_slug}</p>
                 <p><strong>Описание:</strong> ${item.summary_ai || item.description || 'Отсутствует'}</p>
-                <p><strong>Группа:</strong> ${item.group_slug}</p>
-                <p><strong>Подгруппа:</strong> ${item.subgroup_slug}</p>
-                <p><strong>Статус:</strong> ${item.status_slug}</p>
-                <p><strong>Создан:</strong> ${item.created_at}</p>
-                <p><strong>Обновлен:</strong> ${item.updated_at}</p>
-                <p><strong>Версия:</strong> ${item.version_slug}</p>
             `;
 
-            // Добавляем ссылки
-            const addLink = (title, url) => {
-                if (title && url) {
-                    html += `<p><strong>${title}:</strong> <a href="${url}" target="_blank">${url}</a></p>`;
-                }
-            };
-
-            addLink(item.url_title_1, item.url_1);
-            addLink(item.url_title_2, item.url_2);
-            addLink(item.url_title_3, item.url_3);
-            addLink(item.url_title_4, item.url_4);
-            addLink(item.url_title_5, item.url_5);
-            addLink(item.url_title_6, item.url_6);
-
-            // Добавляем дополнительные поля
-            if (item.start_date) html += `<p><strong>Дата начала:</strong> ${item.start_date}</p>`;
-            if (item.end_date) html += `<p><strong>Дата окончания:</strong> ${item.end_date}</p>`;
-            if (item.published) html += `<p><strong>Опубликовано:</strong> ${item.published}</p>`;
-            if (item.detail) html += `<p><strong>Детали:</strong> ${item.detail}</p>`;
-            if (item.comment) html += `<p><strong>Комментарий:</strong> ${item.comment}</p>`;
+            // Добавляем только основные ссылки
+            if (item.url_1 && item.url_title_1) {
+                html += `<p><strong>${item.url_title_1}:</strong> <a href="${item.url_1}" target="_blank">Открыть</a></p>`;
+            }
+            if (item.url_2 && item.url_title_2) {
+                html += `<p><strong>${item.url_title_2}:</strong> <a href="${item.url_2}" target="_blank">Открыть</a></p>`;
+            }
 
             container.innerHTML = html;
         }
 
-        // Загружаем данные при загрузке страницы
         document.addEventListener('DOMContentLoaded', loadDetailData);
     </script>
 </body>
