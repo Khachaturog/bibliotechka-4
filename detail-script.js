@@ -27,7 +27,7 @@ function displayDetail(item) {
     let html = `
         <div class="detail-card">
             <img src="${item.cover}" alt="${item.title}" 
-                 onerror="this.src='https://via.placeholder.com/500x300?text=Нет+изображения'">
+                 onerror="this.src='https://via.placeholder.com/600x300?text=Нет+изображения'">
             
             <h1>${item.title}</h1>
             
@@ -41,21 +41,11 @@ function displayDetail(item) {
             </div>
     `;
 
-    // Описания
-    if (item.description) {
-        html += `<p><strong>Описание:</strong> ${item.description}</p>`;
-    }
-    if (item.summary_ai) {
-        html += `<p><strong>AI-описание:</strong> ${item.summary_ai}</p>`;
-    }
-    if (item.detail) {
-        html += `<p><strong>Детали:</strong> ${item.detail}</p>`;
-    }
-    if (item.comment) {
-        html += `<p><strong>Комментарий:</strong> ${item.comment}</p>`;
-    }
+    if (item.description) html += `<p><strong>Описание:</strong> ${item.description}</p>`;
+    if (item.summary_ai) html += `<p><strong>AI-описание:</strong> ${item.summary_ai}</p>`;
+    if (item.detail) html += `<p><strong>Детали:</strong> ${item.detail}</p>`;
+    if (item.comment) html += `<p><strong>Комментарий:</strong> ${item.comment}</p>`;
 
-    // Ссылки
     const links = [
         { title: item.url_title_1, url: item.url_1 },
         { title: item.url_title_2, url: item.url_2 },
@@ -72,7 +62,6 @@ function displayDetail(item) {
         });
     }
 
-    // Даты
     html += `
         <h2>Даты</h2>
         <div class="detail-info">
@@ -80,18 +69,11 @@ function displayDetail(item) {
             <p><strong>Обновлен:</strong> ${item.updated_at}</p>
     `;
     
-    if (item.start_date) {
-        html += `<p><strong>Дата начала:</strong> ${item.start_date}</p>`;
-    }
-    if (item.end_date) {
-        html += `<p><strong>Дата окончания:</strong> ${item.end_date}</p>`;
-    }
-    if (item.published) {
-        html += `<p><strong>Опубликовано:</strong> ${item.published}</p>`;
-    }
+    if (item.start_date) html += `<p><strong>Дата начала:</strong> ${item.start_date}</p>`;
+    if (item.end_date) html += `<p><strong>Дата окончания:</strong> ${item.end_date}</p>`;
+    if (item.published) html += `<p><strong>Опубликовано:</strong> ${item.published}</p>`;
 
     html += `</div></div>`;
-
     container.innerHTML = html;
 }
 
