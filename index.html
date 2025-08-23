@@ -31,19 +31,24 @@
             const container = document.getElementById('cards-container');
             container.innerHTML = '';
 
-            data.forEach(item => {
-                if (item.status_slug === 'published') {
-                    const card = document.createElement('div');
-                    card.innerHTML = `
-                        <h3>${item.title}</h3>
-                        <img src="${item.cover}" alt="${item.title}" width="300" height="200" 
-                             onerror="this.src='https://via.placeholder.com/300x200?text=Нет+изображения'">
-                        <p>${item.summary_ai || item.description}</p>
-                        <a href="detail.html?slug=${item.slug}">Подробнее</a>
-                        <hr>
-                    `;
-                    container.appendChild(card);
-                }
+            const publishedItems = data.filter(item => item.status_slug === 'published');
+            
+            if (publishedItems.length === 0) {
+                container.innerHTML = '<p>Нет опубликованных материалов</p>';
+                return;
+            }
+
+            publishedItems.forEach(item => {
+                const card = document.createElement('div');
+                card.innerHTML = `
+                    <h3>${item.title}</h3>
+                    <img src="${item.cover}" alt="${item.title}" width="300" height="200" 
+                         onerror="this.src='https://via.placeholder.com/300x200?text=Нет+изображения'">
+                    <p>${item.summary_ai || item.description || 'Описание отсутствует'}</p>
+                    <a href="detail.html?slug=${encodeURIComponent(item.slug)}">Подробнее</a>
+                    <hr>
+                `;
+                container.appendChild(card);
             });
         }
 
