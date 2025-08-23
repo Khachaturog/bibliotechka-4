@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог материалов</title>
+</head>
+<body>
+    <h1>Каталог материалов</h1>
+    
+    <div id="filters">
+        <button onclick="filterItems('all')">Все</button>
+        <button onclick="filterItems('designsystem')">Design System</button>
+        <button onclick="filterItems('reference')">Reference</button>
+    </div>
+    
+    <div id="cards-container">
+        <p>Загрузка данных...</p>
+    </div>
+
+    <script>
+        // Загрузка данных из JSON
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                if (!response.ok) {
+                    throw new Error('Ошибка загрузки данных');
+                }
+                const data = await response.json();
+                window.allData = data;
+                displayData(data);
+            } catch (error) {
+                document.getElementById('cards-container').innerHTML = 
+                    '<p>Ошибка загрузки данных. Проверьте наличие файла data.json</p>';
+                console.error('Ошибка:', error);
+            }
+        }
+        
+        // Отображение данных
+        function displayData(data, filter = 'all') {
+            const container = document.getElementById('cards-container');
+            container.innerHTML = '';
+            
+            const filteredData = filter === 'all' 
+                ? data 
+                : data.filter(item => item.group_slug === filter);
+            
+            if (filteredData.length === 0) {
+                container.innerHTML = '<p>Нет данных для отображения</p>';
+                return;
+            }
+            
+            filteredData.forEach(item => {
+                const card = document.createElement('div');
+                card.innerHTML = `
+                    <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+                    <h3>${item.title}</h3>
+                    <p>${item.description}</p>
+                    <p><strong>Тип:</strong> ${item.group_slug} / ${item.subgroup_slug}</p>
+                    <a href="${item['@url']}" target="_blank">${item.url_title_1}</a>
+                    <hr>
+                `;
+                container.appendChild(card);
+            });
+        }
+        
+        // Функция фильтрации
+        function filterItems(group) {
+            if (window.allData) {
+                displayData(window.allData, group);
+            }
+        }
+        
+        // Загружаем данные при загрузке страницы
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
