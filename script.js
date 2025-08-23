@@ -26,9 +26,7 @@ function displayCards(data) {
         cardLink.className = 'card';
         cardLink.href = `detail.html?slug=${encodeURIComponent(item.slug)}`;
         
-        cardLink.innerHTML = `
-            <img src="${item.cover}" alt="${item.title}" 
-                 onerror="this.src='https://via.placeholder.com/300x160?text=Нет+изображения'">
+       
             
             <h2>${item.title}</h2>
             
