@@ -4,58 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог материалов</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Каталог материалов</h1>
-    <div id="cards-container">
-        <p>Загрузка данных...</p>
+    <div class="container">
+        <header>
+            <h1>Каталог материалов</h1>
+        </header>
+        
+        <main class="cards-grid" id="cards-container">
+            <div class="loading">Загрузка данных...</div>
+        </main>
     </div>
 
-    <script>
-        async function loadData() {
-            try {
-                const response = await fetch('data.json');
-                if (!response.ok) throw new Error('Ошибка загрузки данных');
-                const data = await response.json();
-                displayCards(data);
-            } catch (error) {
-                document.getElementById('cards-container').innerHTML = 
-                    '<p>Ошибка загрузки данных. Проверьте наличие файла data.json</p>';
-            }
-        }
-
-        function displayCards(data) {
-            const container = document.getElementById('cards-container');
-            container.innerHTML = '';
-
-            const publishedItems = data.filter(item => item.status_slug === 'published');
-            
-            if (publishedItems.length === 0) {
-                container.innerHTML = '<p>Нет опубликованных материалов</p>';
-                return;
-            }
-
-            publishedItems.forEach(item => {
-                const card = document.createElement('div');
-                card.style.border = '1px solid #ccc';
-                card.style.padding = '15px';
-                card.style.margin = '10px 0';
-                
-                card.innerHTML = `
-                    <h2>${item.title}</h2>
-                    <img src="${item.cover}" alt="${item.title}" width="300" height="200" 
-                         onerror="this.src='https://via.placeholder.com/300x200?text=Нет+изображения'">
-                    <p><strong>Автор:</strong> ${item.author_slug}</p>
-                    <p><strong>Группа:</strong> ${item.group_slug} / ${item.subgroup_slug}</p>
-                    <p>${item.summary_ai || item.description || 'Описание отсутствует'}</p>
-                    <a href="detail.html?slug=${encodeURIComponent(item.slug)}">Посмотреть все детали →</a>
-                    <hr>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', loadData);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
