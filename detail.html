@@ -4,104 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Детальная информация</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="detail-container">
-        <p>Загрузка...</p>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← Назад к каталогу</a>
+            <h1>Детальная информация</h1>
+        </header>
+        
+        <main id="detail-container">
+            <div class="loading">Загрузка...</div>
+        </main>
     </div>
-    <a href="index.html">← Назад к каталогу</a>
 
-    <script>
-        async function loadDetailData() {
-            try {
-                const urlParams = new URLSearchParams(window.location.search);
-                const slug = urlParams.get('slug');
-                
-                if (!slug) throw new Error('Не указан slug элемента');
-
-                const response = await fetch('data.json');
-                if (!response.ok) throw new Error('Ошибка загрузки данных');
-                const data = await response.json();
-                
-                const item = data.find(i => String(i.slug) === String(slug));
-                
-                if (!item) throw new Error('Элемент не найден');
-                
-                displayDetail(item);
-                
-            } catch (error) {
-                document.getElementById('detail-container').innerHTML = 
-                    `<p>Ошибка: ${error.message}</p>`;
-            }
-        }
-
-        function displayDetail(item) {
-            const container = document.getElementById('detail-container');
-            
-            let html = `
-                <h1>${item.title}</h1>
-                <img src="${item.cover}" alt="${item.title}" width="400" 
-                     onerror="this.src='https://via.placeholder.com/400x300?text=Нет+изображения'">
-                
-                <h2>Основная информация</h2>
-                <p><strong>Slug:</strong> ${item.slug}</p>
-                <p><strong>Автор:</strong> ${item.author_slug}</p>
-                <p><strong>Статус:</strong> ${item.status_slug}</p>
-                <p><strong>Группа:</strong> ${item.group_slug}</p>
-                <p><strong>Подгруппа:</strong> ${item.subgroup_slug}</p>
-                <p><strong>Версия:</strong> ${item.version_slug}</p>
-            `;
-
-            // Описания
-            if (item.description) {
-                html += `<p><strong>Описание:</strong> ${item.description}</p>`;
-            }
-            if (item.summary_ai) {
-                html += `<p><strong>AI-описание:</strong> ${item.summary_ai}</p>`;
-            }
-            if (item.detail) {
-                html += `<p><strong>Детали:</strong> ${item.detail}</p>`;
-            }
-            if (item.comment) {
-                html += `<p><strong>Комментарий:</strong> ${item.comment}</p>`;
-            }
-
-            // Ссылки
-            html += `<h2>Ссылки</h2>`;
-            const links = [
-                { title: item.url_title_1, url: item.url_1 },
-                { title: item.url_title_2, url: item.url_2 },
-                { title: item.url_title_3, url: item.url_3 },
-                { title: item.url_title_4, url: item.url_4 },
-                { title: item.url_title_5, url: item.url_5 },
-                { title: item.url_title_6, url: item.url_6 }
-            ];
-
-            links.forEach(link => {
-                if (link.title && link.url) {
-                    html += `<p><strong>${link.title}:</strong> <a href="${link.url}" target="_blank">${link.url}</a></p>`;
-                }
-            });
-
-            // Даты
-            html += `<h2>Даты</h2>`;
-            html += `<p><strong>Создан:</strong> ${item.created_at}</p>`;
-            html += `<p><strong>Обновлен:</strong> ${item.updated_at}</p>`;
-            
-            if (item.start_date) {
-                html += `<p><strong>Дата начала:</strong> ${item.start_date}</p>`;
-            }
-            if (item.end_date) {
-                html += `<p><strong>Дата окончания:</strong> ${item.end_date}</p>`;
-            }
-            if (item.published) {
-                html += `<p><strong>Опубликовано:</strong> ${item.published}</p>`;
-            }
-
-            container.innerHTML = html;
-        }
-
-        document.addEventListener('DOMContentLoaded', loadDetailData);
-    </script>
+    <script src="detail-script.js"></script>
 </body>
 </html>
