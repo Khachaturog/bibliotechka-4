@@ -17,32 +17,88 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 const slug = urlParams.get('slug');
                 
+                if (!slug) throw new Error('Не указан slug элемента');
+
                 const response = await fetch('data.json');
+                if (!response.ok) throw new Error('Ошибка загрузки данных');
                 const data = await response.json();
-                const item = data.find(i => i.slug === slug);
                 
-                if (item) {
-                    displayDetail(item);
-                } else {
-                    document.getElementById('detail-container').innerHTML = 
-                        '<p>Материал не найден</p>';
-                }
+                const item = data.find(i => String(i.slug) === String(slug));
+                
+                if (!item) throw new Error('Элемент не найден');
+                
+                displayDetail(item);
+                
             } catch (error) {
                 document.getElementById('detail-container').innerHTML = 
-                    '<p>Ошибка загрузки</p>';
+                    `<p>Ошибка: ${error.message}</p>`;
             }
         }
 
         function displayDetail(item) {
             const container = document.getElementById('detail-container');
-            container.innerHTML = `
+            
+            let html = `
                 <h1>${item.title}</h1>
-                <img src="${item.cover}" alt="${item.title}" width="400">
+                <img src="${item.cover}" alt="${item.title}" width="400" 
+                     onerror="this.src='https://via.placeholder.com/400x300?text=Нет+изображения'">
+                
+                <h2>Основная информация</h2>
+                <p><strong>Slug:</strong> ${item.slug}</p>
                 <p><strong>Автор:</strong> ${item.author_slug}</p>
-                <p>${item.summary_ai || ''}</p>
-                ${item.url_1 ? `<p><a href="${item.url_1}" target="_blank">${item.url_title_1 || 'Ссылка'}</a></p>` : ''}
-                ${item.url_2 ? `<p><a href="${item.url_2}" target="_blank">${item.url_title_2 || 'Ссылка'}</a></p>` : ''}
+                <p><strong>Статус:</strong> ${item.status_slug}</p>
+                <p><strong>Группа:</strong> ${item.group_slug}</p>
+                <p><strong>Подгруппа:</strong> ${item.subgroup_slug}</p>
+                <p><strong>Версия:</strong> ${item.version_slug}</p>
             `;
+
+            // Описания
+            if (item.description) {
+                html += `<p><strong>Описание:</strong> ${item.description}</p>`;
+            }
+            if (item.summary_ai) {
+                html += `<p><strong>AI-описание:</strong> ${item.summary_ai}</p>`;
+            }
+            if (item.detail) {
+                html += `<p><strong>Детали:</strong> ${item.detail}</p>`;
+            }
+            if (item.comment) {
+                html += `<p><strong>Комментарий:</strong> ${item.comment}</p>`;
+            }
+
+            // Ссылки
+            html += `<h2>Ссылки</h2>`;
+            const links = [
+                { title: item.url_title_1, url: item.url_1 },
+                { title: item.url_title_2, url: item.url_2 },
+                { title: item.url_title_3, url: item.url_3 },
+                { title: item.url_title_4, url: item.url_4 },
+                { title: item.url_title_5, url: item.url_5 },
+                { title: item.url_title_6, url: item.url_6 }
+            ];
+
+            links.forEach(link => {
+                if (link.title && link.url) {
+                    html += `<p><strong>${link.title}:</strong> <a href="${link.url}" target="_blank">${link.url}</a></p>`;
+                }
+            });
+
+            // Даты
+            html += `<h2>Даты</h2>`;
+            html += `<p><strong>Создан:</strong> ${item.created_at}</p>`;
+            html += `<p><strong>Обновлен:</strong> ${item.updated_at}</p>`;
+            
+            if (item.start_date) {
+                html += `<p><strong>Дата начала:</strong> ${item.start_date}</p>`;
+            }
+            if (item.end_date) {
+                html += `<p><strong>Дата окончания:</strong> ${item.end_date}</p>`;
+            }
+            if (item.published) {
+                html += `<p><strong>Опубликовано:</strong> ${item.published}</p>`;
+            }
+
+            container.innerHTML = html;
         }
 
         document.addEventListener('DOMContentLoaded', loadDetailData);
