@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "community",
+    "title": "Community",
+    "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp"
+  },
+  {
+    "slug": "trainer",
+    "title": "Тренажёры",
+    "description": "Игры, брифы, челленджи",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-trainer.webp"
+  },
+  {
+    "slug": "reference",
+    "title": "Насмотренность",
+    "description": "Подборки референсов почти на все темы",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-reference.webp"
+  },
+  {
+    "slug": "designsystem",
+    "title": "Дизайн-система",
+    "description": "Разбор компонентов на примере компаний / Гайдлайны / Брендбуки",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-designsystem.webp"
+  },
+  {
+    "slug": "resource",
+    "title": "Ресурсы",
+    "description": "Графические плюшки и разный арт",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-resource.webp"
+  },
+  {
+    "slug": "skill",
+    "title": "Навыки",
+    "description": "Материалы для развития скиллов",
+    "badge": "",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp"
+  },
+  {
+    "slug": "book",
+    "title": "Книги",
+    "description": "Покажите мне людей которые читают книги — и я покажу кто двигает мир",
+    "badge": "❇️ Новый раздел",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp"
+  },
+  {
+    "slug": "life",
+    "title": "Жизнь",
+    "description": "Быт, здоровье и советы",
+    "badge": "❇️ Новый раздел",
+    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-life.webp"
+  }
+]

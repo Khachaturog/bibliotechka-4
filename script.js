@@ -1,47 +1,60 @@
 async function loadData() {
-    try {
-        const response = await fetch('data.json');
-        if (!response.ok) throw new Error('Ошибка загрузки данных');
-        const data = await response.json();
+    const response = await fetch('data.json');
+    const data = await response.json();
+    
+    if (window.location.pathname.includes('detail.html')) {
+        displayDetail(data);
+    } else {
         displayCards(data);
-    } catch (error) {
-        document.getElementById('cards-container').innerHTML = 
-            '<div class="error">Ошибка загрузки данных</div>';
     }
 }
 
 function displayCards(data) {
     const container = document.getElementById('cards-container');
-    container.innerHTML = '';
-
-    const publishedItems = data.filter(item => item.status_slug === 'published');
     
-    if (publishedItems.length === 0) {
-        container.innerHTML = '<div class="loading">Нет опубликованных материалов</div>';
+    data.forEach(item => {
+        const card = document.createElement('div');
+        card.innerHTML = `
+            <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+            <h2>${item.title}</h2>
+            <a href="detail.html?slug=${item.slug}">Подробнее</a>
+            <hr>
+        `;
+        container.appendChild(card);
+    });
+}
+
+function displayDetail(data) {
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+    const item = data.find(item => item.slug === slug);
+    
+    if (!item) {
+        document.body.innerHTML = '<h1>Материал не найден</h1>';
         return;
     }
-
-    publishedItems.forEach(item => {
-        const cardLink = document.createElement('a');
-        cardLink.className = 'card';
-        cardLink.href = `detail.html?slug=${encodeURIComponent(item.slug)}`;
+    
+    const container = document.getElementById('detail-container');
+    container.innerHTML = `
+        <h1>${item.title}</h1>
+        <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+        <p><strong>Автор:</strong> ${item.author_slug}</p>
+        <p><strong>Группа:</strong> ${item.group_slug}</p>
+        <p><strong>Подгруппа:</strong> ${item.subgroup_slug}</p>
+        <p><strong>Описание:</strong> ${item.summary_ai || item.description || 'Нет описания'}</p>
         
-        cardLink.innerHTML = `
-            <img src="${item.cover}" alt="${item.title}" 
-                 onerror="this.src='https://via.placeholder.com/300x160?text=Нет+изображения'">
-            
-            <h2>${item.title}</h2>
-            
-            <div class="meta">
-                <strong>Автор:</strong> ${item.author_slug}<br>
-                <strong>Группа:</strong> ${item.group_slug}
-            </div>
-            
-            <p>${item.summary_ai || item.description || ''}</p>
-        `;
+        ${item.url_1 ? `<p><strong>${item.url_title_1}:</strong> <a href="${item.url_1}" target="_blank">Открыть</a></p>` : ''}
+        ${item.url_2 ? `<p><strong>${item.url_title_2}:</strong> <a href="${item.url_2}" target="_blank">Открыть</a></p>` : ''}
+        ${item.url_3 ? `<p><strong>${item.url_title_3}:</strong> <a href="${item.url_3}" target="_blank">Открыть</a></p>` : ''}
+        ${item.url_4 ? `<p><strong>${item.url_title_4}:</strong> <a href="${item.url_4}" target="_blank">Открыть</a></p>` : ''}
+        ${item.url_5 ? `<p><strong>${item.url_title_5}:</strong> <a href="${item.url_5}" target="_blank">Открыть</a></p>` : ''}
+        ${item.url_6 ? `<p><strong>${item.url_title_6}:</strong> <a href="${item.url_6}" target="_blank">Открыть</a></p>` : ''}
         
-        container.appendChild(cardLink);
-    });
+        <p><strong>Создано:</strong> ${item.created_at}</p>
+        <p><strong>Обновлено:</strong> ${item.updated_at}</p>
+        
+        <a href="index.html">← Назад к списку</a>
+    `;
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
