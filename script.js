@@ -15,7 +15,7 @@ function displayCards(data) {
     data.forEach(item => {
         const card = document.createElement('div');
         card.innerHTML = `
-            <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+            <img src="${item.cover}" alt="${item.title}" width="300px" height="200px">
             <h2>${item.title}</h2>
             <a href="detail.html?slug=${item.slug}">Подробнее</a>
             <hr>
@@ -37,7 +37,7 @@ function displayDetail(data) {
     const container = document.getElementById('detail-container');
     container.innerHTML = `
         <h1>${item.title}</h1>
-        <img src="${item.cover}" alt="${item.title}" width="300" height="200">
+        <img src="${item.cover}" alt="${item.title}" width="300px" height="200px">
         <p><strong>Автор:</strong> ${item.author_slug}</p>
         <p><strong>Группа:</strong> ${item.group_slug}</p>
         <p><strong>Подгруппа:</strong> ${item.subgroup_slug}</p>
