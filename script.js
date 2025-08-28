@@ -108,9 +108,14 @@ function displayCards(data) {
 function displayDetail(data) {
     const params = new URLSearchParams(window.location.search);
     const slug = params.get('slug');
-    // Преобразуем любой slug (например, "500") в формат с ведущими нулями ("500" -> "500")
-    const formattedSlug = slug.toString().padStart(3, '0');
-    const item = data.find(item => item.slug === formattedSlug);
+
+    // Поиск по точному совпадению и по числовому значению
+    const item = data.find(item => {
+        const itemSlugNum = parseInt(item.slug);
+        const searchSlugNum = parseInt(slug);
+        console.log(`Сравниваем: ${item.slug} (${itemSlugNum}) с ${slug} (${searchSlugNum})`);
+        return item.slug === slug || itemSlugNum === searchSlugNum;
+    });
     
     if (!item) {
         document.body.innerHTML = '<h1>Материал не найден</h1>';
