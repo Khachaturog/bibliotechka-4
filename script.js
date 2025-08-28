@@ -1,27 +1,108 @@
 async function loadData() {
-    const response = await fetch('data.json');
-    const data = await response.json();
+    const [dataResponse, groupsResponse] = await Promise.all([
+        fetch('data.json'),
+        fetch('group.json')
+    ]);
+    
+    const data = await dataResponse.json();
+    const groups = await groupsResponse.json();
     
     if (window.location.pathname.includes('detail.html')) {
         displayDetail(data);
+    } else if (window.location.pathname.includes('group.html')) {
+        // Показываем отфильтрованные карточки на странице группы
+        const params = new URLSearchParams(window.location.search);
+        const groupSlug = params.get('slug');
+        const group = groups.find(g => g.slug === groupSlug);
+        
+        if (group) {
+            document.getElementById('group-title').textContent = group.title;
+            const filteredData = data.filter(item => item.group_slug === groupSlug);
+            displayCards(filteredData);
+        }
     } else {
+        // На главной показываем все разделы и все карточки
+        displayGroups(groups);
         displayCards(data);
     }
 }
 
-function displayCards(data) {
-    const container = document.getElementById('cards-container');
+function displayGroups(groups) {
+    const container = document.getElementById('groups-container');
     
-    data.forEach(item => {
-        const card = document.createElement('div');
+    groups.forEach(group => {
+        const card = document.createElement('a');
+        card.className = 'group-card';
+        card.href = `group.html?slug=${group.slug}`;
         card.innerHTML = `
-            <img src="${item.cover}" alt="${item.title}" width="300px" height="200px">
-            <h2>${item.title}</h2>
-            <a href="detail.html?slug=${item.slug}">Подробнее</a>
-            <hr>
+            <img src="${group.cover}" alt="${group.title}">
+            ${group.badge ? `<span class="group-card-badge">${group.badge}</span>` : ''}
+            <div class="group-card-content">
+                <h3 class="group-card-title">${group.title}</h3>
+                <p class="group-card-description">${group.description || ''}</p>
+            </div>
         `;
         container.appendChild(card);
     });
+}
+
+function displayCards(data) {
+    const container = document.getElementById('cards-container');
+    const itemsPerPage = 50;
+    let currentIndex = 0;
+    
+    // Функция для создания карточки
+    function createCard(item) {
+        const card = document.createElement('a');
+        card.className = 'card';
+        card.href = `detail.html?slug=${item.slug}`;
+        card.innerHTML = `
+            <img src="${item.cover}" alt="${item.title}" loading="lazy">
+            <div class="card-content">
+                <h3 class="card-title">${item.title}</h3>
+                <p class="card-description">${item.summary_ai || item.description || ''}</p>
+            </div>
+        `;
+        return card;
+    }
+    
+    // Функция для загрузки следующей порции карточек
+    function loadMoreCards() {
+        const fragment = document.createDocumentFragment();
+        const itemsToLoad = Math.min(itemsPerPage, data.length - currentIndex);
+        
+        for (let i = 0; i < itemsToLoad; i++) {
+            const card = createCard(data[currentIndex + i]);
+            fragment.appendChild(card);
+        }
+        
+        container.appendChild(fragment);
+        currentIndex += itemsToLoad;
+        
+        // Скрыть loader если все карточки загружены
+        if (currentIndex >= data.length) {
+            observer.disconnect();
+        }
+    }
+    
+    // Создаем loader элемент
+    const loader = document.createElement('div');
+    loader.id = 'cards-loader';
+    container.after(loader);
+    
+    // Настраиваем IntersectionObserver для бесконечного скролла
+    const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && currentIndex < data.length) {
+            loadMoreCards();
+        }
+    }, {
+        rootMargin: '100px'
+    });
+    
+    observer.observe(loader);
+    
+    // Загружаем первую порцию карточек
+    loadMoreCards();
 }
 
 function displayDetail(data) {
