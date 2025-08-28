@@ -108,7 +108,9 @@ function displayCards(data) {
 function displayDetail(data) {
     const params = new URLSearchParams(window.location.search);
     const slug = params.get('slug');
-    const item = data.find(item => item.slug === slug);
+    // Преобразуем любой slug (например, "500") в формат с ведущими нулями ("500" -> "500")
+    const formattedSlug = slug.toString().padStart(3, '0');
+    const item = data.find(item => item.slug === formattedSlug);
     
     if (!item) {
         document.body.innerHTML = '<h1>Материал не найден</h1>';
