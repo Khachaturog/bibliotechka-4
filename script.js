@@ -32,14 +32,14 @@ function displayGroups(groups) {
     
     groups.forEach(group => {
         const card = document.createElement('a');
-        card.className = 'group-card';
+        card.className = 'card';
         card.href = `group.html?slug=${group.slug}`;
         card.innerHTML = `
             <img src="${group.cover}" alt="${group.title}">
-            ${group.badge ? `<span class="group-card-badge">${group.badge}</span>` : ''}
-            <div class="group-card-content">
-                <h3 class="group-card-title">${group.title}</h3>
-                <p class="group-card-description">${group.description || ''}</p>
+            ${group.badge ? `<span class="card-badge">${group.badge}</span>` : ''}
+            <div class="card-content">
+                <h5 class="card-title">${group.title}</h5>
+                ${group.description ? `<p class="card-description">${group.description}</p>` : ''}
             </div>
         `;
         container.appendChild(card);
@@ -59,8 +59,8 @@ function displayCards(data) {
         card.innerHTML = `
             <img src="${item.cover}" alt="${item.title}" loading="lazy">
             <div class="card-content">
-                <h3 class="card-title">${item.title}</h3>
-                <p class="card-description">${item.summary_ai || item.description || ''}</p>
+                <h5 class="card-title">${item.title}</h5>
+                ${item.description ? `<p class="card-description">${item.description}</p>` : ''}
             </div>
         `;
         return card;
