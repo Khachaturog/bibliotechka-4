@@ -7,15 +7,25 @@
 }
 
 body {
-overflow-x: hidden;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-background: #F3F4F9;
-}
-
-.container {
+    background-color: #F3F4F9; /* Основной цвет страницы */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 #wrap1 {
+display: flex;
+
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+align-self: stretch;
+margin-left: 16px; /* Добавлен отступ слева */
+padding: 16px 0 16px 0;
+}
+
+#wrap2 {
 display: flex;
 padding: 16px;
 flex-direction: column;

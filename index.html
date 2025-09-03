@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/groups.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/drawer.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
     </style>
@@ -30,11 +31,9 @@
             <h1 class="header-title">Библиотечка</h1>
             </div>
 
-            <button class="header-button" aria-label="Меню">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="8" cy="16" r="2" fill="#7767E5"/>
-                    <circle cx="16" cy="16" r="2" fill="#7767E5"/>
-                    <circle cx="24" cy="16" r="2" fill="#7767E5"/>
+            <button class="header-button" aria-label="Меню" onclick="toggleDrawer()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10.0002C2.5 9.08016 3.24667 8.3335 4.16667 8.3335C5.08667 8.3335 5.83333 9.08016 5.83333 10.0002C5.83333 10.9202 5.08667 11.6668 4.16667 11.6668C3.24667 11.6668 2.5 10.9202 2.5 10.0002ZM10 8.3335C9.08 8.3335 8.33333 9.08016 8.33333 10.0002C8.33333 10.9202 9.08 11.6668 10 11.6668C10.92 11.6668 11.6667 10.9202 11.6667 10.0002C11.6667 9.08016 10.92 8.3335 10 8.3335ZM15.8333 8.3335C14.9133 8.3335 14.1667 9.08016 14.1667 10.0002C14.1667 10.9202 14.9133 11.6668 15.8333 11.6668C16.7533 11.6668 17.5 10.9202 17.5 10.0002C17.5 9.08016 16.7533 8.3335 15.8333 8.3335Z" fill="#734AE5"/>
                 </svg>
             </button>
 
@@ -48,7 +47,7 @@
             </div>
         </section>
 
-        <section id="wrap1">
+        <section id="wrap2">
             <h2>Все карточки</h2>
             <div id="cards-container">
                 <!-- Cards will be inserted here -->
@@ -57,6 +56,11 @@
 
     </main>
 
-    <script src="script.js"></script>
+    <div id="drawer" class="drawer">
+      <p>Шторка контента</p>
+    </div>
+
+    <script src="js/drawer.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

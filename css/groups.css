@@ -6,10 +6,13 @@
   flex-wrap: nowrap;
   gap: 12px;
   overflow-x: auto;
+  
   width: 100%;
   box-sizing: border-box;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  padding: 0 16px; /* Добавляем отступы для видимости краёв карточек */
+  scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
+  scrollbar-width: none; /* Убираем скроллбар для Firefox */
+  -ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
 #groups-container::-webkit-scrollbar {
@@ -29,6 +32,7 @@ background: var(--01-Layer-layer-1, #FFF);
   display: block;
   border: 1px solid rgba(55, 53, 47, 0.16);
   flex: 0 0 auto;
+  scroll-snap-align: start; /* Привязка карточек к началу */
 }
 
 .group img {
