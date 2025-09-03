@@ -1,0 +1,56 @@
+/* === Стили для общих карточек === */
+
+#cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  #cards-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  background: #fff;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.15s ease-out;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(55, 53, 47);
+  display: block;
+  border: 1px solid rgba(55, 53, 47, 0.16);
+}
+
+.card img {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(55, 53, 47, 0.16);
+}
+
+.card-content {
+  padding: 12px 14px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: rgb(55, 53, 47);
+  line-height: 1.3;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: rgba(55, 53, 47, 0.65);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

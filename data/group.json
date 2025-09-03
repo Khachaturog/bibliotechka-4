@@ -3,7 +3,7 @@
     "slug": "community",
     "title": "Community",
     "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
-    "badge": "",
+    "badge": "новинка",
     "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp"
   },
   {
@@ -45,14 +45,14 @@
     "slug": "books",
     "title": "Книги",
     "description": "Покажите мне людей которые читают книги — и я покажу кто двигает мир",
-    "badge": "❇️ Новый раздел",
+    "badge": "Новинка",
     "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp"
   },
   {
     "slug": "life",
     "title": "Жизнь",
     "description": "Быт, здоровье и советы",
-    "badge": "❇️ Новый раздел",
+    "badge": "Новинка",
     "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-life.webp"
   }
 ]

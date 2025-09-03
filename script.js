@@ -1,7 +1,7 @@
 async function loadData() {
     const [dataResponse, groupsResponse] = await Promise.all([
-        fetch('data.json'),
-        fetch('group.json')
+        fetch('data/data.json'),
+        fetch('data/group.json')
     ]);
     
     const data = await dataResponse.json();
@@ -32,14 +32,19 @@ function displayGroups(groups) {
     
     groups.forEach(group => {
         const card = document.createElement('a');
-        card.className = 'card';
+        card.className = 'group';
         card.href = `group.html?slug=${group.slug}`;
         card.innerHTML = `
             <img src="${group.cover}" alt="${group.title}">
-            ${group.badge ? `<span class="card-badge">${group.badge}</span>` : ''}
-            <div class="card-content">
-                <h5 class="card-title">${group.title}</h5>
-                ${group.description ? `<p class="card-description">${group.description}</p>` : ''}
+            ${group.badge ? `<span class="group-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.4076 15.3333C7.3316 15.3333 7.25493 15.32 7.1796 15.2927C6.8916 15.188 6.7116 14.9 6.74493 14.5953L7.25693 9.86665H3.33357C3.08757 9.86665 2.86157 9.73132 2.74557 9.51398C2.62957 9.29665 2.64291 9.03398 2.77957 8.82932L8.03827 0.962625C8.20893 0.707292 8.5316 0.601292 8.82027 0.707292C9.10893 0.811958 9.28827 1.09996 9.25493 1.40463L8.74293 6.13329H12.6669C12.9129 6.13329 13.1389 6.26863 13.2549 6.48596C13.3703 6.70332 13.3576 6.96598 13.2209 7.17065L7.9616 15.0373C7.8356 15.2267 7.62493 15.3333 7.4076 15.3333Z" fill="#4E5057"/>
+            </svg> 
+            ${group.badge}
+            </span>` : ''}
+            <div class="group-content">
+                <h5 class="group-title">${group.title}</h5>
+                ${group.description ? `<p class="group-description">${group.description}</p>` : ''}
             </div>
         `;
         container.appendChild(card);

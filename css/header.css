@@ -1,0 +1,62 @@
+/* === Header styles === */
+
+main {
+  padding-top: 120px;
+}
+
+.header-0 {
+display: flex;
+padding: 52px 16px 16px 16px;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(24px);
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.header-1 {
+display: flex;
+align-items: center;
+gap: 4px;
+flex: 1 0 0;
+}
+
+.header-logo {
+width: 36px;
+height: 36px;
+}
+
+.header-title {
+color: var(--02-Content-content-primary, #0A0B0F);
+font-family: "Playfair Display";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: var(--module-600, 24px); /* 150% */
+}
+
+.header-button {
+width: 36px;
+height: 36px;
+background: none;
+border: none;
+padding: 0;
+margin-left: auto;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.header-button:hover {
+background: rgba(119, 103, 229, 0.08);
+border-radius: 50%;
+}
