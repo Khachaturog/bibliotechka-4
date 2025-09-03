@@ -11,7 +11,7 @@ align-items: flex-start;
 gap: 20px;
 align-self: stretch;
 background: rgba(255, 255, 255, 0.10);
-backdrop-filter: blur(24px);
+backdrop-filter: blur(12px);
 align-items: center;
 position: fixed;
 top: 0;
@@ -47,15 +47,23 @@ line-height: var(--module-600, 24px); /* 150% */
 .header-button {
 width: 36px;
 height: 36px;
-background: none;
 border: none;
+background: none;
 padding: 0;
 cursor: pointer;
-display: flex;
-align-items: center;
+display: inline-flex;
+align-items: flex-start;
 }
 
 .header-button:hover {
-background: rgba(119, 103, 229, 0.08);
-border-radius: 50%;
+border-radius:12px;
+background: rgba(29, 13, 255, 0.19);
+}
+
+.header-button:pressed {
+border-radius: var(--Radius-radius-300, 12px);
+background: var(--06-Themes-Violet-theme-violet-layer-soft-pressed, rgba(22, 1, 255, 0.24));
+
+/* ⤵ inner/XS */
+box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
 }

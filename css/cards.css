@@ -17,10 +17,10 @@ width: 100%;
 }
 
 .card {
-  min-width: 170px;
-  background: #FFF;
+overflow: hidden;
+border-radius: 8px;
+background: var(--01-Layer-layer-1, #FFF);
   position: relative;
-  border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
   display: block;

@@ -64,7 +64,7 @@ function displayCards(data) {
         card.innerHTML = `
             <img src="${item.cover}" alt="${item.title}" loading="lazy">
             <div class="card-content">
-                <h5 class="card-title">${item.title}</h5>
+                <p class="card-title">${item.title}</p>
                 ${item.description ? `<p class="card-description">${item.description}</p>` : ''}
             </div>
         `;
