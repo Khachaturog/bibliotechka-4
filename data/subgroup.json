@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "3d",
+    "title": "3D",
+    "description": "Ресурсы о 3D-дизайне и моделировании"
+  },
+  {
+    "slug": "accessibility",
+    "title": "Доступность",
+    "description": "Ресурсы о доступности и инклюзивном дизайне"
+  },
+  {
+    "slug": "ai",
+    "title": "ИИ",
+    "description": "Ресурсы об искусственном интеллекте в дизайне"
+  },
+  {
+    "slug": "animation",
+    "title": "Анимация",
+    "description": "Ресурсы об анимации и моушн-дизайне"
+  },
+  {
+    "slug": "app",
+    "title": "Приложения",
+    "description": "Примеры и шаблоны мобильных приложений"
+  },
+  {
+    "slug": "apple",
+    "title": "Apple",
+    "description": "Ресурсы, связанные с дизайном продуктов Apple"
+  },
+  {
+    "slug": "article",
+    "title": "Статьи",
+    "description": "Полезные статьи о дизайне и разработке"
+  },
+  {
+    "slug": "attention",
+    "title": "Внимание",
+    "description": "Ресурсы о привлечении внимания в дизайне"
+  },
+  {
+    "slug": "blog",
+    "title": "Блог",
+    "description": "Интересные блоги о дизайне и разработке"
+  },
+  {
+    "slug": "branding",
+    "title": "Брендинг",
+    "description": "Ресурсы о брендинге и айдентике"
+  },
+  {
+    "slug": "brief",
+    "title": "Бриф",
+    "description": "Примеры и шаблоны брифов"
+  },
+  {
+    "slug": "collection",
+    "title": "Коллекции",
+    "description": "Подборки полезных ресурсов"
+  },
+  {
+    "slug": "color",
+    "title": "Цвет",
+    "description": "Ресурсы о цвете и цветовых палитрах"
+  },
+  {
+    "slug": "contest",
+    "title": "Конкурсы",
+    "description": "Дизайн-конкурсы и соревнования"
+  },
+  {
+    "slug": "course",
+    "title": "Курсы",
+    "description": "Образовательные курсы по дизайну и разработке"
+  },
+  {
+    "slug": "demo",
+    "title": "Демо",
+    "description": "Демонстрационные материалы и примеры"
+  },
+  {
+    "slug": "design-process",
+    "title": "Дизайн-процесс",
+    "description": "Ресурсы о процессе дизайна"
+  },
+  {
+    "slug": "dribble-arena-pinterest",
+    "title": "Dribbble/Arena/Pinterest",
+    "description": "Ресурсы с платформ Dribbble, Arena и Pinterest"
+  },
+  {
+    "slug": "ds",
+    "title": "Дизайн-системы",
+    "description": "Ресурсы о создании и использовании дизайн-систем"
+  },
+  {
+    "slug": "event",
+    "title": "Мероприятия",
+    "description": "Дизайн-события, конференции и митапы"
+  },
+  {
+    "slug": "figma-code",
+    "title": "Figma и код",
+    "description": "Ресурсы о взаимодействии Figma и кода"
+  },
+  {
+    "slug": "fonts",
+    "title": "Шрифты",
+    "description": "Коллекции шрифтов и типографика"
+  },
+  {
+    "slug": "foundation",
+    "title": "Основы дизайна",
+    "description": "Базовые принципы и основы дизайна"
+  },
+  {
+    "slug": "graphic",
+    "title": "Графика",
+    "description": "Ресурсы о графическом дизайне"
+  },
+  {
+    "slug": "illustration",
+    "title": "Иллюстрации",
+    "description": "Ресурсы об иллюстрациях и графике"
+  },
+  {
+    "slug": "knowledge",
+    "title": "Знания",
+    "description": "Базы знаний и образовательные ресурсы"
+  },
+  {
+    "slug": "newsletter",
+    "title": "Рассылка",
+    "description": "Ресурсы о дизайне email-рассылок"
+  },
+  {
+    "slug": "material",
+    "title": "Material Design",
+    "description": "Ресурсы о Material design"
+  },
+  {
+    "slug": "mobbin",
+    "title": "Mobbin",
+    "description": "Ресурсы с платформы Mobbin"
+  },
+  {
+    "slug": null,
+    "title": "Без категории",
+    "description": "В скором времени мы подберем материалам свою группу"
+  },
+  {
+    "slug": "other",
+    "title": "Разное",
+    "description": "Различные ресурсы, не попадающие в другие подкатегории"
+  },
+  {
+    "slug": "paywall",
+    "title": "Пейволлы",
+    "description": "Ресурсы о дизайне платного доступа"
+  },
+  {
+    "slug": "photo",
+    "title": "Фотографии",
+    "description": "Ресурсы о фотографии и фотостоках"
+  },
+  {
+    "slug": "playground",
+    "title": "Песочницы",
+    "description": "Интерактивные площадки для экспериментов"
+  },
+  {
+    "slug": "plugin",
+    "title": "Плагины",
+    "description": "Полезные плагины для дизайн-инструментов"
+  },
+  {
+    "slug": "portfolio",
+    "title": "Портфолио",
+    "description": "Примеры и шаблоны портфолио"
+  },
+  {
+    "slug": "recommendation",
+    "title": "Рекомендации",
+    "description": "Рекомендации по дизайну и разработке"
+  },
+  {
+    "slug": "saas",
+    "title": "SaaS",
+    "description": "Ресурсы о дизайне SaaS-продуктов"
+  },
+  {
+    "slug": "sdui",
+    "title": "SDUI",
+    "description": "Ресурсы о Server-Driven UI"
+  },
+  {
+    "slug": "skill-hiring",
+    "title": "Трудоустройство",
+    "description": "Ресурсы о развитии навыков и найме дизайнеров"
+  },
+  {
+    "slug": "survey",
+    "title": "Опросы",
+    "description": "Ресурсы о проведении опросов и исследований"
+  },
+  {
+    "slug": "teambuilding",
+    "title": "Тимбилдинг",
+    "description": "Ресурсы о построении дизайн-команд"
+  },
+  {
+    "slug": "telegram",
+    "title": "Телеграм",
+    "description": "Полезные Telegram-каналы и боты"
+  },
+  {
+    "slug": "text",
+    "title": "Тексты",
+    "description": "Ресурсы о копирайтинге и текстах в дизайне"
+  },
+  {
+    "slug": "think",
+    "title": "Мышление",
+    "description": "Ресурсы о дизайн-мышлении и методологиях"
+  },
+  {
+    "slug": "tool",
+    "title": "Инструменты",
+    "description": "Полезные инструменты для дизайнеров и разработчиков"
+  },
+  {
+    "slug": "ui-kit",
+    "title": "UI-киты",
+    "description": "Наборы компонентов пользовательского интерфейса"
+  },
+  {
+    "slug": "uichallenge",
+    "title": "UI-челленджи",
+    "description": "Задания и вызовы для дизайнеров интерфейсов"
+  },
+  {
+    "slug": "ux",
+    "title": "UX",
+    "description": "Ресурсы о пользовательском опыте"
+  },
+  {
+    "slug": "web",
+    "title": "Веб",
+    "description": "Ресурсы о веб-дизайне и веб-разработке"
+  },
+  {
+    "slug": "skillset",
+    "title": "Скиллсет",
+    "description": "Карта компетенций"
+  }
+]

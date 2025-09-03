@@ -1,16 +1,26 @@
 /* === Drawer styles === */
 
 .drawer {
-  position: fixed;
-  bottom: -100%;
-  left: 0;
-  right: 0;
-  height: 200px;
-  background: #fff;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-  transition: bottom 0.3s ease;
+position: fixed;
+top: -50%; /* Начальное положение скрыто сверху */
+left: 0;
+right: 0;
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(24px);
+border-radius: 0 0 24px 24px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+transition: top 0.3s ease; /* Анимация опускания */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50%; /* Высота 50% экрана */
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+color: #4300fd;
 }
 
 .drawer.open {
-  bottom: 0;
+top: 0; /* Положение, когда шторка открыта */
 }

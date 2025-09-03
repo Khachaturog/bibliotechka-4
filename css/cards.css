@@ -1,5 +1,42 @@
 /* === Стили для общих карточек === */
 
+#cards-container-title {
+display: flex;
+padding: 8px 16px;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+}
+
+.button-back {
+display: flex;
+justify-content: center; /* Центрирование по горизонтали */
+align-items: center; /* Центрирование по вертикали */
+width: 40px;
+height: 40px;
+border-radius: var(--Radius-radius-full, 999px);
+border: 1px solid var(--04-Border-border-control, #D5D6DC);
+background: var(--01-Layer-layer-2, #FFF);
+/* ↓ bottom/XS */
+box-shadow: shadow-bottom-XS-1-x var(--08-Shadow-Bottom-XS-1-y, 1px) var(--08-Shadow-Bottom-XS-1-blur, 2px) var(--08-Shadow-Bottom-XS-1-spread, 0) var(--08-Shadow-Bottom-XS-1-color, rgba(22, 33, 88, 0.09));
+}
+
+.button-back:hover {
+border-radius: var(--Radius-radius-full, 999px);
+border: 1px solid var(--04-Border-border-control, #D5D6DC);
+background: var(--05-Interactive-layer-2-hover, #F9FAFE);
+
+/* ↓ bottom/XS */
+box-shadow: shadow-bottom-XS-1-x var(--08-Shadow-Bottom-XS-1-y, 1px) var(--08-Shadow-Bottom-XS-1-blur, 2px) var(--08-Shadow-Bottom-XS-1-spread, 0) var(--08-Shadow-Bottom-XS-1-color, rgba(22, 33, 88, 0.09));}
+
+.button-back:active {
+border-radius: var(--Radius-radius-full, 999px);
+border: 1px solid var(--04-Border-border-control, #D5D6DC);
+background: var(--05-Interactive-layer-2-pressed, #F3F4F9);
+
+/* ⤵ inner/XS */
+box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;}
+
 #cards-container {
 display: grid;
 row-gap: 12px;
@@ -8,6 +45,27 @@ flex: 1 0 0;
 align-self: stretch;
 grid-template-columns: repeat(2, 1fr);
 width: 100%;
+}
+
+#cards-container-2 {
+display: flex;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+flex: 1 0 0;
+align-self: stretch;
+}
+
+.subgroup-container-1 {
+display: grid;
+row-gap: 12px;
+column-gap: 12px;
+flex: 1 0 0;
+align-self: stretch;
+grid-template-columns: repeat(2, 1fr);
+width: 100%;
+
 }
 
 @media (min-width: 600px) {
@@ -61,3 +119,4 @@ align-self: stretch;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+

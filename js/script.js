@@ -1,12 +1,14 @@
 async function loadData() {
-    const [dataResponse, groupsResponse] = await Promise.all([
+    const [dataResponse, groupsResponse, subgroupsResponse] = await Promise.all([
         fetch('data/data.json'),
-        fetch('data/group.json')
+        fetch('data/group.json'),
+        fetch('data/subgroup.json')
     ]);
-    
+
     const data = await dataResponse.json();
     const groups = await groupsResponse.json();
-    
+    const subgroups = await subgroupsResponse.json();
+
     if (window.location.pathname.includes('detail.html')) {
         displayDetail(data);
     } else if (window.location.pathname.includes('group.html')) {
@@ -18,7 +20,7 @@ async function loadData() {
         if (group) {
             document.getElementById('group-title').textContent = group.title;
             const filteredData = data.filter(item => item.group_slug === groupSlug);
-            displayCards(filteredData);
+            displaySubgroupsAndCards(filteredData, subgroups);
         }
     } else {
         // На главной показываем все разделы и все карточки
@@ -108,6 +110,49 @@ function displayCards(data) {
     
     // Загружаем первую порцию карточек
     loadMoreCards();
+}
+
+// Загрузка группированных subgroup карточек
+function displaySubgroupsAndCards(data, subgroups) {
+    const container = document.getElementById('cards-container-2');
+    container.innerHTML = ''; // Clear existing content
+
+    subgroups.forEach(subgroup => {
+        const subgroupData = data.filter(item => item.subgroup_slug === subgroup.slug);
+        if (subgroupData.length > 0) {
+            const subgroupElement = document.createElement('div');
+            subgroupElement.className = 'cards-container-2';
+
+            const title = document.createElement('h3');
+            title.textContent = subgroup.title;
+            subgroupElement.appendChild(title);
+
+            if (subgroup.description) {
+                const description = document.createElement('p');
+                description.textContent = subgroup.description;
+                subgroupElement.appendChild(description);
+            }
+
+            const cardsContainer = document.createElement('div');
+            cardsContainer.className = 'subgroup-container-1';
+            subgroupData.forEach(item => {
+                const card = document.createElement('a');
+                card.className = 'card';
+                card.href = `detail.html?slug=${item.slug}`;
+                card.innerHTML = `
+                    <img src="${item.cover}" alt="${item.title}" loading="lazy">
+                    <div class="card-content">
+                        <p class="card-title">${item.title}</p>
+                        ${item.description ? `<p class="card-description">${item.description}</p>` : ''}
+                    </div>
+                `;
+                cardsContainer.appendChild(card);
+            });
+
+            subgroupElement.appendChild(cardsContainer);
+            container.appendChild(subgroupElement);
+        }
+    });
 }
 
 function displayDetail(data) {
