@@ -18,7 +18,7 @@ async function loadData() {
         const group = groups.find(g => g.slug === groupSlug);
         
         if (group) {
-            document.getElementById('group-title').textContent = group.title;
+            document.getElementById('container-title').textContent = group.title;
             const filteredData = data.filter(item => item.group_slug === groupSlug);
             displaySubgroupsAndCards(filteredData, subgroups);
         }
@@ -31,8 +31,12 @@ async function loadData() {
 
 function displayGroups(groups) {
     const container = document.getElementById('groups-container');
-    
+    container.innerHTML = ''; // Clear existing content
+
     groups.forEach(group => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'group-wrapper';
+
         const card = document.createElement('a');
         card.className = 'group';
         card.href = `group.html?slug=${group.slug}`;
@@ -49,7 +53,9 @@ function displayGroups(groups) {
                 ${group.description ? `<p class="group-description">${group.description}</p>` : ''}
             </div>
         `;
-        container.appendChild(card);
+
+        wrapper.appendChild(card);
+        container.appendChild(wrapper);
     });
 }
 
@@ -114,27 +120,45 @@ function displayCards(data) {
 
 // Загрузка группированных subgroup карточек
 function displaySubgroupsAndCards(data, subgroups) {
-    const container = document.getElementById('cards-container-2');
+    const container = document.getElementById('wrap2');
     container.innerHTML = ''; // Clear existing content
+
+    const subgroupsContainer = document.getElementById('subgroups-container');
+    subgroupsContainer.innerHTML = ''; // Clear existing badges
 
     subgroups.forEach(subgroup => {
         const subgroupData = data.filter(item => item.subgroup_slug === subgroup.slug);
         if (subgroupData.length > 0) {
+            // Добавление бейджика для подгруппы
+            const badge = document.createElement('a');
+            badge.href = `#${subgroup.slug}`;
+            badge.className = 'badge';
+            badge.innerHTML = `<span class='badge-title'>${subgroup.title}</span>`;
+            subgroupsContainer.appendChild(badge);
+
             const subgroupElement = document.createElement('div');
-            subgroupElement.className = 'cards-container-2';
+            subgroupElement.className = 'cards-container-0';
+            subgroupElement.id = `${subgroup.slug}`;
+
+            const infoContainer = document.createElement('div');
+            infoContainer.className = 'cards-container-0-header';
 
             const title = document.createElement('h3');
+            title.id = 'container-title';
             title.textContent = subgroup.title;
-            subgroupElement.appendChild(title);
+            infoContainer.appendChild(title);
 
             if (subgroup.description) {
                 const description = document.createElement('p');
+                description.className = 'container-description';
                 description.textContent = subgroup.description;
-                subgroupElement.appendChild(description);
+                infoContainer.appendChild(description);
             }
 
+            subgroupElement.appendChild(infoContainer);
+
             const cardsContainer = document.createElement('div');
-            cardsContainer.className = 'subgroup-container-1';
+            cardsContainer.id = 'cards-container';
             subgroupData.forEach(item => {
                 const card = document.createElement('a');
                 card.className = 'card';
@@ -196,3 +220,33 @@ function displayDetail(data) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
+document.addEventListener('scroll', () => {
+    const subgroups = document.querySelectorAll('.cards-container-0');
+    const badges = document.querySelectorAll('.badge');
+
+    subgroups.forEach((subgroup, index) => {
+        const rect = subgroup.getBoundingClientRect();
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+            badges.forEach(badge => badge.classList.remove('active'));
+            badges[index].classList.add('active');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const badges = document.querySelectorAll('.badge');
+    const subgroups = document.querySelectorAll('.cards-container-0');
+
+    badges.forEach((badge, index) => {
+        badge.addEventListener('click', (event) => {
+            event.preventDefault();
+            if (subgroups[index]) {
+                const offset = 100; // Отступ сверху
+                const topPosition = subgroups[index].getBoundingClientRect().top + window.scrollY - offset;
+                console.log(`Scrolling to position: ${topPosition}`); // Отладочное сообщение
+                window.scrollTo({ top: topPosition, behavior: 'smooth' });
+            }
+        });
+    });
+});

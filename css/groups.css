@@ -1,80 +1,132 @@
 /* === Стили для категорий === */
 
 #groups-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 12px;
-  overflow-x: auto;
-  
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 16px; /* Добавляем отступы для видимости краёв карточек */
-  scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
-  scrollbar-width: none; /* Убираем скроллбар для Firefox */
-  -ms-overflow-style: none; /* Убираем скроллбар для IE */
+/* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
+
+width: 100%;
+display: flex; /* Устанавливаем флекс-контейнер для горизонтального выравнивания */
+overflow: auto; /* Включаем прокрутку содержимого */
+
+scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
+scrollbar-width: none; /* Убираем скроллбар для Firefox */
+-ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
 #groups-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+display: none; /* Убираем скроллбар для Chrome, Safari, Opera */
+}
+
+.group-wrapper {
+  width: 350px; /* Фиксированная ширина обёртки для карточки */
+  padding: 0px 16px; /* Внутренние отступы для создания пространства вокруг карточки */
+  margin-right: -16px; /* Отрицательный отступ для выравнивания с соседними элементами */
+  flex: 0 0 auto; /* Элемент не растягивается и не сжимается, занимает фиксированное место */
+  scroll-snap-align: start; /* Привязка для прокрутки с учётом отступов */
+  display: flex; /* Устанавливаем флекс-контейнер для вертикального выравнивания */
+  flex-direction: column; /* Элементы внутри располагаются вертикально */
+  align-items: stretch; /* Карточки растягиваются по высоте самой высокой */
 }
 
 .group {
-  overflow: hidden;
-  max-width: 300px;
-  position: relative;
-border-radius: 8px;
-background: var(--01-Layer-layer-1, #FFF);
-  overflow: hidden;
-  transition: all 0.15s ease-out;
-  cursor: pointer;
-  text-decoration: none;
-  display: block;
-  border: 1px solid rgba(55, 53, 47, 0.16);
-  flex: 0 0 auto;
-  scroll-snap-align: start; /* Привязка карточек к началу */
+overflow: hidden; /* Скрываем содержимое, выходящее за границы */
+position: relative;
+border-radius: 8px; /* Скругление углов */
+background: var(--01-Layer-layer-1, #FFF); /* Фон карточки */
+transition: all 0.15s ease-out; /* Плавный переход при наведении */
+cursor: pointer; /* Указатель при наведении */
+text-decoration: none; /* Убираем подчёркивание ссылок */
+display: block; /* Элемент отображается как блочный */
+border: 1px solid rgba(55, 53, 47, 0.16); /* Граница карточки */
+flex: 0 0 auto; /* Карточка не растягивается и не сжимается, занимает фиксированное место */
+height: 100%; /* Карточка занимает всю высоту обёртки */
+flex-grow: 1; /* Карточка растягивается до высоты самой высокой */
 }
 
 .group img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  border-bottom: 1px solid rgba(55, 53, 47, 0.16);
+width: 100%; /* Изображение занимает всю ширину карточки */
+height: 120px; /* Фиксированная высота изображения */
+object-fit: cover; /* Изображение обрезается по размеру контейнера */
+border-bottom: 1px solid rgba(55, 53, 47, 0.16); /* Граница под изображением */
 }
 
 .group-content {
-  padding: 12px 14px;
+padding: 12px 14px; /* Внутренние отступы для контента карточки */
 }
 
 .group-title {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 6px;
-  color: rgb(55, 53, 47);
-  line-height: 1.3;
+font-size: 1rem; /* Размер шрифта заголовка */
+font-weight: 500; /* Полужирный шрифт */
+margin-bottom: 6px; /* Отступ снизу */
+color: rgb(55, 53, 47); /* Цвет текста */
+line-height: 1.3; /* Межстрочный интервал */
 }
 
 .group-description {
-  font-size: 0.875rem;
-  color: rgba(55, 53, 47, 0.65);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+font-size: 0.875rem; /* Размер шрифта описания */
+color: rgba(55, 53, 47, 0.65); /* Цвет текста с прозрачностью */
+display: -webkit-box; /* Для обрезки текста */
+-webkit-line-clamp: 3; /* Количество строк до обрезки */
+line-clamp: 2; /* Количество строк до обрезки */
+-webkit-box-orient: vertical; /* Ориентация текста */
+overflow: hidden; /* Скрытие текста за пределами блока */
+text-overflow: ellipsis; /* Добавление троеточия при обрезке */
 }
 
 .group-badge {
-position: absolute;
-right: 8px;
-top: 8px;
-display: flex;
-padding: var(--Spacing-space-50, 2px) var(--Spacing-space-200, 8px);
-align-items: center;
-gap: var(--Spacing-space-100, 4px);
-border-radius: var(--Radius-radius-200, 8px);
-background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09));
-color: rgba(78, 80, 87, 1);
+position: absolute; /* Абсолютное позиционирование бейджа */
+right: 8px; /* Отступ справа */
+top: 8px; /* Отступ сверху */
+display: flex; /* Гибкий контейнер для содержимого бейджа */
+padding: var(--Spacing-space-50, 2px) var(--Spacing-space-200, 8px); /* Внутренние отступы */
+align-items: center; /* Выравнивание по центру */
+gap: var(--Spacing-space-100, 4px); /* Расстояние между элементами */
+border-radius: var(--Radius-radius-200, 8px); /* Скругление углов */
+background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09)); /* Фон бейджа */
+color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
 }
 
+#subgroups-container {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(12px);
+  display: flex;
+  overflow-x: auto; /* Добавлено для горизонтального скроллинга */
+  overflow-y: hidden; /* Убираем вертикальный скроллинг */
+  padding: 16px 16px 16px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  white-space: nowrap; /* Запрещаем перенос элементов */
+}
+
+/* Стили для бейджиков подгрупп */
+.badge {
+  text-decoration: none;
+  display: inline-flex; /* Убедиться, что элементы выстраиваются в строку */
+  padding: var(--Spacing-space-150, 6px) var(--Spacing-space-300, 12px);
+  align-items: center;
+  gap: var(--Spacing-space-100, 4px);
+  border-radius: var(--radius-component, 8px);
+  background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09));
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.badge:hover {
+  background: rgb(117, 117, 118);
+}
+
+.badge.active {
+    background: var(--06-Themes-Violet-theme-violet-layer-solid, #7C58F3);
+    color: white !important;
+}
+
+.badge-title {
+color: var(--06-Themes-Neutral-theme-neutral-content-on-soft, #000000);
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: var(--module-500, 20px); /* 142.857% */
+}

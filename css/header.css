@@ -1,7 +1,7 @@
 /* === Header styles === */
 
 main {
-  padding-top: 84px;
+  /* padding-top: 84px; */
 }
 
 .header-0 {
@@ -13,11 +13,7 @@ align-self: stretch;
 background: rgba(255, 255, 255, 0.10);
 backdrop-filter: blur(12px);
 align-items: center;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-z-index: 100;
+position: static; /* Убрано фиксированное позиционирование */
 width: 100%;
 overflow: hidden;
 text-overflow: ellipsis;

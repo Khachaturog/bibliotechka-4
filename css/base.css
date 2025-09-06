@@ -16,12 +16,10 @@ body {
 
 #wrap1 {
 display: flex;
-
 flex-direction: column;
 align-items: flex-start;
 gap: 12px;
 align-self: stretch;
-margin-left: 16px; /* Добавлен отступ слева */
 padding: 16px 0 16px 0;
 }
 
@@ -31,15 +29,5 @@ padding: 16px;
 flex-direction: column;
 align-items: flex-start;
 gap: 12px;
-align-self: stretch;
-}
-
-#wrap3 {
-display: flex;
-padding: 16px;
-flex-direction: column;
-align-items: flex-start;
-gap: 12px;
-flex: 1 0 0;
 align-self: stretch;
 }
