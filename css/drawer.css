@@ -2,7 +2,7 @@
 
 .drawer {
 position: fixed;
-top: -50%; /* Начальное положение скрыто сверху */
+top: 64px; /* высота хедера */
 left: 0;
 right: 0;
 background: rgba(255, 255, 255, 0.10);
@@ -14,13 +14,19 @@ transition: top 0.3s ease; /* Анимация опускания */
 display: flex;
 justify-content: center;
 align-items: center;
-height: 50%; /* Высота 50% экрана */
+height: calc(50vh - 64px); /* Высота 50% экрана минус хедер */
 font-size: 1.5rem;
 font-weight: bold;
 text-align: center;
 color: #4300fd;
+z-index: 10; /* Ниже хедера */
+top: -100%; /* drawer скрыт по умолчанию */
 }
 
 .drawer.open {
-top: 0; /* Положение, когда шторка открыта */
+top: 64px; /* Положение, когда шторка открыта */
+}
+
+.header-button-close {
+  display: none;
 }

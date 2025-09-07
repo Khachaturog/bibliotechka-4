@@ -12,8 +12,8 @@ align-self: stretch;
 display: flex;
 justify-content: center; /* Центрирование по горизонтали */
 align-items: center; /* Центрирование по вертикали */
-width: 40px;
-height: 40px;
+width: 48px;
+height: 48px;
 border-radius: var(--Radius-radius-full, 999px);
 border: 1px solid var(--04-Border-border-control, #D5D6DC);
 background: var(--01-Layer-layer-2, #FFF);

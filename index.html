@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Библиотечка</title>
+    <link rel="stylesheet" href="css/drawer.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/groups.css">
     <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/drawer.css">
+    <link rel="stylesheet" href="css/detail.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
         @import url('https://fonts.googleapis.com/css2?family=Inter');
@@ -17,7 +18,6 @@
 </head>
 <body>
     <header class="header-0">
-        
         <div class="header-1" onclick="window.location.href='index.html'">
             <div class="header-logo">
                 <svg>
@@ -32,12 +32,18 @@
             <h1 class="header-title">Библиотечка</h1>
         </div>
         
-        <button class="header-button" aria-label="Меню" onclick="toggleDrawer()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10.0002C2.5 9.08016 3.24667 8.3335 4.16667 8.3335C5.08667 8.3335 5.83333 9.08016 5.83333 10.0002C5.83333 10.9202 5.08667 11.6668 4.16667 11.6668C3.24667 11.6668 2.5 10.9202 2.5 10.0002ZM10 8.3335C9.08 8.3335 8.33333 9.08016 8.33333 10.0002C8.33333 10.9202 9.08 11.6668 10 11.6668C10.92 11.6668 11.6667 10.9202 11.6667 10.0002C11.6667 9.08016 10.92 8.3335 10 8.3335ZM15.8333 8.3335C14.9133 8.3335 14.1667 9.08016 14.1667 10.0002C14.1667 10.9202 14.9133 11.6668 15.8333 11.6668C16.7533 11.6668 17.5 10.9202 17.5 10.0002C17.5 9.08016 16.7533 8.3335 15.8333 8.3335Z" fill="#734AE5"/>
-            </svg>
+        <button class="header-button-burger" aria-label="Меню" onclick="toggleDrawer()">
+            <span class="icon-burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10.0002C2.5 9.08016 3.24667 8.3335 4.16667 8.3335C5.08667 8.3335 5.83333 9.08016 5.83333 10.0002C5.83333 10.9202 5.08667 11.6668 4.16667 11.6668C3.24667 11.6668 2.5 10.9202 2.5 10.0002ZM10 8.3335C9.08 8.3335 8.33333 9.08016 8.33333 10.0002C8.33333 10.9202 9.08 11.6668 10 11.6668C10.92 11.6668 11.6667 10.9202 11.6667 10.0002C11.6667 9.08016 10.92 8.3335 10 8.3335ZM15.8333 8.3335C14.9133 8.3335 14.1667 9.08016 14.1667 10.0002C14.1667 10.9202 14.9133 11.6668 15.8333 11.6668C16.7533 11.6668 17.5 10.9202 17.5 10.0002C17.5 9.08016 16.7533 8.3335 15.8333 8.3335Z" fill="#734AE5"/>
+                </svg>
+            </span>
+            <span class="icon-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3747 9.99992L15.5483 5.8263C15.9284 5.44616 15.9284 4.83174 15.5483 4.4516C15.1682 4.07147 14.5538 4.07147 14.1737 4.4516L10.0001 8.62525L5.82651 4.4516C5.44638 4.07147 4.83197 4.07147 4.45184 4.4516C4.07172 4.83174 4.07172 5.44616 4.45184 5.8263L8.62542 9.99992L4.45184 14.1736C4.07172 14.5538 4.07172 15.1682 4.45184 15.5483C4.64142 15.7379 4.8903 15.8332 5.13918 15.8332C5.38805 15.8332 5.63693 15.7379 5.82651 15.5483L10.0001 11.3747L14.1737 15.5483C14.3633 15.7379 14.6121 15.8332 14.861 15.8332C15.1098 15.8332 15.3587 15.7379 15.5483 15.5483C15.9284 15.1682 15.9284 14.5538 15.5483 14.1736L11.3747 9.99992Z" fill="#0A0B0F" fill-opacity="0.65"/>
+                </svg>
+            </span>
         </button>
-        
     </header>
     
     <main>

@@ -4,22 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Информация о материале</title>
+    <link rel="stylesheet" href="css/drawer.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/groups.css">
     <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/drawer.css">
+    <link rel="stylesheet" href="css/detail.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
         @import url('https://fonts.googleapis.com/css2?family=Inter');
     </style>
+    <!-- <meta name="theme-color" content="#7C58F3"> -->
 </head>
+
 <body>
-    <div id="detail-container">
+    <header class="header-0">
+        <div class="header-1" onclick="window.location.href='index.html'">
+            <div class="header-logo">
+                <svg>
+                    <path d="M17.4497 4.50582C23.25 4.84461 23.4156 10.7781 22.7138 13.2172C29.7324 10.9869 32.4228 14.1466 32.8908 16.0053C33.7331 20.4655 29.4984 21.813 27.2759 21.9291C31.7678 27.5044 29.6154 30.292 27.9777 30.9889C22.9244 32.3829 20.0232 28.7821 19.2044 26.8075C16.9584 31.5465 13.1216 31.8021 11.4839 31.3374C6.7112 29.9436 8.79338 24.949 10.4311 22.626C3.6932 21.5109 2.71059 18.2122 3.06152 16.7022C4.18451 11.1268 10.0802 12.0559 12.8876 13.2172C11.7647 5.96934 15.4611 4.38966 17.4497 4.50582Z" fill="#7767E5" stroke="#7767E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.75 19.5L15.75 23.25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14.25 18.75L18.75 19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18 14.25L18.75 19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23.25 18L18.75 19.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.75 19.5L22.5 22.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h1 class="header-title">Библиотечка</h1>
+        </div>
+        
+        <button class="header-button-burger" aria-label="Меню" onclick="toggleDrawer()">
+            <span class="icon-burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10.0002C2.5 9.08016 3.24667 8.3335 4.16667 8.3335C5.08667 8.3335 5.83333 9.08016 5.83333 10.0002C5.83333 10.9202 5.08667 11.6668 4.16667 11.6668C3.24667 11.6668 2.5 10.9202 2.5 10.0002ZM10 8.3335C9.08 8.3335 8.33333 9.08016 8.33333 10.0002C8.33333 10.9202 9.08 11.6668 10 11.6668C10.92 11.6668 11.6667 10.9202 11.6667 10.0002C11.6667 9.08016 10.92 8.3335 10 8.3335ZM15.8333 8.3335C14.9133 8.3335 14.1667 9.08016 14.1667 10.0002C14.1667 10.9202 14.9133 11.6668 15.8333 11.6668C16.7533 11.6668 17.5 10.9202 17.5 10.0002C17.5 9.08016 16.7533 8.3335 15.8333 8.3335Z" fill="#734AE5"/>
+                </svg>
+            </span>
+            <span class="icon-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3747 9.99992L15.5483 5.8263C15.9284 5.44616 15.9284 4.83174 15.5483 4.4516C15.1682 4.07147 14.5538 4.07147 14.1737 4.4516L10.0001 8.62525L5.82651 4.4516C5.44638 4.07147 4.83197 4.07147 4.45184 4.4516C4.07172 4.83174 4.07172 5.44616 4.45184 5.8263L8.62542 9.99992L4.45184 14.1736C4.07172 14.5538 4.07172 15.1682 4.45184 15.5483C4.64142 15.7379 4.8903 15.8332 5.13918 15.8332C5.38805 15.8332 5.63693 15.7379 5.82651 15.5483L10.0001 11.3747L14.1737 15.5483C14.3633 15.7379 14.6121 15.8332 14.861 15.8332C15.1098 15.8332 15.3587 15.7379 15.5483 15.5483C15.9284 15.1682 15.9284 14.5538 15.5483 14.1736L11.3747 9.99992Z" fill="#0A0B0F" fill-opacity="0.65"/>
+                </svg>
+            </span>
+        </button>
+    </header>
+
+    <div id="detail-container-0">
         <!-- Detail content will be inserted here -->
     </div>
-    
-    <script src="script.js"></script>
+
+    <div class="detail-footer-container-1">
+        <button class="button-back" onclick="window.history.back()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M11.4735 5.85248L7.91673 10.0002L11.4735 14.1477C11.7685 14.4758 11.7201 14.9642 11.3668 15.2373C11.211 15.358 11.0218 15.4168 10.8335 15.4168C10.5951 15.4168 10.3585 15.3217 10.1935 15.1382L6.02671 10.4953C5.99421 10.459 5.97754 10.4164 5.95337 10.3762C5.93337 10.3437 5.90921 10.3158 5.89421 10.2802C5.85671 10.1912 5.83421 10.0977 5.83421 10.0032L5.83337 10.0002L5.83421 9.99699C5.83421 9.90266 5.85671 9.80899 5.89421 9.71999C5.90921 9.68441 5.93337 9.65658 5.95337 9.62408C5.97754 9.58383 5.99421 9.54124 6.02671 9.50491L10.1935 4.86199C10.4876 4.5339 11.0126 4.48902 11.3668 4.76295C11.7201 5.0361 11.7685 5.52439 11.4735 5.85248Z" fill="#0A0B0F" fill-opacity="0.65"/>
+            </svg>
+        </button>
+        <div class="detail-footer-container-2">
+            <button class="button-back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8333 9.16689H5.94575L8.97325 5.53358C9.26825 5.18025 9.21992 4.65442 8.86659 4.36025C8.51242 4.06525 7.98742 4.11358 7.69325 4.46692L3.52659 9.46689C3.49409 9.50606 3.47742 9.55189 3.45325 9.59522C3.43325 9.63022 3.40909 9.66022 3.39409 9.69856C3.35659 9.79439 3.33409 9.89522 3.33409 9.99689L3.33325 10.0002L3.33409 10.0036C3.33409 10.1052 3.35659 10.2061 3.39409 10.3019C3.40909 10.3402 3.43325 10.3702 3.45325 10.4052C3.47742 10.4486 3.49409 10.4944 3.52659 10.5336L7.69325 15.5336C7.85825 15.7311 8.09492 15.8336 8.33325 15.8336C8.52159 15.8336 8.71075 15.7702 8.86659 15.6402C9.21992 15.3461 9.26825 14.8202 8.97325 14.4669L5.94575 10.8336H15.8333C16.2933 10.8336 16.6666 10.4602 16.6666 10.0002C16.6666 9.54022 16.2933 9.16689 15.8333 9.16689Z" fill="#0A0B0F" fill-opacity="0.65"/>
+                </svg> 
+            </button>
+            <button class="button-back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.16659 10.8332H14.0541L11.0266 14.4665C10.7316 14.8198 10.7799 15.3457 11.1333 15.6398C11.4874 15.9348 12.0124 15.8865 12.3074 15.5332L16.4741 10.5332C16.5066 10.494 16.5224 10.4482 16.5466 10.4048C16.5666 10.3698 16.5908 10.3398 16.6058 10.3015C16.6433 10.2057 16.6658 10.1048 16.6658 10.0032L16.6666 9.99984L16.6658 9.9965C16.6658 9.89484 16.6433 9.794 16.6058 9.69817C16.5908 9.65984 16.5666 9.62984 16.5466 9.59484C16.5224 9.5515 16.5066 9.50567 16.4741 9.4665L12.3074 4.4665C12.1416 4.269 11.9049 4.1665 11.6666 4.1665C11.4783 4.1665 11.2891 4.22984 11.1333 4.35984C10.7799 4.654 10.7316 5.17984 11.0266 5.53317L14.0541 9.1665H4.16659C3.70659 9.1665 3.33325 9.53984 3.33325 9.99984C3.33325 10.4598 3.70659 10.8332 4.16659 10.8332Z" fill="#0A0B0F" fill-opacity="0.65"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div id="drawer" class="drawer">
+        <p>Скоро здесь будет красивая навигация по сайту</p>
+    </div>
+
+    <script src="js/drawer.js"></script>
     <script src="js/detail.js"></script>
 </body>
 </html>

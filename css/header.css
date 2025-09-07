@@ -13,6 +13,7 @@ position: static; /* Убрано фиксированное позициони�
 width: 100%;
 overflow: hidden;
 text-overflow: ellipsis;
+z-index: 80; /* Поверх других элементов */
 }
 
 .header-1 {
@@ -36,26 +37,38 @@ font-weight: 700;
 line-height: var(--module-600, 24px); /* 150% */
 }
 
-.header-button {
- display: flex;
- justify-content: center; /* Центрирование по горизонтали */
- align-items: center; /* Центрирование по вертикали */
-width: 36px;
-height: 36px;
-border: none;
-background: none;
-padding: 0;
-cursor: pointer;
+.header-button-burger {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
 }
 
-.header-button:hover {
+.header-button-burger:hover {
 border-radius:12px;
 background: rgba(29, 13, 255, 0.19);
 }
 
-.header-button:active {
+.header-button-burger:active {
 border-radius: var(--Radius-radius-300, 12px);
 background: var(--06-Themes-Violet-theme-violet-layer-soft-pressed, rgba(22, 1, 255, 0.24));
 /* ⤵ inner/XS */
 box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
 }
+
+.icon-burger, .icon-close {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-button-burger .icon-close { display: none; }
+.header-button-burger.drawer-open .icon-burger { display: none; }
+.header-button-burger.drawer-open .icon-close { display: inline; }
