@@ -89,7 +89,7 @@ color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
   position: sticky;
   top: 0px;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.10);
+  background-color: #f3f4f950; /* Основной цвет страницы */
   backdrop-filter: blur(12px);
   display: flex;
   overflow-x: auto; /* Добавлено для горизонтального скроллинга */
@@ -98,6 +98,9 @@ color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
   align-items: flex-start;
   gap: 8px;
   white-space: nowrap; /* Запрещаем перенос элементов */
+
+  scrollbar-width: none; /* Убираем скроллбар для Firefox */
+  -ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
 /* Стили для бейджиков подгрупп */
@@ -109,24 +112,30 @@ color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
   gap: var(--Spacing-space-100, 4px);
   border-radius: var(--radius-component, 8px);
   background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09));
+  color: var(--06-Themes-Neutral-theme-neutral-content-on-soft, #4E5057);
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.badge:hover {
-  background: rgb(117, 117, 118);
-}
-
-.badge.active {
-    background: var(--06-Themes-Violet-theme-violet-layer-solid, #7C58F3);
-    color: white !important;
+  transition: background-color 0.15s ease;
 }
 
 .badge-title {
-color: var(--06-Themes-Neutral-theme-neutral-content-on-soft, #000000);
 text-align: center;
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: var(--module-500, 20px); /* 142.857% */
+line-height: var(--module-500, 20px);
+}
+
+/* .badge:hover {
+  background: var(--06-Themes-Neutral-theme-neutral-layer-hover, rgba(22, 33, 88, 0.5));
+  color: #FFF;
+} */
+
+.badge.active {
+    background: var(--06-Themes-Violet-theme-violet-layer-solid, #7C58F3);
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth; /* Плавный скролл для всей страницы */
 }

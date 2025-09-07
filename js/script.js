@@ -230,6 +230,8 @@ document.addEventListener('scroll', () => {
         if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
             badges.forEach(badge => badge.classList.remove('active'));
             badges[index].classList.add('active');
+                // Показываем активный бейджик на экране
+                badges[index].scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'center' });
         }
     });
 });
@@ -241,11 +243,7 @@ document.addEventListener('DOMContentLoaded', () => {
     badges.forEach((badge, index) => {
         badge.addEventListener('click', (event) => {
             event.preventDefault();
-            if (subgroups[index]) {
-                const offset = 100; // Отступ сверху
-                const topPosition = subgroups[index].getBoundingClientRect().top + window.scrollY - offset;
-                console.log(`Scrolling to position: ${topPosition}`); // Отладочное сообщение
-                window.scrollTo({ top: topPosition, behavior: 'smooth' });
+                if (subgroups[index]) {
             }
         });
     });
