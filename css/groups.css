@@ -1,6 +1,6 @@
 /* === Стили для категорий === */
 
-#groups-container {
+.groups-container {
 /* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
 
 width: 100%;
@@ -12,12 +12,12 @@ scrollbar-width: none; /* Убираем скроллбар для Firefox */
 -ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
-#groups-container::-webkit-scrollbar {
+.groups-container::-webkit-scrollbar {
 display: none; /* Убираем скроллбар для Chrome, Safari, Opera */
 }
 
 .group-wrapper {
-  width: 250px; /* Фиксированная ширина обёртки для карточки */
+  width: 350px; /* Фиксированная ширина обёртки для карточки */
   padding: 0px 16px; /* Внутренние отступы для создания пространства вокруг карточки */
   margin-right: -16px; /* Отрицательный отступ для выравнивания с соседними элементами */
   flex: 0 0 auto; /* Элемент не растягивается и не сжимается, занимает фиксированное место */
@@ -83,6 +83,8 @@ border-radius: var(--Radius-radius-200, 8px); /* Скругление углов
 background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09)); /* Фон бейджа */
 color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
 }
+
+/* ———————————————————————————————————- */
 
 #subgroups-container {
   position: sticky;

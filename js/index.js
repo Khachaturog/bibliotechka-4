@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Функция для отображения групп
 function displayGroups(groups) {
-    const container = document.getElementById('groups-container');
-    const template = document.getElementById('group-template');
+    const container = document.querySelector('.groups-container');
+    const template = document.querySelector('.group-template');
     container.innerHTML = ''; // Clear existing content
 
     groups.forEach(group => {
@@ -49,15 +49,18 @@ function displayGroups(groups) {
 
 // Функция для отображения карточек
 function displayCards(data) {
-    const container = document.getElementById('cards-container');
-    const template = document.getElementById('card-template');
-    
+    const container = document.querySelector('.cards-container');
+    const template = document.querySelector('.card-template');
+
     if (!container || !template) {
         console.error('Container or template not found');
         return;
     }
 
-    data.forEach(item => {
+    // Фильтруем карточки только со статусом "published"
+    const publishedData = data.filter(item => item.status_slug === 'published');
+
+    publishedData.forEach(item => {
         const clone = template.content.cloneNode(true);
         const card = clone.querySelector('.card');
         const img = clone.querySelector('.card-cover');
@@ -100,7 +103,7 @@ function displayCards(data) {
     }
     
     // Получаем loader элемент из HTML
-    const loader = document.getElementById('cards-loader');
+    const loader = document.querySelector('.cards-loader');
     
     // Настраиваем IntersectionObserver для бесконечного скролла
     const observer = new IntersectionObserver((entries) => {

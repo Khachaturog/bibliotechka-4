@@ -29,7 +29,7 @@
     gap: 12px;
 }
 
-.detail-block1, .detail-block2, .detail-block3, .detail-block4 {
+.detail-block1, .detail-block2, .detail-block3, .detail-block4, .detail-block5{
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -63,7 +63,8 @@
 
 .detail-block2-title,
 .detail-block3-title,
-.detail-block4-title {
+.detail-block4-title,
+.detail-block5-title {
     color: var(--02-Content-content-primary, #0A0B0F);
     font-family: "Playfair Display";
     font-size: 16px;
@@ -127,17 +128,9 @@ color: var(--02-Content-content-secondary, rgba(10, 11, 15, 0.65));
 font-size: 16px;
 }
 
-.detail-block3 {
-    display: flex;
-    padding: 12px 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    align-self: stretch;
-    border-radius: 12px;
-}
-
-.detail-block4 {
+.detail-block3,
+.detail-block4,
+.detail-block5 {
     display: flex;
     padding: 12px 16px;
     flex-direction: column;

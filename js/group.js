@@ -125,6 +125,7 @@ document.addEventListener('scroll', () => {
     });
 });
 
+// Прокрутка к подгруппе при клике на бейдж
 document.addEventListener('DOMContentLoaded', () => {
     const badges = document.querySelectorAll('.badge');
     const subgroups = document.querySelectorAll('.cards-container-0');
