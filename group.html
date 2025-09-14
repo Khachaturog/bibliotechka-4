@@ -45,7 +45,7 @@
             </span>
         </button>
     </header>
-    
+
     <main>
         <section id="cards-container-title">
             <button class="button-back" onclick="window.location.href='index.html'" aria-label="Назад">
@@ -60,18 +60,55 @@
         </section>
 
         <section id="subgroups-container">
+            <!-- Бейджики -->
+            <template id="badge-template">
+                <a href="" class="badge">
+                    <span class="badge-title"></span>
+                </a>
+            </template>
         </section>
-
+        
+        <!-- Карточки -->
+        
         <section id="wrap2">
-            <div id="cards-container-2">
-                <!-- Filtered cards will be inserted here -->
-            </div>
-        </section>
-    </main>
+            <!-- <div id="cards-container-2"> -->
 
-    <div id="drawer" class="drawer">
-        <p>Скоро здесь будет красивая навигация по сайту</p>
-    </div>
+                <!-- Хедер подгруппы с карточками -->
+                <template id="subgroup-template">
+                    <div class="cards-container-0">
+                        
+                        <div class="cards-container-0-header">
+                            <div class="title-with-button">
+                                <h3 class="container-title"></h3>
+                                <button class="button-link" aria-label="Скопировать ссылку">Скопировать ссылку</button>
+                            </div>
+                            <p class="container-description" hidden></p>
+                        </div>
+                        
+                        <div class="cards-container">
+                            
+                        </div>
+                        
+                    </div>
+                </template>
+            <!-- </div> -->
+        </section>
+
+        <template id="card-template">
+            <a class="card" href="">
+                <img alt="" loading="lazy">
+                <div class="card-content">
+                    <p class="card-title"></p>
+                    <p class="card-description" hidden></p>
+                </div>
+            </a>
+        </template>
+        
+        
+        <div id="drawer" class="drawer">
+            <p>Скоро здесь будет красивая навигация по сайту</p>
+        </div>
+    </main>
 
     <script src="js/drawer.js"></script>
     <script src="js/group.js"></script>

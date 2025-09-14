@@ -67,7 +67,7 @@ font-weight: 300;
 line-height: 20px; /* 142.857% */
 }
 
-#cards-container {
+.cards-container {
 display: grid;
 row-gap: 12px;
 column-gap: 12px;
@@ -78,8 +78,9 @@ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 @media (max-width: 767px) {
-#cards-container {
-grid-template-columns: 1fr 1fr;}
+.cards-container {
+  grid-template-columns: 1fr 1fr;
+}
 }
 
 .subgroup-container-1 {
@@ -92,7 +93,7 @@ grid-template-columns: repeat(2, 1fr);
 width: 100%;
 }
 
-#cards-container-2 {
+/* #cards-container-2 {
 display: flex;
 padding: 16px;
 flex-direction: column;
@@ -100,7 +101,7 @@ align-items: flex-start;
 gap: 12px;
 flex: 1 0 0;
 align-self: stretch;
-}
+} */
 
 .card {
 overflow: hidden;
