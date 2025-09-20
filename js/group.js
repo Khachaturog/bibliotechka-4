@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const groupSlug = params.get('slug');
     const group = groups.find(g => g.slug === groupSlug);
     if (group) {
-        document.getElementById('container-title').textContent = group.title;
+        document.querySelector('.container-title').textContent = group.title;
         document.querySelector('.container-description').textContent = group.description || '';
         const filteredData = data.filter(item => item.group_slug === groupSlug);
         displaySubgroupsAndCards(filteredData, subgroups);
@@ -62,18 +62,28 @@ function createSubgroup(subgroup, subgroupData) {
     const title = clone.querySelector('.container-title');
     title.textContent = subgroup.title;
 
-    const button = clone.querySelector('.button-link');
+// Кнопка для копирования ссылки
+const button = clone.querySelector('.button-link');
+const linkIcon = button.querySelector('.icon-link');
+const copiedIcon = button.querySelector('.icon-copied');
+
+    // Скрываем иконку "скопировано" при загрузке страницы
+    copiedIcon.style.display = 'none';
+    
     button.addEventListener('click', (e) => {
         e.preventDefault();
         const url = `${window.location.origin}${window.location.pathname}#${subgroup.slug}`;
         navigator.clipboard.writeText(url).then(() => {
-            button.textContent = 'Скопировано';
+            linkIcon.style.display = 'none';
+            copiedIcon.style.display = 'inline';
             setTimeout(() => {
-                button.textContent = 'Скопировать ссылку';
-            }, 500);
+                linkIcon.style.display = 'inline';
+                copiedIcon.style.display = 'none';
+            }, 800);
         });
     });
 
+// Описание подгруппы
     if (subgroup.description) {
         const description = clone.querySelector('.container-description');
         description.textContent = subgroup.description;
@@ -86,7 +96,7 @@ function createSubgroup(subgroup, subgroupData) {
         cardsContainer.appendChild(card);
     });
 
-    return clone;
+return clone;
 }
 
 // Карточки

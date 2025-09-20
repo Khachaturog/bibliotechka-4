@@ -1,41 +1,40 @@
 /* === Header styles === */
 
 .header-0 {
-top: 0;
-left: 0;
-display: flex;
-padding: 16px 16px 16px 16px;
-align-items: flex-start;
-gap: 20px;
-align-self: stretch;
-background: rgba(255, 255, 255, 0.10);
-backdrop-filter: blur(12px);
-align-items: center;
-width: 100%;
-overflow: hidden;
-text-overflow: ellipsis;
-z-index: 80; /* Поверх других элементов */
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  /* background: var(--01-layer-blur); */
+  /* backdrop-filter: blur(12px); */
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 80; /* Поверх других элементов */
 }
 
 .header-1 {
-display: flex;
-align-items: center;
-gap: 4px;
-flex: 1 0 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
 }
 
 .header-logo {
-width: 36px;
-height: 36px;
+  width: 36px;
+  height: 36px;
 }
 
 .header-title {
-color: var(--02-Content-content-primary, #0A0B0F);
-font-family: "Playfair Display";
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: var(--module-600, 24px); /* 150% */
+  color: var(--02-content-primary);
+  font-family: var(--font-primary);
+  font-size: var(--module-400);
+  font-weight: var(--fw-bold);
+  line-height: var(--module-600);
 }
 
 .header-button-burger {
@@ -44,6 +43,7 @@ line-height: var(--module-600, 24px); /* 150% */
   align-items: center; /* Центрирование по вертикали */
   width: 36px;
   height: 36px;
+  border-radius: var(--radius-300);
   border: none;
   background: none;
   padding: 0;
@@ -51,15 +51,13 @@ line-height: var(--module-600, 24px); /* 150% */
 }
 
 .header-button-burger:hover {
-border-radius:12px;
-background: rgba(29, 13, 255, 0.19);
+  background: var(--06-theme-violet-layer-soft-hover);
 }
 
 .header-button-burger:active {
-border-radius: var(--Radius-radius-300, 12px);
-background: var(--06-Themes-Violet-theme-violet-layer-soft-pressed, rgba(22, 1, 255, 0.24));
-/* ⤵ inner/XS */
-box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
+  background: var(--06-theme-violet-layer-soft-pressed);
+  /* ⤵ inner/XS */
+  box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
 }
 
 .icon-burger, .icon-close {
@@ -70,6 +68,14 @@ box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) 
   justify-content: center;
 }
 
-.header-button-burger .icon-close { display: none; }
-.header-button-burger.drawer-open .icon-burger { display: none; }
-.header-button-burger.drawer-open .icon-close { display: inline; }
+.header-button-burger .icon-close {
+  display: none;
+}
+
+.header-button-burger.drawer-open .icon-burger {
+  display: none;
+}
+
+.header-button-burger.drawer-open .icon-close {
+  display: inline;
+}

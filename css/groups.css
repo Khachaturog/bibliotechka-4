@@ -1,19 +1,21 @@
 /* === Стили для категорий === */
 
+html {
+  scroll-behavior: smooth; /* Плавный скролл для всей страницы */
+}
+
 .groups-container {
-/* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
-
-width: 100%;
-display: flex; /* Устанавливаем флекс-контейнер для горизонтального выравнивания */
-overflow: auto; /* Включаем прокрутку содержимого */
-
-scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
-scrollbar-width: none; /* Убираем скроллбар для Firefox */
--ms-overflow-style: none; /* Убираем скроллбар для IE */
+  /* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
+  width: 100%;
+  display: flex; /* Устанавливаем флекс-контейнер для горизонтального выравнивания */
+  overflow: auto; /* Включаем прокрутку содержимого */
+  scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
+  scrollbar-width: none; /* Убираем скроллбар для Firefox */
+  -ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
 .groups-container::-webkit-scrollbar {
-display: none; /* Убираем скроллбар для Chrome, Safari, Opera */
+  display: none; /* Убираем скроллбар для Chrome, Safari, Opera */
 }
 
 .group-wrapper {
@@ -28,60 +30,62 @@ display: none; /* Убираем скроллбар для Chrome, Safari, Opera
 }
 
 .group {
-overflow: hidden; /* Скрываем содержимое, выходящее за границы */
-position: relative;
-border-radius: 8px; /* Скругление углов */
-background: var(--01-Layer-layer-1, #FFF); /* Фон карточки */
-transition: all 0.15s ease-out; /* Плавный переход при наведении */
-cursor: pointer; /* Указатель при наведении */
-text-decoration: none; /* Убираем подчёркивание ссылок */
-display: block; /* Элемент отображается как блочный */
-border: 1px solid rgba(55, 53, 47, 0.16); /* Граница карточки */
-flex: 0 0 auto; /* Карточка не растягивается и не сжимается, занимает фиксированное место */
-height: 100%; /* Карточка занимает всю высоту обёртки */
-flex-grow: 1; /* Карточка растягивается до высоты самой высокой */
+  background: var(--01-layer-1); /* Фон карточки */
+  border: 1px solid var(--04-border-control); /* Граница карточки */
+  overflow: hidden; /* Скрываем содержимое, выходящее за границы */
+  position: relative;
+  border-radius: var(--radius-200); /* Скругление углов */
+  transition: all 0.15s ease-out; /* Плавный переход при наведении */
+  cursor: pointer; /* Указатель при наведении */
+  text-decoration: none; /* Убираем подчёркивание ссылок */
+  display: block; /* Элемент отображается как блочный */
+  flex: 0 0 auto; /* Карточка не растягивается и не сжимается, занимает фиксированное место */
+  height: 100%; /* Карточка занимает всю высоту обёртки */
+  flex-grow: 1; /* Карточка растягивается до высоты самой высокой */
 }
 
 .group img {
-width: 100%; /* Изображение занимает всю ширину карточки */
-height: 120px; /* Фиксированная высота изображения */
-object-fit: cover; /* Изображение обрезается по размеру контейнера */
-border-bottom: 1px solid rgba(55, 53, 47, 0.16); /* Граница под изображением */
+  width: 100%; /* Изображение занимает всю ширину карточки */
+  height: 120px; /* Фиксированная высота изображения */
+  object-fit: cover; /* Изображение обрезается по размеру контейнера */
+  /* border-bottom: 1px solid var(--04-border-control); Граница под изображением */
 }
 
 .group-content {
-padding: 12px 14px; /* Внутренние отступы для контента карточки */
+  padding: 12px 14px; /* Внутренние отступы для контента карточки */
 }
 
 .group-title {
-font-size: 1rem; /* Размер шрифта заголовка */
-font-weight: 500; /* Полужирный шрифт */
-margin-bottom: 6px; /* Отступ снизу */
-color: rgb(55, 53, 47); /* Цвет текста */
-line-height: 1.3; /* Межстрочный интервал */
+  color: var(--02-content-primary); /* Цвет текста */
+  font-size: var(--module-400);
+  font-weight: var(--fw-medium);
+  line-height: var(--module-500);
+  margin-bottom: 6px; /* Отступ снизу */
 }
 
 .group-description {
-font-size: 0.875rem; /* Размер шрифта описания */
-color: rgba(55, 53, 47, 0.65); /* Цвет текста с прозрачностью */
-display: -webkit-box; /* Для обрезки текста */
--webkit-line-clamp: 3; /* Количество строк до обрезки */
-line-clamp: 2; /* Количество строк до обрезки */
--webkit-box-orient: vertical; /* Ориентация текста */
-overflow: hidden; /* Скрытие текста за пределами блока */
-text-overflow: ellipsis; /* Добавление троеточия при обрезке */
+  color: var(--02-content-secondary); /* Цвет текста с прозрачностью */
+  font-size: var(--module-350); /* Размер шрифта описания */
+  line-height: var(--module-400);
+
+  display: -webkit-box; /* Для обрезки текста */
+  -webkit-line-clamp: 3; /* Количество строк до обрезки */
+  line-clamp: 2; /* Количество строк до обрезки */
+  -webkit-box-orient: vertical; /* Ориентация текста */
+  overflow: hidden; /* Скрытие текста за пределами блока */
+  text-overflow: ellipsis; /* Добавление троеточия при обрезке */
 }
 
 .group-badge {
-position: absolute; /* Абсолютное позиционирование бейджа */
-right: 8px; /* Отступ справа */
-top: 8px; /* Отступ сверху */
-padding: var(--Spacing-space-50, 2px) var(--Spacing-space-200, 8px); /* Внутренние отступы */
-align-items: center; /* Выравнивание по центру */
-gap: var(--Spacing-space-100, 4px); /* Расстояние между элементами */
-border-radius: var(--Radius-radius-200, 8px); /* Скругление углов */
-background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09)); /* Фон бейджа */
-color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
+  color: var(--06-theme-neutral-content-on-soft); /* Цвет текста бейджа */
+  background: var(--06-theme-neutral-layer-soft); /* Фон бейджа */
+  position: absolute; /* Абсолютное позиционирование бейджа */
+  right: 8px; /* Отступ справа */
+  top: 8px; /* Отступ сверху */
+  padding: var(--space-50) var(--space-200); /* Внутренние отступы */
+  align-items: center; /* Выравнивание по центру */
+  gap: var(--space-100); /* Расстояние между элементами */
+  border-radius: var(--radius-200); /* Скругление углов */
 }
 
 /* ———————————————————————————————————- */
@@ -90,7 +94,7 @@ color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
   position: sticky;
   top: 0px;
   z-index: 10;
-  background-color: #f3f4f950; /* Основной цвет страницы */
+  background-color: var(--01-layer-blur); /* Основной цвет страницы */
   backdrop-filter: blur(12px);
   display: flex;
   overflow-x: auto; /* Добавлено для горизонтального скроллинга */
@@ -99,44 +103,31 @@ color: rgba(78, 80, 87, 1); /* Цвет текста бейджа */
   align-items: flex-start;
   gap: 8px;
   white-space: nowrap; /* Запрещаем перенос элементов */
-
   scrollbar-width: none; /* Убираем скроллбар для Firefox */
   -ms-overflow-style: none; /* Убираем скроллбар для IE */
 }
 
 /* Стили для бейджиков подгрупп */
 .badge {
+  background: var(--06-theme-neutral-layer-soft);
+  color: var(--02-content-secondary);
   text-decoration: none;
   display: inline-flex; /* Убедиться, что элементы выстраиваются в строку */
-  padding: var(--Spacing-space-150, 6px) var(--Spacing-space-300, 12px);
+  padding: var(--space-150) var(--space-300);
   align-items: center;
-  gap: var(--Spacing-space-100, 4px);
-  border-radius: var(--radius-component, 8px);
-  background: var(--06-Themes-Neutral-theme-neutral-layer-soft, rgba(22, 33, 88, 0.09));
-  color: var(--06-Themes-Neutral-theme-neutral-content-on-soft, #4E5057);
+  gap: var(--space-100);
+  border-radius: var(--radius-200);
   cursor: pointer;
   transition: background-color 0.15s ease;
 }
 
 .badge-title {
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: var(--module-500, 20px);
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-size: 14px;
 }
-
-/* .badge:hover {
-  background: var(--06-Themes-Neutral-theme-neutral-layer-hover, rgba(22, 33, 88, 0.5));
-  color: #FFF;
-} */
 
 .badge.active {
-    background: var(--06-Themes-Violet-theme-violet-layer-solid, #7C58F3);
-    color: white;
-}
-
-html {
-  scroll-behavior: smooth; /* Плавный скролл для всей страницы */
+  background: var(--06-theme-violet-layer-solid);
+  color: var(--02-content-on-solid);
 }

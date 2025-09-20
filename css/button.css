@@ -1,0 +1,26 @@
+/* Стили кнопок */
+
+/* Secondary · 48px */
+.button-back {
+cursor: pointer;
+display: flex;
+justify-content: center; /* Центрирование по горизонтали */
+align-items: center; /* Центрирование по вертикали */
+width: 48px;
+height: 48px;
+border-radius: var(--radius-full);
+border: 1px solid var(--04-border-control);
+background: var(--01-layer-2);
+/* ↓ bottom/XS */
+box-shadow: shadow-bottom-XS-1-x var(--08-Shadow-Bottom-XS-1-y, 1px) var(--08-Shadow-Bottom-XS-1-blur, 2px) var(--08-Shadow-Bottom-XS-1-spread, 0) var(--08-Shadow-Bottom-XS-1-color, rgba(22, 33, 88, 0.09));
+}
+
+.button-back:hover {
+background: var(--05-layer-2-hover, #F9FAFE);
+}
+
+.button-back:active {
+background: var(--05-layer-2-pressed);
+/* ⤵ inner/XS */
+box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
+}
