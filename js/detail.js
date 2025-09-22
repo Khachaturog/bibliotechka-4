@@ -10,6 +10,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     const slug = params.get('slug');
     const currentIndex = data.findIndex(item => item.slug === slug || parseInt(item.slug) === parseInt(slug));
 
+    // Кнопка "предыдущая"
+    const prevBtn = document.querySelector('.detail-footer-container-2 button:first-child');
+    if (prevBtn && currentIndex > 0) {
+        prevBtn.onclick = () => {
+            const prevSlug = data[currentIndex - 1].slug;
+            window.location.href = `detail.html?slug=${prevSlug}`;
+        };
+    } else if (prevBtn) {
+        prevBtn.disabled = true;
+    }
+    
     // Кнопка "следующая"
     const nextBtn = document.querySelector('.detail-footer-container-2 button:last-child');
     if (nextBtn && currentIndex !== -1 && currentIndex < data.length - 1) {
@@ -21,16 +32,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         nextBtn.disabled = true;
     }
 
-    // Кнопка "предыдущая"
-    const prevBtn = document.querySelector('.detail-footer-container-2 button:first-child');
-    if (prevBtn && currentIndex > 0) {
-        prevBtn.onclick = () => {
-            const prevSlug = data[currentIndex - 1].slug;
-            window.location.href = `detail.html?slug=${prevSlug}`;
-        };
-    } else if (prevBtn) {
-        prevBtn.disabled = true;
-    }
 });
 
 // Функция для отображения деталей
@@ -138,4 +139,17 @@ function displayDetail(data) {
     }
 
     container.appendChild(clone);
+}
+
+// Функция для возврата к группе
+function goBackToGroup() {
+    // Получаем свойства текущей карточки
+    const groupSlug = document.querySelector('.group-slug').textContent;
+    const subgroupSlug = document.querySelector('.subgroup-slug').textContent;
+
+    // Формируем ссылку с использованием текущего домена
+    const url = `${window.location.origin}/group.html?slug=${groupSlug}#${subgroupSlug}`;
+
+    // Переход по ссылке
+    window.location.href = url;
 }

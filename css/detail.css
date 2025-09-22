@@ -205,6 +205,17 @@ font-size: var(--module-400);
     flex: 1 0 0;
 }
 
+.icon-schevron-back svg,
+.icon-arrow-left svg,
+.icon-arrow-right svg {
+  fill: var(--02-content-secondary);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 767px) {
     .detail-container-image {
         padding: 0;

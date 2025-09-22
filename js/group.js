@@ -63,7 +63,7 @@ function createSubgroup(subgroup, subgroupData) {
     title.textContent = subgroup.title;
 
 // Кнопка для копирования ссылки
-const button = clone.querySelector('.button-link');
+const button = clone.querySelector('.subtle-violet-24');
 const linkIcon = button.querySelector('.icon-link');
 const copiedIcon = button.querySelector('.icon-copied');
 

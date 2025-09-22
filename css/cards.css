@@ -18,6 +18,7 @@
 .cards-container-0-header {
   display: grid;
   gap: 4px;
+  flex: 1;
 }
 
 .container-title {
@@ -131,29 +132,38 @@
   align-items: center;
 }
 
-.button-link {
-  display: flex;
-  justify-content: center; /* Центрирование по горизонтали */
-  align-items: center; /* Центрирование по вертикали */
-  width: 24px;
-  height: 24px;
-  border-radius: var(--radius-200);
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.1s;
-  margin-left: 4px;
+/* Subtle · Violet · 24px */
+.subtle-violet-24 {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    width: 24px;
+    height: 24px;
+    border-radius: var(--radius-200);
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.1s;
+    margin-left: 4px;
 }
 
-.button-link:hover {
-  background: var(--06-theme-violet-layer-soft-hover);
+.subtle-violet-24:hover {
+    background: var(--06-theme-violet-layer-soft-hover);
 }
 
-.title-with-button:hover .button-link,
-.button-link:hover {
+.title-with-button:hover .subtle-violet-24,
+.subtle-violet-24:hover {
   opacity: 1;
   pointer-events: auto;
+}
+
+@media (max-width: 767px) {
+  .subtle-violet-24 {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 100;
+  }
 }

@@ -761,14 +761,13 @@
     --05-layer-neutral-soft-pressed: var(--neutral-day-500a);
 
     /* 06 Themes */
-    --06-theme-violet-content: var(--violet-day-1200);
-    --06-theme-neutral-content-on-soft: var(--neutral-day-1400);
-
-    --06-theme-violet-layer-solid: var(--violet-day-1100);
     --06-theme-neutral-layer-soft: var(--neutral-day-300a);
+    --06-theme-neutral-content-on-soft: var(--neutral-day-1400);
+    
+    --06-theme-violet-layer-solid: var(--violet-day-1100);
     --06-theme-violet-layer-soft-hover: var(--violet-day-400a);
     --06-theme-violet-layer-soft-pressed: var(--violet-day-500a);
-    
+    --06-theme-violet-content: var(--violet-day-1200);
 
     --06-theme-violet-icon-solid: var(--violet-day-1000);
 }
@@ -780,6 +779,8 @@
     --01-layer-2: var(--neutral-night-400);
     --01-layer-inverted: var(--neutral-day-0);
 
+    --01-layer-blur: rgba(0, 0, 0, 0.75);
+
     /* 02 Content */
     --02-content-primary: var(--neutral-night-2000);
     --02-content-secondary: #fdfeff8f;
@@ -790,13 +791,22 @@
 
     /* 04 Border */
     --04-border-control: var(--neutral-night-800);
+    --04-border-on-layer-2: var(--neutral-night-600);
 
     /* 05 Interactive */
+    --05-layer-2-hover: var(--neutral-night-500);
+    --05-layer-2-pressed: var(--neutral-night-400);
+    --05-layer-neutral-soft-hover: var(--neutral-night-400a);
+    --05-layer-neutral-soft-pressed: var(--neutral-night-300a);
 
     /* 06 Themes */
     --06-theme-neutral-layer-soft: var(--neutral-night-300a);
     --06-theme-neutral-content-on-soft: var(--neutral-night-1400);
+    
     --06-theme-violet-layer-solid: var(--violet-night-1000);
+    --06-theme-violet-layer-soft-hover: var(--violet-day-400a);
+    --06-theme-violet-layer-soft-pressed: var(--violet-night-300a);
     --06-theme-violet-content: var(--violet-night-1300);
+
     --06-theme-violet-icon-solid: var(--violet-night-1300);
 }

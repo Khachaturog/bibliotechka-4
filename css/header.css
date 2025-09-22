@@ -1,12 +1,13 @@
 /* === Header styles === */
 
 .header-0 {
+  position: relative;
   top: 0;
   left: 0;
   display: flex;
   padding: 16px;
-  align-items: flex-start;
-  gap: 20px;
+  /* align-items: flex-start; */
+  gap: 8px;
   align-self: stretch;
   /* background: var(--01-layer-blur); */
   /* backdrop-filter: blur(12px); */
@@ -14,19 +15,32 @@
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
-  z-index: 80; /* Поверх других элементов */
+  z-index: 80;
+}
+
+.header-wrap {
+  display: flex;
+  flex: 1;
 }
 
 .header-1 {
   display: flex;
   align-items: center;
+  cursor: pointer;
   gap: 4px;
-  flex: 1 0 0;
+}
+
+.header-1:hover {
+  .header-logo {
+  transform: rotate(360deg);
+  transition: transform 0.4s ease-in-out;
+  }
 }
 
 .header-logo {
   width: 36px;
   height: 36px;
+  overflow: hidden;
 }
 
 .header-title {
@@ -37,45 +51,38 @@
   line-height: var(--module-600);
 }
 
-.header-button-burger {
-  display: flex;
-  justify-content: center; /* Центрирование по горизонтали */
-  align-items: center; /* Центрирование по вертикали */
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-300);
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-}
-
-.header-button-burger:hover {
-  background: var(--06-theme-violet-layer-soft-hover);
-}
-
-.header-button-burger:active {
-  background: var(--06-theme-violet-layer-soft-pressed);
-  /* ⤵ inner/XS */
-  box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
-}
-
-.icon-burger, .icon-close {
-  width: 20px;
-  height: 20px;
+.icon-burger svg, .icon-close svg {
+  fill: var(--06-theme-violet-content);
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.header-button-burger .icon-close {
+.icon-close {
   display: none;
 }
 
-.header-button-burger.drawer-open .icon-burger {
+.drawer-open .icon-burger {
   display: none;
 }
 
-.header-button-burger.drawer-open .icon-close {
+.drawer-open .icon-close {
   display: inline;
 }
+
+/* Переключение темы */
+.icon-night svg, .icon-day svg {
+  fill: var(--06-theme-violet-content);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-night {
+  display: none;
+}
+

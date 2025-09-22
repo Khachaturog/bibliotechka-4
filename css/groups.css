@@ -77,18 +77,45 @@ html {
 }
 
 .group-badge {
-  color: var(--06-theme-neutral-content-on-soft); /* Цвет текста бейджа */
-  background: var(--06-theme-neutral-layer-soft); /* Фон бейджа */
+  display: flex;
   position: absolute; /* Абсолютное позиционирование бейджа */
   right: 8px; /* Отступ справа */
   top: 8px; /* Отступ сверху */
-  padding: var(--space-50) var(--space-200); /* Внутренние отступы */
   align-items: center; /* Выравнивание по центру */
-  gap: var(--space-100); /* Расстояние между элементами */
+  justify-content: center;
+
+  background: var(--06-theme-neutral-layer-soft); /* Фон бейджа */
+  padding: var(--space-50) var(--space-200); /* Внутренние отступы */
+  gap: 4px; /* Расстояние между элементами */
   border-radius: var(--radius-200); /* Скругление углов */
 }
 
+.icon-strike svg {
+  fill: var(--02-content-secondary);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-badge-text {
+  color: var(--02-content-secondary);
+  font-family: var(--font-secondary); /* Шрифт текста бейджа */
+  font-size: var(--module-350); /* Размер шрифта текста бейджа */
+  line-height: var(--module-500); /* Высота строки текста бейджа */
+}
+
 /* ———————————————————————————————————- */
+
+.icon-schevron-left svg {
+  fill: var(--02-content-secondary);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #subgroups-container {
   position: sticky;

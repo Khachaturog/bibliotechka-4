@@ -32,3 +32,9 @@ body {
   gap: 12px;
   align-self: stretch;
 }
+
+/* @media (max-width: 767px) {
+  body {
+      margin: 0 auto;
+  }
+} */

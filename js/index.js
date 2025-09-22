@@ -23,6 +23,7 @@ function displayGroups(groups) {
         const img = clone.querySelector('.group-cover');
         const badge = clone.querySelector('.group-badge');
         const badgeText = clone.querySelector('.group-badge-text');
+        const badgeIcon = clone.querySelector('.icon-strike');
         const title = clone.querySelector('.group-title');
         const description = clone.querySelector('.group-description');
 
@@ -32,10 +33,11 @@ function displayGroups(groups) {
         title.textContent = group.title;
 
         if (group.badge) {
-            badgeText.textContent = group.badge;
             badge.hidden = false; // Показываем бейдж
+            badgeText.textContent = group.badge;
         } else {
             badge.hidden = true; // Скрываем бейдж, если его нет
+            badgeIcon.hidden = true; // Скрываем иконку бейджа, если его нет
         }
 
         if (group.description) {
