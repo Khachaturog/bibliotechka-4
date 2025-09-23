@@ -22,8 +22,8 @@ function displayGroups(groups) {
         const card = clone.querySelector('.group');
         const img = clone.querySelector('.group-cover');
         const badge = clone.querySelector('.group-badge');
-        const badgeText = clone.querySelector('.group-badge-text');
         const badgeIcon = clone.querySelector('.icon-strike');
+        const badgeText = clone.querySelector('.group-badge-text');
         const title = clone.querySelector('.group-title');
         const description = clone.querySelector('.group-description');
 
@@ -33,11 +33,12 @@ function displayGroups(groups) {
         title.textContent = group.title;
 
         if (group.badge) {
-            badge.hidden = false; // Показываем бейдж
+            // badge.hidden = false; // Показываем бейдж
             badgeText.textContent = group.badge;
         } else {
             badge.hidden = true; // Скрываем бейдж, если его нет
             badgeIcon.hidden = true; // Скрываем иконку бейджа, если его нет
+            badgeText.hidden = true; // Скрываем текст бейджа, если его нет
         }
 
         if (group.description) {
@@ -47,6 +48,14 @@ function displayGroups(groups) {
 
         container.appendChild(clone);
     });
+}
+
+// Функция для перемешивания массива
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 // Функция для отображения карточек
@@ -61,6 +70,9 @@ function displayCards(data) {
 
     // Фильтруем карточки только со статусом "published"
     const publishedData = data.filter(item => item.status_slug === 'published');
+
+    // Перемешиваем карточки
+    shuffleArray(publishedData);
 
     publishedData.forEach(item => {
         const clone = template.content.cloneNode(true);
@@ -113,7 +125,7 @@ function displayCards(data) {
             loadMoreCards();
         }
     }, {
-        rootMargin: '100px'
+        rootMargin: '500px'
     });
     
     observer.observe(loader);

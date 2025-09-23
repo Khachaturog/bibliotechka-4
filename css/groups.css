@@ -8,7 +8,8 @@ html {
   /* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
   width: 100%;
   display: flex; /* Устанавливаем флекс-контейнер для горизонтального выравнивания */
-  overflow: auto; /* Включаем прокрутку содержимого */
+  overflow: auto;
+  padding: 4px 0;
   scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
   scrollbar-width: none; /* Убираем скроллбар для Firefox */
   -ms-overflow-style: none; /* Убираем скроллбар для IE */
@@ -32,7 +33,7 @@ html {
 .group {
   background: var(--01-layer-1); /* Фон карточки */
   border: 1px solid var(--04-border-control); /* Граница карточки */
-  overflow: hidden; /* Скрываем содержимое, выходящее за границы */
+  /* overflow: hidden; */
   position: relative;
   border-radius: var(--radius-200); /* Скругление углов */
   transition: all 0.15s ease-out; /* Плавный переход при наведении */
@@ -44,15 +45,30 @@ html {
   flex-grow: 1; /* Карточка растягивается до высоты самой высокой */
 }
 
-.group img {
+.group:hover {
+  box-shadow: 0 0 0 3px var(--06-theme-violet-content);
+  /* transition: box-shadow 0.05s ease; */
+  /* outline: 3px var(--06-theme-violet-content) solid; */
+}
+
+.group-cover-wrapper {
+  padding: 4px;
+  width: 100%;
+  height: 125px;
+}
+
+.group-cover {
+  border-radius: 4px;
   width: 100%; /* Изображение занимает всю ширину карточки */
-  height: 120px; /* Фиксированная высота изображения */
+  height: 100%;
   object-fit: cover; /* Изображение обрезается по размеру контейнера */
-  /* border-bottom: 1px solid var(--04-border-control); Граница под изображением */
+  object-position: center;
 }
 
 .group-content {
-  padding: 12px 14px; /* Внутренние отступы для контента карточки */
+  display: grid;
+  padding: 8px 12px 12px 12px;
+  gap: 4px;
 }
 
 .group-title {
@@ -60,7 +76,6 @@ html {
   font-size: var(--module-400);
   font-weight: var(--fw-medium);
   line-height: var(--module-500);
-  margin-bottom: 6px; /* Отступ снизу */
 }
 
 .group-description {
@@ -79,8 +94,8 @@ html {
 .group-badge {
   display: flex;
   position: absolute; /* Абсолютное позиционирование бейджа */
-  right: 8px; /* Отступ справа */
-  top: 8px; /* Отступ сверху */
+  right: 12px; /* Отступ справа */
+  top: 12px; /* Отступ сверху */
   align-items: center; /* Выравнивание по центру */
   justify-content: center;
 

@@ -93,7 +93,9 @@
             <template class="group-template">
                 <div class="group-wrapper">
                     <a class="group" href="">
-                        <img class="group-cover" src="" alt="">
+                        <div class="group-cover-wrapper">
+                            <img class="group-cover" src="" alt="">
+                        </div>
 
                         <div class="group-badge">
                             <span class="icon-strike">
@@ -115,11 +117,13 @@
     </section>
 
     <section id="wrap2">
-        <h2 class="container-title">Все карточки <span style="color: grey;">(528)</span></h2>
+        <h2 class="container-title">Все карточки <span style="color: var(--02-content-secondary);">(528)</span></h2>
         <div class="cards-container">
             <template class="card-template">
                 <a class="card" href="">
-                    <img class="card-cover" src="" alt="" loading="lazy">
+                    <div class="card-cover-wrapper">
+                        <img class="card-cover" src="" alt="" loading="lazy">
+                    </div>
                     <div class="card-content">
                         <p class="card-title"></p>
                         <p class="card-description" hidden></p>
@@ -132,7 +136,11 @@
     <div class="cards-loader"></div>
 
     <div id="drawer" class="drawer">
-        <p>Скоро здесь будет красивая навигация по сайту</p>
+        <ul class="menu-list">
+            <li class="menu-item"><a>О проекте</a></li>
+            <li class="menu-item"><a>История версий</a></li>
+            <li class="menu-item"><a>Дорожная карта</a></li>
+        </ul>
     </div>
 
     <script src="js/drawer.js"></script>
