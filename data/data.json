@@ -2,7 +2,7 @@
   {
     "slug": "001",
     "title": "Гайд по текстам в интерфейсе",
-    "cover": "covers/001.webp",
+    "cover": "images/covers/001.webp",
     "description": "",
     "author_slug": "Ozon Design",
     "status_slug": "published",
@@ -33,7 +33,7 @@
   {
     "slug": "002",
     "title": "Как мгновенно увеличить качество своего визуала?",
-    "cover": "covers/002.webp",
+    "cover": "images/covers/002.webp",
     "description": "",
     "author_slug": "designcraftspeople",
     "status_slug": "published",
@@ -64,7 +64,7 @@
   {
     "slug": "003",
     "title": "UI Guideline",
-    "cover": "covers/003.webp",
+    "cover": "images/covers/003.webp",
     "description": "Есть платный функционал",
     "author_slug": "UI Guideline",
     "status_slug": "published",
@@ -95,7 +95,7 @@
   {
     "slug": "004",
     "title": "Как я качал визуалку",
-    "cover": "covers/004.webp",
+    "cover": "images/covers/004.webp",
     "description": "",
     "author_slug": "Артем",
     "status_slug": "published",
@@ -126,7 +126,7 @@
   {
     "slug": "005",
     "title": "Как я развиваюсь в UI",
-    "cover": "covers/005.webp",
+    "cover": "images/covers/005.webp",
     "description": "",
     "author_slug": "Надя Здорова",
     "status_slug": "published",
@@ -157,7 +157,7 @@
   {
     "slug": "006",
     "title": "Noona Paul",
-    "cover": "covers/006.webp",
+    "cover": "images/covers/006.webp",
     "description": "",
     "author_slug": "Noona Paul",
     "status_slug": "published",
@@ -188,7 +188,7 @@
   {
     "slug": "007",
     "title": "Alexandre Gellard",
-    "cover": "covers/007.webp",
+    "cover": "images/covers/007.webp",
     "description": "",
     "author_slug": "Alexandre Gellard",
     "status_slug": "published",
@@ -219,7 +219,7 @@
   {
     "slug": "008",
     "title": "Sulley",
-    "cover": "covers/008.webp",
+    "cover": "images/covers/008.webp",
     "description": "",
     "author_slug": "Sulley",
     "status_slug": "published",
@@ -250,7 +250,7 @@
   {
     "slug": "009",
     "title": "Shansharkhan Aspandiyar",
-    "cover": "covers/009.webp",
+    "cover": "images/covers/009.webp",
     "description": "",
     "author_slug": "Shansharkhan Aspandiyar",
     "status_slug": "published",
@@ -281,7 +281,7 @@
   {
     "slug": "010",
     "title": "Коллекция от Виви",
-    "cover": "covers/010.webp",
+    "cover": "images/covers/010.webp",
     "description": "Есть подборка «UI Жир»",
     "author_slug": "designcraftspeople",
     "status_slug": "published",
@@ -312,7 +312,7 @@
   {
     "slug": "011",
     "title": "RonDesignLab",
-    "cover": "covers/011.webp",
+    "cover": "images/covers/011.webp",
     "description": "Нагруженные интерфейсы",
     "author_slug": "RonDesignLab",
     "status_slug": "published",
@@ -343,7 +343,7 @@
   {
     "slug": "012",
     "title": "Kevin Dukkon",
-    "cover": "covers/012.webp",
+    "cover": "images/covers/012.webp",
     "description": "Воздух",
     "author_slug": "Kevin Duk",
     "status_slug": "published",
@@ -374,7 +374,7 @@
   {
     "slug": "013",
     "title": "Alien pixels",
-    "cover": "covers/013.webp",
+    "cover": "images/covers/013.webp",
     "description": "Дашики",
     "author_slug": "Alien Pixels",
     "status_slug": "published",
@@ -405,7 +405,7 @@
   {
     "slug": "014",
     "title": "Gleb Kuznetsov",
-    "cover": "covers/014.webp",
+    "cover": "images/covers/014.webp",
     "description": "",
     "author_slug": "Глеб Коптелов",
     "status_slug": "published",
@@ -436,7 +436,7 @@
   {
     "slug": "015",
     "title": "Корейский беханс",
-    "cover": "covers/015.webp",
+    "cover": "images/covers/015.webp",
     "description": "",
     "author_slug": "STUNNING INC.",
     "status_slug": "published",
@@ -467,7 +467,7 @@
   {
     "slug": "016",
     "title": "Navbar Gallery",
-    "cover": "covers/016.webp",
+    "cover": "images/covers/016.webp",
     "description": "Лучшие навигационные панельки, сгруппированные по категориям",
     "author_slug": "Navbar Gallery",
     "status_slug": "published",
@@ -498,7 +498,7 @@
   {
     "slug": "017",
     "title": "DesignVault",
-    "cover": "covers/017.webp",
+    "cover": "images/covers/017.webp",
     "description": "Много лендингов",
     "author_slug": "Design Vault",
     "status_slug": "published",
@@ -529,7 +529,7 @@
   {
     "slug": "018",
     "title": "Case studies",
-    "cover": "covers/018.webp",
+    "cover": "images/covers/018.webp",
     "description": "Есть платная подписка на «Tricks», где обещают показать 300 крутых приемов)",
     "author_slug": "The App Fuel",
     "status_slug": "published",
@@ -560,7 +560,7 @@
   {
     "slug": "019",
     "title": "Page Flow",
-    "cover": "covers/019.webp",
+    "cover": "images/covers/019.webp",
     "description": "",
     "author_slug": "PageFlows",
     "status_slug": "published",
@@ -591,7 +591,7 @@
   {
     "slug": "020",
     "title": "Page flow",
-    "cover": "covers/020.webp",
+    "cover": "images/covers/020.webp",
     "description": "Есть платная подписка",
     "author_slug": "PageFlows",
     "status_slug": "published",
@@ -622,7 +622,7 @@
   {
     "slug": "021",
     "title": "Page flow",
-    "cover": "covers/021.webp",
+    "cover": "images/covers/021.webp",
     "description": "есть платная подписка",
     "author_slug": "PageFlows",
     "status_slug": "published",
@@ -653,7 +653,7 @@
   {
     "slug": "022",
     "title": "Curated UI inspiration library",
-    "cover": "covers/022.webp",
+    "cover": "images/covers/022.webp",
     "description": "Ежедневное обновление Есть подписка на ежедневную рассылку",
     "author_slug": "Kristaps Elsins",
     "status_slug": "published",
@@ -684,7 +684,7 @@
   {
     "slug": "023",
     "title": "Шаблоны от Framer",
-    "cover": "covers/023.webp",
+    "cover": "images/covers/023.webp",
     "description": "Можно запустить демо и потыкаться",
     "author_slug": "Framer",
     "status_slug": "published",
@@ -715,7 +715,7 @@
   {
     "slug": "024",
     "title": "Figcomponents",
-    "cover": "covers/024.webp",
+    "cover": "images/covers/024.webp",
     "description": "Достаточно скопировать понравившийся объект и вставить себе в фигма файл",
     "author_slug": "FigComponents",
     "status_slug": "published",
@@ -746,7 +746,7 @@
   {
     "slug": "025",
     "title": "UX archive",
-    "cover": "covers/025.webp",
+    "cover": "images/covers/025.webp",
     "description": "Сценарии из зарубежных приложений",
     "author_slug": "Waldo",
     "status_slug": "published",
@@ -777,7 +777,7 @@
   {
     "slug": "026",
     "title": "Яндекс-драйв",
-    "cover": "covers/026.webp",
+    "cover": "images/covers/026.webp",
     "description": "",
     "author_slug": "Михаил Озорнин",
     "status_slug": "published",
@@ -808,7 +808,7 @@
   {
     "slug": "027",
     "title": "Либа",
-    "cover": "covers/027.webp",
+    "cover": "images/covers/027.webp",
     "description": "Библиотека экранов с текстами на русском языке Есть сортировка по ToV",
     "author_slug": "Либа",
     "status_slug": "published",
@@ -839,7 +839,7 @@
   {
     "slug": "028",
     "title": "Built for mars",
-    "cover": "covers/028.webp",
+    "cover": "images/covers/028.webp",
     "description": "коллекция находок в дизайне и текстах зарубежных сервисов",
     "author_slug": "Built for Mars",
     "status_slug": "published",
@@ -870,7 +870,7 @@
   {
     "slug": "029",
     "title": "Бенчмарки",
-    "cover": "covers/029.webp",
+    "cover": "images/covers/029.webp",
     "description": "Отечественная база российских приложений + есть скринкасты",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -901,7 +901,7 @@
   {
     "slug": "030",
     "title": "Календарикус",
-    "cover": "covers/030.webp",
+    "cover": "images/covers/030.webp",
     "description": "Коллекция карманных календариков, запечатлевшая в себе все стереотипы дизайна нулевых",
     "author_slug": "Календарикус",
     "status_slug": "published",
@@ -932,7 +932,7 @@
   {
     "slug": "031",
     "title": "Adapty",
-    "cover": "covers/031.webp",
+    "cover": "images/covers/031.webp",
     "description": "",
     "author_slug": "Adapty",
     "status_slug": "published",
@@ -963,7 +963,7 @@
   {
     "slug": "032",
     "title": "Apphud",
-    "cover": "covers/032.webp",
+    "cover": "images/covers/032.webp",
     "description": "",
     "author_slug": "AppHud",
     "status_slug": "published",
@@ -994,7 +994,7 @@
   {
     "slug": "033",
     "title": "Icons8",
-    "cover": "covers/033.webp",
+    "cover": "images/covers/033.webp",
     "description": "Бесплатные иллюстрации",
     "author_slug": "Icons8",
     "status_slug": "published",
@@ -1025,7 +1025,7 @@
   {
     "slug": "034",
     "title": "illustration universe",
-    "cover": "covers/034.webp",
+    "cover": "images/covers/034.webp",
     "description": "Иллюстрации и видео реальных продуктов",
     "author_slug": "Illustrations Universe",
     "status_slug": "published",
@@ -1056,7 +1056,7 @@
   {
     "slug": "035",
     "title": "LooksLike",
-    "cover": "covers/035.webp",
+    "cover": "images/covers/035.webp",
     "description": "Отечественный Mobbin",
     "author_slug": "Craftwork",
     "status_slug": "published",
@@ -1087,7 +1087,7 @@
   {
     "slug": "036",
     "title": "Dimension",
-    "cover": "covers/036.webp",
+    "cover": "images/covers/036.webp",
     "description": "Библиотека объектов с указанием их размеров. Есть платная подписка",
     "author_slug": "Dimensions.com",
     "status_slug": "published",
@@ -1118,7 +1118,7 @@
   {
     "slug": "037",
     "title": "DesignVault",
-    "cover": "covers/037.webp",
+    "cover": "images/covers/037.webp",
     "description": "Сгруппировано по платформам, приложениям и паттернам",
     "author_slug": "Design Vault",
     "status_slug": "published",
@@ -1149,7 +1149,7 @@
   {
     "slug": "038",
     "title": "UISources",
-    "cover": "covers/038.webp",
+    "cover": "images/covers/038.webp",
     "description": "Бесплатно можно только листать коллекцию, смотреть экраны и анимацию взаимодействий Навигация по категориям платная опция",
     "author_slug": "UI Sources",
     "status_slug": "published",
@@ -1180,7 +1180,7 @@
   {
     "slug": "039",
     "title": "Screenshot Inspiration by SC",
-    "cover": "covers/039.webp",
+    "cover": "images/covers/039.webp",
     "description": "Нет поиска",
     "author_slug": "Screenshot Creator",
     "status_slug": "published",
@@ -1211,7 +1211,7 @@
   {
     "slug": "040",
     "title": "Paywallscreens",
-    "cover": "covers/040.webp",
+    "cover": "images/covers/040.webp",
     "description": "Paywall",
     "author_slug": "Paywall Screens",
     "status_slug": "published",
@@ -1242,7 +1242,7 @@
   {
     "slug": "041",
     "title": "Your go-to for design systems",
-    "cover": "covers/041.webp",
+    "cover": "images/covers/041.webp",
     "description": "All the essential resources for setting up the design system",
     "author_slug": "Romina Kavcic",
     "status_slug": "published",
@@ -1273,7 +1273,7 @@
   {
     "slug": "042",
     "title": "Open-Source UI elements for any project",
-    "cover": "covers/042.webp",
+    "cover": "images/covers/042.webp",
     "description": "",
     "author_slug": "Uiverse",
     "status_slug": "published",
@@ -1304,7 +1304,7 @@
   {
     "slug": "043",
     "title": "Codepen",
-    "cover": "covers/043.webp",
+    "cover": "images/covers/043.webp",
     "description": "",
     "author_slug": "CodePen",
     "status_slug": "published",
@@ -1335,7 +1335,7 @@
   {
     "slug": "044",
     "title": "by DVTK",
-    "cover": "covers/044.webp",
+    "cover": "images/covers/044.webp",
     "description": "Авторская подборка",
     "author_slug": "Loadmo",
     "status_slug": "published",
@@ -1366,7 +1366,7 @@
   {
     "slug": "045",
     "title": "Перасперадастра",
-    "cover": "covers/045.webp",
+    "cover": "images/covers/045.webp",
     "description": "",
     "author_slug": "Перасперадастра",
     "status_slug": "published",
@@ -1397,7 +1397,7 @@
   {
     "slug": "046",
     "title": "Много разного",
-    "cover": "covers/046.webp",
+    "cover": "images/covers/046.webp",
     "description": "Реальные сайты",
     "author_slug": "siteInspire",
     "status_slug": "published",
@@ -1428,7 +1428,7 @@
   {
     "slug": "047",
     "title": "by Alexey Sekachov",
-    "cover": "covers/047.webp",
+    "cover": "images/covers/047.webp",
     "description": "С душой. Последнее обновление 5 месяцев назад",
     "author_slug": "Алексей Секачев",
     "status_slug": "published",
@@ -1459,7 +1459,7 @@
   {
     "slug": "048",
     "title": "Паттерны дизайн-менеджмента",
-    "cover": "covers/048.webp",
+    "cover": "images/covers/048.webp",
     "description": "",
     "author_slug": "Юрий Ветров",
     "status_slug": "published",
@@ -1490,7 +1490,7 @@
   {
     "slug": "049",
     "title": "Screenshots.mobi",
-    "cover": "covers/049.webp",
+    "cover": "images/covers/049.webp",
     "description": "",
     "author_slug": "Screenshots.mobi",
     "status_slug": "published",
@@ -1521,7 +1521,7 @@
   {
     "slug": "050",
     "title": "Niceverynice",
-    "cover": "covers/050.webp",
+    "cover": "images/covers/050.webp",
     "description": "Небольшая коллекция компонентов страниц",
     "author_slug": "Nice Very Nice",
     "status_slug": "published",
@@ -1552,7 +1552,7 @@
   {
     "slug": "051",
     "title": "Магнит",
-    "cover": "covers/051.webp",
+    "cover": "images/covers/051.webp",
     "description": "",
     "author_slug": "Артём Флеин, Ваня Соловьёв, Виталий Симанов, Женя Михайлов, Саша Букин, Юрий Ветров",
     "status_slug": "published",
@@ -1583,7 +1583,7 @@
   {
     "slug": "052",
     "title": "Curated.design",
-    "cover": "covers/052.webp",
+    "cover": "images/covers/052.webp",
     "description": "Реальные сайты.  Есть платная подписка на коллекцию различных секций сайтов",
     "author_slug": "Curated Design",
     "status_slug": "published",
@@ -1614,7 +1614,7 @@
   {
     "slug": "053",
     "title": "Calltoinspiration & Calltoidea",
-    "cover": "covers/053.webp",
+    "cover": "images/covers/053.webp",
     "description": "Сгруппировано по разным типовым компонентам",
     "author_slug": "Call to Inspiration",
     "status_slug": "published",
@@ -1645,7 +1645,7 @@
   {
     "slug": "054",
     "title": "Mobbin",
-    "cover": "covers/054.webp",
+    "cover": "images/covers/054.webp",
     "description": "Платный, местами бесплатный. iOS/Web/Android",
     "author_slug": "Mobbin",
     "status_slug": "published",
@@ -1676,7 +1676,7 @@
   {
     "slug": "055",
     "title": "CollectUI",
-    "cover": "covers/055.webp",
+    "cover": "images/covers/055.webp",
     "description": "Всё в кучу(  Есть ежедневная рассылка через плагин в хроме",
     "author_slug": "CollectUI",
     "status_slug": "published",
@@ -1707,7 +1707,7 @@
   {
     "slug": "056",
     "title": "The AppFuel",
-    "cover": "covers/056.webp",
+    "cover": "images/covers/056.webp",
     "description": "Есть группировка по флоу и приложениям",
     "author_slug": "The App Fuel",
     "status_slug": "published",
@@ -1738,7 +1738,7 @@
   {
     "slug": "057",
     "title": "Land-book",
-    "cover": "covers/057.webp",
+    "cover": "images/covers/057.webp",
     "description": "Сборник настоящих сайтов, не картинок",
     "author_slug": "Land Book",
     "status_slug": "published",
@@ -1769,7 +1769,7 @@
   {
     "slug": "058",
     "title": "Refero.design",
-    "cover": "covers/058.webp",
+    "cover": "images/covers/058.webp",
     "description": "Платный. Есть раздел для мобилок, но тоже платный",
     "author_slug": "Refero Design",
     "status_slug": "published",
@@ -1800,7 +1800,7 @@
   {
     "slug": "059",
     "title": "Design Tools Survey (2024)",
-    "cover": "covers/059.webp",
+    "cover": "images/covers/059.webp",
     "description": "",
     "author_slug": "Tommy Geoco",
     "status_slug": "published",
@@ -1831,7 +1831,7 @@
   {
     "slug": "060",
     "title": "Chamjo",
-    "cover": "covers/060.webp",
+    "cover": "images/covers/060.webp",
     "description": "Скрины разных приложений",
     "author_slug": "Chamjo",
     "status_slug": "published",
@@ -1862,7 +1862,7 @@
   {
     "slug": "061",
     "title": "Wojciech Zieliński",
-    "cover": "covers/061.webp",
+    "cover": "images/covers/061.webp",
     "description": "",
     "author_slug": "Acreno",
     "status_slug": "published",
@@ -1893,7 +1893,7 @@
   {
     "slug": "062",
     "title": "yuhang",
-    "cover": "covers/062.webp",
+    "cover": "images/covers/062.webp",
     "description": "Стиль!",
     "author_slug": "Luyuhang",
     "status_slug": "published",
@@ -1924,7 +1924,7 @@
   {
     "slug": "063",
     "title": "iOS challenges",
-    "cover": "covers/063.webp",
+    "cover": "images/covers/063.webp",
     "description": "Вова проводит челленджи по iOS виджетам, приложениям и иконкам",
     "author_slug": "Вова",
     "status_slug": "published",
@@ -1955,7 +1955,7 @@
   {
     "slug": "064",
     "title": "Daily UI",
-    "cover": "covers/064.webp",
+    "cover": "images/covers/064.webp",
     "description": "100 дней — 100 дизайнов",
     "author_slug": "Jon Burgess",
     "status_slug": "published",
@@ -1986,7 +1986,7 @@
   {
     "slug": "065",
     "title": "Дизайн бриф",
-    "cover": "covers/065.webp",
+    "cover": "images/covers/065.webp",
     "description": "",
     "author_slug": "Алёна Чибичик",
     "status_slug": "published",
@@ -2017,7 +2017,7 @@
   {
     "slug": "066",
     "title": "Color Matching",
-    "cover": "covers/066.webp",
+    "cover": "images/covers/066.webp",
     "description": "",
     "author_slug": "UXcel",
     "status_slug": "published",
@@ -2048,7 +2048,7 @@
   {
     "slug": "067",
     "title": "Alignment",
-    "cover": "covers/067.webp",
+    "cover": "images/covers/067.webp",
     "description": "",
     "author_slug": "UXcel",
     "status_slug": "published",
@@ -2079,7 +2079,7 @@
   {
     "slug": "068",
     "title": "Error Spotting",
-    "cover": "covers/068.webp",
+    "cover": "images/covers/068.webp",
     "description": "",
     "author_slug": "UXcel",
     "status_slug": "published",
@@ -2110,7 +2110,7 @@
   {
     "slug": "069",
     "title": "Ultimate UEye",
-    "cover": "covers/069.webp",
+    "cover": "images/covers/069.webp",
     "description": "",
     "author_slug": "UXcel",
     "status_slug": "published",
@@ -2141,7 +2141,7 @@
   {
     "slug": "070",
     "title": "Kolor",
-    "cover": "covers/070.webp",
+    "cover": "images/covers/070.webp",
     "description": "",
     "author_slug": "Jorge Moreno",
     "status_slug": "published",
@@ -2172,7 +2172,7 @@
   {
     "slug": "071",
     "title": "The eyeballing game",
-    "cover": "covers/071.webp",
+    "cover": "images/covers/071.webp",
     "description": "Нужно определять центры фигур",
     "author_slug": "Woodgears",
     "status_slug": "published",
@@ -2203,7 +2203,7 @@
   {
     "slug": "072",
     "title": "Упражнение: композиция",
-    "cover": "covers/072.webp",
+    "cover": "images/covers/072.webp",
     "description": "",
     "author_slug": "Design Exercises",
     "status_slug": "published",
@@ -2234,7 +2234,7 @@
   {
     "slug": "073",
     "title": "Упражнение: животные",
-    "cover": "covers/073.webp",
+    "cover": "images/covers/073.webp",
     "description": "",
     "author_slug": "Design Exercises",
     "status_slug": "published",
@@ -2265,7 +2265,7 @@
   {
     "slug": "074",
     "title": "Упражнение: цвет",
-    "cover": "covers/074.webp",
+    "cover": "images/covers/074.webp",
     "description": "",
     "author_slug": "Design Exercises",
     "status_slug": "published",
@@ -2296,7 +2296,7 @@
   {
     "slug": "075",
     "title": "User Inyerface",
-    "cover": "covers/075.webp",
+    "cover": "images/covers/075.webp",
     "description": "",
     "author_slug": "User Inyerface",
     "status_slug": "published",
@@ -2327,7 +2327,7 @@
   {
     "slug": "076",
     "title": "Библиотека курсов Google",
-    "cover": "covers/076.webp",
+    "cover": "images/covers/076.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -2358,7 +2358,7 @@
   {
     "slug": "077",
     "title": "The Boolean Game",
-    "cover": "covers/077.webp",
+    "cover": "images/covers/077.webp",
     "description": "Практика boolean операций с вектором",
     "author_slug": "Method of Action",
     "status_slug": "published",
@@ -2389,7 +2389,7 @@
   {
     "slug": "078",
     "title": "The Font Game",
-    "cover": "covers/078.webp",
+    "cover": "images/covers/078.webp",
     "description": "",
     "author_slug": "I Love Typography",
     "status_slug": "published",
@@ -2420,7 +2420,7 @@
   {
     "slug": "079",
     "title": "The Bézier Game",
-    "cover": "covers/079.webp",
+    "cover": "images/covers/079.webp",
     "description": "Практика в кривые безье",
     "author_slug": "Method of Action",
     "status_slug": "published",
@@ -2451,7 +2451,7 @@
   {
     "slug": "080",
     "title": "Shot the Serif",
-    "cover": "covers/080.webp",
+    "cover": "images/covers/080.webp",
     "description": "",
     "author_slug": "To The Point",
     "status_slug": "published",
@@ -2482,7 +2482,7 @@
   {
     "slug": "081",
     "title": "ShapeType",
-    "cover": "covers/081.webp",
+    "cover": "images/covers/081.webp",
     "description": "Практика безье в углах букв",
     "author_slug": "Method of Action",
     "status_slug": "published",
@@ -2513,7 +2513,7 @@
   {
     "slug": "082",
     "title": "KernType",
-    "cover": "covers/082.webp",
+    "cover": "images/covers/082.webp",
     "description": "Практика с letter spacing",
     "author_slug": "Method of Action",
     "status_slug": "published",
@@ -2544,7 +2544,7 @@
   {
     "slug": "083",
     "title": "It’s Centred That",
-    "cover": "covers/083.webp",
+    "cover": "images/covers/083.webp",
     "description": "",
     "author_slug": "Supremo",
     "status_slug": "published",
@@ -2575,7 +2575,7 @@
   {
     "slug": "084",
     "title": "The open-source design tool for creatives",
-    "cover": "covers/084.webp",
+    "cover": "images/covers/084.webp",
     "description": "Build custom design tools without writing any code. Create responsive components, pages, and sites that you can use in any type of web project. Style markup templates with curated themes or your own design tokens.",
     "author_slug": "Components.ai",
     "status_slug": "published",
@@ -2606,7 +2606,7 @@
   {
     "slug": "085",
     "title": "Flexbox Froggy",
-    "cover": "covers/085.webp",
+    "cover": "images/covers/085.webp",
     "description": "",
     "author_slug": "Flexbox Froggy",
     "status_slug": "published",
@@ -2637,7 +2637,7 @@
   {
     "slug": "086",
     "title": "Figma Ninja",
-    "cover": "covers/086.webp",
+    "cover": "images/covers/086.webp",
     "description": "",
     "author_slug": "Bernat Fortet",
     "status_slug": "published",
@@ -2668,7 +2668,7 @@
   {
     "slug": "087",
     "title": "Designercize",
-    "cover": "covers/087.webp",
+    "cover": "images/covers/087.webp",
     "description": "",
     "author_slug": "Designercize",
     "status_slug": "published",
@@ -2699,7 +2699,7 @@
   {
     "slug": "088",
     "title": "Better web type",
-    "cover": "covers/088.webp",
+    "cover": "images/covers/088.webp",
     "description": "",
     "author_slug": "Matej Latin",
     "status_slug": "published",
@@ -2730,7 +2730,7 @@
   {
     "slug": "089",
     "title": "Упражнение: шрифт",
-    "cover": "covers/089.webp",
+    "cover": "images/covers/089.webp",
     "description": "",
     "author_slug": "Design Exercises",
     "status_slug": "published",
@@ -2761,7 +2761,7 @@
   {
     "slug": "090",
     "title": "Color",
-    "cover": "covers/090.webp",
+    "cover": "images/covers/090.webp",
     "description": "Практика с цветовыми сочетаниями",
     "author_slug": "Method of Action",
     "status_slug": "published",
@@ -2792,7 +2792,7 @@
   {
     "slug": "091",
     "title": "Can’t Unsee",
-    "cover": "covers/091.webp",
+    "cover": "images/covers/091.webp",
     "description": "",
     "author_slug": "Can't Unsee",
     "status_slug": "published",
@@ -2823,7 +2823,7 @@
   {
     "slug": "092",
     "title": "ivi",
-    "cover": "covers/092.webp",
+    "cover": "images/covers/092.webp",
     "description": "Витрина компонентов, доступен только просмотр",
     "author_slug": "ИВИ",
     "status_slug": "published",
@@ -2854,7 +2854,7 @@
   {
     "slug": "093",
     "title": "Ozon Design",
-    "cover": "covers/093.webp",
+    "cover": "images/covers/093.webp",
     "description": "",
     "author_slug": "Ozon",
     "status_slug": "published",
@@ -2885,7 +2885,7 @@
   {
     "slug": "094",
     "title": "Material",
-    "cover": "covers/094.webp",
+    "cover": "images/covers/094.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -2916,7 +2916,7 @@
   {
     "slug": "095",
     "title": "Gestalt",
-    "cover": "covers/095.webp",
+    "cover": "images/covers/095.webp",
     "description": "Pinterest",
     "author_slug": "Pinterest",
     "status_slug": "published",
@@ -2947,7 +2947,7 @@
   {
     "slug": "096",
     "title": "iOS 18 Kit",
-    "cover": "covers/096.webp",
+    "cover": "images/covers/096.webp",
     "description": "Внутри: - Гайд по компонентам с иллюстрациями разных кейсов применения - Ui Kit Компонентов iOS 18 для iPhone - Переключение темы и языка в 1 клик",
     "author_slug": "Глеб Качалкин",
     "status_slug": "published",
@@ -2978,7 +2978,7 @@
   {
     "slug": "097",
     "title": "Auro",
-    "cover": "covers/097.webp",
+    "cover": "images/covers/097.webp",
     "description": "",
     "author_slug": "Alaska Airlines",
     "status_slug": "published",
@@ -3009,7 +3009,7 @@
   {
     "slug": "098",
     "title": "Radix",
-    "cover": "covers/098.webp",
+    "cover": "images/covers/098.webp",
     "description": "",
     "author_slug": "Radix UI",
     "status_slug": "published",
@@ -3040,7 +3040,7 @@
   {
     "slug": "099",
     "title": "Polaris",
-    "cover": "covers/099.webp",
+    "cover": "images/covers/099.webp",
     "description": "",
     "author_slug": "Shopify",
     "status_slug": "published",
@@ -3071,7 +3071,7 @@
   {
     "slug": 100,
     "title": "Push notification tester",
-    "cover": "covers/100.webp",
+    "cover": "images/covers/100.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -3102,7 +3102,7 @@
   {
     "slug": 101,
     "title": "Пример вёрстки таблиц от AG Grid",
-    "cover": "covers/101.webp",
+    "cover": "images/covers/101.webp",
     "description": "",
     "author_slug": "AG Grid Team",
     "status_slug": "published",
@@ -3133,7 +3133,7 @@
   {
     "slug": 102,
     "title": "Про доступность iOS",
-    "cover": "covers/102.webp",
+    "cover": "images/covers/102.webp",
     "description": "",
     "author_slug": "Михаил Рубанов",
     "status_slug": "published",
@@ -3164,7 +3164,7 @@
   {
     "slug": 103,
     "title": "Uxcel",
-    "cover": "covers/103.webp",
+    "cover": "images/covers/103.webp",
     "description": "В фигме лежат файлы для исследований, а UI кит надо отдельно импортировать (файл прикреплен)",
     "author_slug": "UXcel",
     "status_slug": "published",
@@ -3195,7 +3195,7 @@
   {
     "slug": 104,
     "title": "MUI",
-    "cover": "covers/104.webp",
+    "cover": "images/covers/104.webp",
     "description": "",
     "author_slug": "MUI",
     "status_slug": "published",
@@ -3226,7 +3226,7 @@
   {
     "slug": 105,
     "title": "The component gallery",
-    "cover": "covers/105.webp",
+    "cover": "images/covers/105.webp",
     "description": "Сборник типовых компонентов с отсылками на разные ДС",
     "author_slug": "Component Gallery",
     "status_slug": "published",
@@ -3257,7 +3257,7 @@
   {
     "slug": 106,
     "title": "Design Systems Database",
-    "cover": "covers/106.webp",
+    "cover": "images/covers/106.webp",
     "description": "Сборник ссылок на компоненты в разных ДС",
     "author_slug": "Илья Гребен",
     "status_slug": "published",
@@ -3288,7 +3288,7 @@
   {
     "slug": 107,
     "title": "Fontshare™",
-    "cover": "covers/107.webp",
+    "cover": "images/covers/107.webp",
     "description": "",
     "author_slug": "Indian Type Foundry",
     "status_slug": "published",
@@ -3319,7 +3319,7 @@
   {
     "slug": 108,
     "title": "Uber",
-    "cover": "covers/108.webp",
+    "cover": "images/covers/108.webp",
     "description": "",
     "author_slug": "Uber",
     "status_slug": "published",
@@ -3350,7 +3350,7 @@
   {
     "slug": 109,
     "title": "Плагины с описанием",
-    "cover": "covers/109.webp",
+    "cover": "images/covers/109.webp",
     "description": "",
     "author_slug": "Алексей Бычков",
     "status_slug": "published",
@@ -3381,7 +3381,7 @@
   {
     "slug": 110,
     "title": "WCAG 2.2",
-    "cover": "covers/110.webp",
+    "cover": "images/covers/110.webp",
     "description": "",
     "author_slug": "W3C",
     "status_slug": "published",
@@ -3412,7 +3412,7 @@
   {
     "slug": 111,
     "title": "Коллекция от Figma",
-    "cover": "covers/111.webp",
+    "cover": "images/covers/111.webp",
     "description": "",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -3443,7 +3443,7 @@
   {
     "slug": 112,
     "title": "МТС",
-    "cover": "covers/112.webp",
+    "cover": "images/covers/112.webp",
     "description": "",
     "author_slug": "МТС",
     "status_slug": "published",
@@ -3474,7 +3474,7 @@
   {
     "slug": 113,
     "title": "Infogra",
-    "cover": "covers/113.webp",
+    "cover": "images/covers/113.webp",
     "description": "Помогают дизайнерам расти и развиваться: публикуют учебные и рабочие материалы бесплатно",
     "author_slug": "Infogra",
     "status_slug": "published",
@@ -3505,7 +3505,7 @@
   {
     "slug": 114,
     "title": "Создание DS в Notion",
-    "cover": "covers/114.webp",
+    "cover": "images/covers/114.webp",
     "description": "",
     "author_slug": "Notion",
     "status_slug": "published",
@@ -3536,7 +3536,7 @@
   {
     "slug": 115,
     "title": "Design Systems for Figma",
-    "cover": "covers/115.webp",
+    "cover": "images/covers/115.webp",
     "description": "",
     "author_slug": "Josh Cusick",
     "status_slug": "published",
@@ -3567,7 +3567,7 @@
   {
     "slug": 116,
     "title": "UX Challenges",
-    "cover": "covers/116.webp",
+    "cover": "images/covers/116.webp",
     "description": "",
     "author_slug": "Tommy Geoco",
     "status_slug": "published",
@@ -3598,7 +3598,7 @@
   {
     "slug": 117,
     "title": "Laws of UX",
-    "cover": "covers/117.webp",
+    "cover": "images/covers/117.webp",
     "description": "Laws of UX is a collection of best practices that designers can consider when building user interfaces.",
     "author_slug": "Jon Yablonski",
     "status_slug": "published",
@@ -3629,7 +3629,7 @@
   {
     "slug": 118,
     "title": "КТО СТУДЕНТ",
-    "cover": "covers/118.webp",
+    "cover": "images/covers/118.webp",
     "description": "Независимый журнал студентов Школы Бюро Горбунова",
     "author_slug": "Кто студент",
     "status_slug": "published",
@@ -3660,7 +3660,7 @@
   {
     "slug": 119,
     "title": "Summary slides apple event presentation",
-    "cover": "covers/119.webp",
+    "cover": "images/covers/119.webp",
     "description": "Суммарные слайды на презентации Apple",
     "author_slug": "Ricky Zhang",
     "status_slug": "published",
@@ -3691,7 +3691,7 @@
   {
     "slug": 120,
     "title": "Yesviz",
-    "cover": "covers/120.webp",
+    "cover": "images/covers/120.webp",
     "description": "Screen Dimensions for Devices",
     "author_slug": "Yesviz.com",
     "status_slug": "published",
@@ -3722,7 +3722,7 @@
   {
     "slug": 121,
     "title": "Guide for Naming Assets in iOS Projects",
-    "cover": "covers/121.webp",
+    "cover": "images/covers/121.webp",
     "description": "",
     "author_slug": "dkhamsing",
     "status_slug": "published",
@@ -3753,7 +3753,7 @@
   {
     "slug": 122,
     "title": "iOS 16. Разбор гайдлайна",
-    "cover": "covers/122.webp",
+    "cover": "images/covers/122.webp",
     "description": "На 2х языках",
     "author_slug": "Learn UI Design",
     "status_slug": "published",
@@ -3784,7 +3784,7 @@
   {
     "slug": 123,
     "title": "Stack Sorted",
-    "cover": "covers/123.webp",
+    "cover": "images/covers/123.webp",
     "description": "Разные элементы с реальных сайтов + код (при наличии)",
     "author_slug": "Juxtopposed",
     "status_slug": "published",
@@ -3815,7 +3815,7 @@
   {
     "slug": 124,
     "title": "Semrush",
-    "cover": "covers/124.webp",
+    "cover": "images/covers/124.webp",
     "description": "",
     "author_slug": "Semrush",
     "status_slug": "published",
@@ -3846,7 +3846,7 @@
   {
     "slug": 125,
     "title": "i love graffiti.",
-    "cover": "covers/125.webp",
+    "cover": "images/covers/125.webp",
     "description": "Граффити",
     "author_slug": "Oliver Gelbrich",
     "status_slug": "published",
@@ -3877,7 +3877,7 @@
   {
     "slug": 126,
     "title": "ohuenko",
-    "cover": "covers/126.webp",
+    "cover": "images/covers/126.webp",
     "description": "Исходники иллюстраций ВК и Телеграма",
     "author_slug": "Андрей Яковенко",
     "status_slug": "published",
@@ -3908,7 +3908,7 @@
   {
     "slug": 127,
     "title": "Додо",
-    "cover": "covers/127.webp",
+    "cover": "images/covers/127.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -3939,7 +3939,7 @@
   {
     "slug": 128,
     "title": "Библиотека дизайна",
-    "cover": "covers/128.webp",
+    "cover": "images/covers/128.webp",
     "description": "",
     "author_slug": "Перасперадастра",
     "status_slug": "published",
@@ -3970,7 +3970,7 @@
   {
     "slug": 129,
     "title": "404 ошибки",
-    "cover": "covers/129.webp",
+    "cover": "images/covers/129.webp",
     "description": "",
     "author_slug": "Алексей Бычков",
     "status_slug": "published",
@@ -4001,7 +4001,7 @@
   {
     "slug": 130,
     "title": "SAP Design System",
-    "cover": "covers/130.webp",
+    "cover": "images/covers/130.webp",
     "description": "Отдельные киты для iOS, Android, Web, watchOS, Wear OS",
     "author_slug": "SAP",
     "status_slug": "published",
@@ -4032,7 +4032,7 @@
   {
     "slug": 131,
     "title": "Tetrisly",
-    "cover": "covers/131.webp",
+    "cover": "images/covers/131.webp",
     "description": "",
     "author_slug": "Tetrisly",
     "status_slug": "published",
@@ -4063,7 +4063,7 @@
   {
     "slug": 132,
     "title": "Version Museum",
-    "cover": "covers/132.webp",
+    "cover": "images/covers/132.webp",
     "description": "Скриншоты многих ОС с разных времён",
     "author_slug": "Version Museum",
     "status_slug": "published",
@@ -4094,7 +4094,7 @@
   {
     "slug": 133,
     "title": "Salesforce",
-    "cover": "covers/133.webp",
+    "cover": "images/covers/133.webp",
     "description": "",
     "author_slug": "Salesforce",
     "status_slug": "published",
@@ -4125,7 +4125,7 @@
   {
     "slug": 134,
     "title": "КОД",
-    "cover": "covers/134.webp",
+    "cover": "images/covers/134.webp",
     "description": "ДС из России",
     "author_slug": "Андрей Сундиев, Юрий Ветров",
     "status_slug": "published",
@@ -4156,7 +4156,7 @@
   {
     "slug": 135,
     "title": "Garden",
-    "cover": "covers/135.webp",
+    "cover": "images/covers/135.webp",
     "description": "",
     "author_slug": "Zendesk",
     "status_slug": "published",
@@ -4187,7 +4187,7 @@
   {
     "slug": 136,
     "title": "Все ДС",
-    "cover": "covers/136.webp",
+    "cover": "images/covers/136.webp",
     "description": "Для детального изучения нейминга и состава ДС",
     "author_slug": "Storybook",
     "status_slug": "published",
@@ -4218,7 +4218,7 @@
   {
     "slug": 137,
     "title": "Xsolla ZK UI",
-    "cover": "covers/137.webp",
+    "cover": "images/covers/137.webp",
     "description": "",
     "author_slug": "Xsolla",
     "status_slug": "published",
@@ -4249,7 +4249,7 @@
   {
     "slug": 138,
     "title": "VKUI Common Library",
-    "cover": "covers/138.webp",
+    "cover": "images/covers/138.webp",
     "description": "это библиотека адаптивных React-компонентов. С ее помощью вы сможете создавать веб-приложения и VK Mini Apps в экосистеме ВКонтакте.",
     "author_slug": "VK",
     "status_slug": "published",
@@ -4280,7 +4280,7 @@
   {
     "slug": 139,
     "title": "TAMAGUI",
-    "cover": "covers/139.webp",
+    "cover": "images/covers/139.webp",
     "description": "",
     "author_slug": "Tamagui",
     "status_slug": "published",
@@ -4311,7 +4311,7 @@
   {
     "slug": 140,
     "title": "Альфа",
-    "cover": "covers/140.webp",
+    "cover": "images/covers/140.webp",
     "description": "",
     "author_slug": "Альфа Банк",
     "status_slug": "published",
@@ -4342,7 +4342,7 @@
   {
     "slug": 141,
     "title": "Контур Гайды",
-    "cover": "covers/141.webp",
+    "cover": "images/covers/141.webp",
     "description": "",
     "author_slug": "Контур",
     "status_slug": "published",
@@ -4373,7 +4373,7 @@
   {
     "slug": 142,
     "title": "Logify",
-    "cover": "covers/142.webp",
+    "cover": "images/covers/142.webp",
     "description": "Составляет автоматические истории изменений",
     "author_slug": "Павел",
     "status_slug": "published",
@@ -4404,7 +4404,7 @@
   {
     "slug": 143,
     "title": "M2",
-    "cover": "covers/143.webp",
+    "cover": "images/covers/143.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -4435,7 +4435,7 @@
   {
     "slug": 144,
     "title": "Перевод HIG 2023-2024",
-    "cover": "covers/144.webp",
+    "cover": "images/covers/144.webp",
     "description": "",
     "author_slug": "Руслан Шарипов",
     "status_slug": "published",
@@ -4466,7 +4466,7 @@
   {
     "slug": 145,
     "title": "Alfa Digital Design & Discovery Meetup #1",
-    "cover": "covers/145.webp",
+    "cover": "images/covers/145.webp",
     "description": "Альфа-Банк, Лаборатория клиентского опыта Wonderfull",
     "author_slug": "Альфа Банк",
     "status_slug": "published",
@@ -4497,7 +4497,7 @@
   {
     "slug": 146,
     "title": "Tailwind",
-    "cover": "covers/146.webp",
+    "cover": "images/covers/146.webp",
     "description": "Без фигма кита",
     "author_slug": "Tailwind Labs",
     "status_slug": "published",
@@ -4528,7 +4528,7 @@
   {
     "slug": 147,
     "title": "Фестиваль креативных индустрий",
-    "cover": "covers/147.webp",
+    "cover": "images/covers/147.webp",
     "description": "Собирают крутые кейсы по разным направлениям",
     "author_slug": "G8 Art",
     "status_slug": "published",
@@ -4559,7 +4559,7 @@
   {
     "slug": 148,
     "title": "UX Advices",
-    "cover": "covers/148.webp",
+    "cover": "images/covers/148.webp",
     "description": "",
     "author_slug": "Александр Павлов",
     "status_slug": "published",
@@ -4590,7 +4590,7 @@
   {
     "slug": 149,
     "title": "Cyreal Type Foundry",
-    "cover": "covers/149.webp",
+    "cover": "images/covers/149.webp",
     "description": "Создатель Lobster",
     "author_slug": "Алексей Ваняшин",
     "status_slug": "published",
@@ -4621,7 +4621,7 @@
   {
     "slug": 150,
     "title": "Shadcn Studio",
-    "cover": "covers/150.webp",
+    "cover": "images/covers/150.webp",
     "description": "",
     "author_slug": "Ajay Patel, Anand Designer",
     "status_slug": "published",
@@ -4652,7 +4652,7 @@
   {
     "slug": 151,
     "title": "The Vault",
-    "cover": "covers/151.webp",
+    "cover": "images/covers/151.webp",
     "description": "",
     "author_slug": "Nguyen",
     "status_slug": "published",
@@ -4683,7 +4683,7 @@
   {
     "slug": 152,
     "title": "Telegram Challenges Contest",
-    "cover": "covers/152.webp",
+    "cover": "images/covers/152.webp",
     "description": "Developer Challenges. Кладезь чужих проектов, которые стали победителями Телеги",
     "author_slug": "Contest",
     "status_slug": "published",
@@ -4714,7 +4714,7 @@
   {
     "slug": 153,
     "title": "Гайд по визуальному дизайну в интерфейсах",
-    "cover": "covers/153.webp",
+    "cover": "images/covers/153.webp",
     "description": "Этот гайд построен на наблюдениях за дизайнерами с курса по дизайну цифровых продуктов",
     "author_slug": "Niko Ohmy, Нина Мокерова",
     "status_slug": "published",
@@ -4745,7 +4745,7 @@
   {
     "slug": 154,
     "title": "Сборник QA для подписчиков",
-    "cover": "covers/154.webp",
+    "cover": "images/covers/154.webp",
     "description": "Ответы на вопросы подписчиков",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -4776,7 +4776,7 @@
   {
     "slug": 155,
     "title": "300+ портфолио дизайнеров",
-    "cover": "covers/155.webp",
+    "cover": "images/covers/155.webp",
     "description": "",
     "author_slug": "Александр Варанцов",
     "status_slug": "published",
@@ -4807,7 +4807,7 @@
   {
     "slug": 156,
     "title": "INLY",
-    "cover": "covers/156.webp",
+    "cover": "images/covers/156.webp",
     "description": "Много полезного",
     "author_slug": "INLY",
     "status_slug": "published",
@@ -4838,7 +4838,7 @@
   {
     "slug": 157,
     "title": "Flyon UI",
-    "cover": "covers/157.webp",
+    "cover": "images/covers/157.webp",
     "description": "Есть платная версия и Гибли тема",
     "author_slug": "FlyonUI",
     "status_slug": "published",
@@ -4869,7 +4869,7 @@
   {
     "slug": 158,
     "title": "Глоссарий продуктовых метрик v1",
-    "cover": "covers/158.webp",
+    "cover": "images/covers/158.webp",
     "description": "",
     "author_slug": "Павел Бухтик",
     "status_slug": "published",
@@ -4900,7 +4900,7 @@
   {
     "slug": 159,
     "title": "Визуалка - делаем и качаемся",
-    "cover": "covers/159.webp",
+    "cover": "images/covers/159.webp",
     "description": "Много советов по улучшению визуала",
     "author_slug": "Виви",
     "status_slug": "published",
@@ -4931,7 +4931,7 @@
   {
     "slug": 160,
     "title": "Design-Pattern Guidelines: Study Guide",
-    "cover": "covers/160.webp",
+    "cover": "images/covers/160.webp",
     "description": "",
     "author_slug": "Alita Kendrick, Samhita Tankala",
     "status_slug": "published",
@@ -4962,7 +4962,7 @@
   {
     "slug": 161,
     "title": "10 Usability Heuristics for User Interface Design",
-    "cover": "covers/161.webp",
+    "cover": "images/covers/161.webp",
     "description": "",
     "author_slug": "Jakob Nielsen",
     "status_slug": "published",
@@ -4993,7 +4993,7 @@
   {
     "slug": 162,
     "title": "Atlassian",
-    "cover": "covers/162.webp",
+    "cover": "images/covers/162.webp",
     "description": "",
     "author_slug": "Atlassian",
     "status_slug": "published",
@@ -5024,7 +5024,7 @@
   {
     "slug": 163,
     "title": "ДизайнПросмотр 2022",
-    "cover": "covers/163.webp",
+    "cover": "images/covers/163.webp",
     "description": "",
     "author_slug": "Нежный PR",
     "status_slug": "published",
@@ -5055,7 +5055,7 @@
   {
     "slug": 164,
     "title": "Недиван",
-    "cover": "covers/164.webp",
+    "cover": "images/covers/164.webp",
     "description": "",
     "author_slug": "LDWG",
     "status_slug": "published",
@@ -5086,7 +5086,7 @@
   {
     "slug": 165,
     "title": "Дизайн-процесс",
-    "cover": "covers/165.webp",
+    "cover": "images/covers/165.webp",
     "description": "",
     "author_slug": "Иван Звяхин",
     "status_slug": "published",
@@ -5117,7 +5117,7 @@
   {
     "slug": 166,
     "title": "UX Library",
-    "cover": "covers/166.webp",
+    "cover": "images/covers/166.webp",
     "description": "Подробное руководство по UX. Автор собрал всё сам",
     "author_slug": "Zosh",
     "status_slug": "published",
@@ -5148,7 +5148,7 @@
   {
     "slug": 167,
     "title": "Code my UI",
-    "cover": "covers/167.webp",
+    "cover": "images/covers/167.webp",
     "description": "",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -5179,7 +5179,7 @@
   {
     "slug": 168,
     "title": "Игорь Штанг",
-    "cover": "covers/168.webp",
+    "cover": "images/covers/168.webp",
     "description": "Авторские статьи и переверстки по просьбам читателей",
     "author_slug": "Игорь Штанг",
     "status_slug": "published",
@@ -5210,7 +5210,7 @@
   {
     "slug": 169,
     "title": "Советы",
-    "cover": "covers/169.webp",
+    "cover": "images/covers/169.webp",
     "description": "Много полезной информации",
     "author_slug": "Бюро Горбунова",
     "status_slug": "published",
@@ -5241,7 +5241,7 @@
   {
     "slug": 170,
     "title": "ГЛАВРЕД",
-    "cover": "covers/170.webp",
+    "cover": "images/covers/170.webp",
     "description": "",
     "author_slug": "Максим Ильяхов",
     "status_slug": "published",
@@ -5272,7 +5272,7 @@
   {
     "slug": 171,
     "title": "Дайджесты продуктового дизайна",
-    "cover": "covers/171.webp",
+    "cover": "images/covers/171.webp",
     "description": "Ежемесячный дайджест",
     "author_slug": "Юрий Ветров",
     "status_slug": "published",
@@ -5303,7 +5303,7 @@
   {
     "slug": 172,
     "title": "Илья Бирман",
-    "cover": "covers/172.webp",
+    "cover": "images/covers/172.webp",
     "description": "",
     "author_slug": "Илья Бирман",
     "status_slug": "published",
@@ -5334,7 +5334,7 @@
   {
     "slug": 173,
     "title": "/designer",
-    "cover": "covers/173.webp",
+    "cover": "images/covers/173.webp",
     "description": "Образовательный проект о продуктовом дизайне, интерфейсах, Figma, карьере дизайнера и эмиграции",
     "author_slug": "Саша Окунев",
     "status_slug": "published",
@@ -5365,7 +5365,7 @@
   {
     "slug": 174,
     "title": "Библиотека дизайна",
-    "cover": "covers/174.webp",
+    "cover": "images/covers/174.webp",
     "description": "",
     "author_slug": "Перасперадастра",
     "status_slug": "published",
@@ -5396,7 +5396,7 @@
   {
     "slug": 175,
     "title": "Зарплаты дизайнеров",
-    "cover": "covers/175.webp",
+    "cover": "images/covers/175.webp",
     "description": "",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -5427,7 +5427,7 @@
   {
     "slug": 176,
     "title": "Дизайн-выходные 2022",
-    "cover": "covers/176.webp",
+    "cover": "images/covers/176.webp",
     "description": "Ссылка на конспекты",
     "author_slug": "Нежный PR",
     "status_slug": "published",
@@ -5458,7 +5458,7 @@
   {
     "slug": 177,
     "title": "500+ Productivity Resources",
-    "cover": "covers/177.webp",
+    "cover": "images/covers/177.webp",
     "description": "500 полезных ресурсов",
     "author_slug": "Ignacio Velasquez",
     "status_slug": "published",
@@ -5489,7 +5489,7 @@
   {
     "slug": 178,
     "title": "Дизайн ресурсы · β",
-    "cover": "covers/178.webp",
+    "cover": "images/covers/178.webp",
     "description": "",
     "author_slug": "Макс Брызгалов",
     "status_slug": "published",
@@ -5520,7 +5520,7 @@
   {
     "slug": 179,
     "title": "Checklist Design",
-    "cover": "covers/179.webp",
+    "cover": "images/covers/179.webp",
     "description": "Коллекция дизайн практик",
     "author_slug": "George Hatzis",
     "status_slug": "published",
@@ -5551,7 +5551,7 @@
   {
     "slug": 180,
     "title": "SaaSFrame",
-    "cover": "covers/180.webp",
+    "cover": "images/covers/180.webp",
     "description": "Фильтры доступны только в платной версии",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -5582,7 +5582,7 @@
   {
     "slug": 181,
     "title": "GoodUI",
-    "cover": "covers/181.webp",
+    "cover": "images/covers/181.webp",
     "description": "",
     "author_slug": "Jakub Linowski",
     "status_slug": "published",
@@ -5613,7 +5613,7 @@
   {
     "slug": 182,
     "title": "UI Patterns",
-    "cover": "covers/182.webp",
+    "cover": "images/covers/182.webp",
     "description": "",
     "author_slug": "Learning Loop",
     "status_slug": "published",
@@ -5644,7 +5644,7 @@
   {
     "slug": 183,
     "title": "SaaS Pages",
-    "cover": "covers/183.webp",
+    "cover": "images/covers/183.webp",
     "description": "",
     "author_slug": "Versoly",
     "status_slug": "published",
@@ -5675,7 +5675,7 @@
   {
     "slug": 184,
     "title": "Bestfolios",
-    "cover": "covers/184.webp",
+    "cover": "images/covers/184.webp",
     "description": "",
     "author_slug": "Bestfolios",
     "status_slug": "published",
@@ -5706,7 +5706,7 @@
   {
     "slug": 185,
     "title": "WANNABE 3D LIBRARY FULL",
-    "cover": "covers/185.webp",
+    "cover": "images/covers/185.webp",
     "description": "Пак 3D моделей",
     "author_slug": "Миша Розов",
     "status_slug": "published",
@@ -5737,7 +5737,7 @@
   {
     "slug": 186,
     "title": "Noise GIFs",
-    "cover": "covers/186.webp",
+    "cover": "images/covers/186.webp",
     "description": "Подборка из 41 шумов",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -5768,7 +5768,7 @@
   {
     "slug": 187,
     "title": "Landingfolio",
-    "cover": "covers/187.webp",
+    "cover": "images/covers/187.webp",
     "description": "",
     "author_slug": "David Lo Dico",
     "status_slug": "published",
@@ -5799,7 +5799,7 @@
   {
     "slug": 188,
     "title": "Motion.ed",
-    "cover": "covers/188.webp",
+    "cover": "images/covers/188.webp",
     "description": "",
     "author_slug": "Zajno",
     "status_slug": "published",
@@ -5830,7 +5830,7 @@
   {
     "slug": 189,
     "title": "Bento.me",
-    "cover": "covers/189.webp",
+    "cover": "images/covers/189.webp",
     "description": "Для создания своей бенто странички",
     "author_slug": "Bento",
     "status_slug": "published",
@@ -5861,7 +5861,7 @@
   {
     "slug": 190,
     "title": "Read.cv",
-    "cover": "covers/190.webp",
+    "cover": "images/covers/190.webp",
     "description": "",
     "author_slug": "Andy Chung, Mehdi Mulani, Shen",
     "status_slug": "published",
@@ -5892,7 +5892,7 @@
   {
     "slug": 191,
     "title": "Webzibition",
-    "cover": "covers/191.webp",
+    "cover": "images/covers/191.webp",
     "description": "+2000 отобранных сайтов",
     "author_slug": "Codrops",
     "status_slug": "published",
@@ -5923,7 +5923,7 @@
   {
     "slug": 192,
     "title": "Rotato",
-    "cover": "covers/192.webp",
+    "cover": "images/covers/192.webp",
     "description": "",
     "author_slug": "Morten Just",
     "status_slug": "published",
@@ -5954,7 +5954,7 @@
   {
     "slug": 193,
     "title": "Thangs",
-    "cover": "covers/193.webp",
+    "cover": "images/covers/193.webp",
     "description": "Маркетплейс 3D моделек",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -5985,7 +5985,7 @@
   {
     "slug": 194,
     "title": "Oliver Byrne's \"The first six books of the Elements of Euclid”",
-    "cover": "covers/194.webp",
+    "cover": "images/covers/194.webp",
     "description": "Оцифрованная версия первых шесть книг начал Евклида Есть перевод на русский язык",
     "author_slug": "Сергей Слюсарев",
     "status_slug": "published",
@@ -6016,7 +6016,7 @@
   {
     "slug": 195,
     "title": "История России в фотографиях",
-    "cover": "covers/195.webp",
+    "cover": "images/covers/195.webp",
     "description": "О проекте: Мы объединяем фотографии, созданные в России с XIX века до конца 1999 года и создаем единую фотолетопись нашей страны, в которую может войти каждый На портале 180 000+ фотографий",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -6047,7 +6047,7 @@
   {
     "slug": 196,
     "title": "Demos Hub",
-    "cover": "covers/196.webp",
+    "cover": "images/covers/196.webp",
     "description": "+500 бесплатных материалов",
     "author_slug": "Codrops",
     "status_slug": "published",
@@ -6078,7 +6078,7 @@
   {
     "slug": 197,
     "title": "Onboarding UX Patterns",
-    "cover": "covers/197.webp",
+    "cover": "images/covers/197.webp",
     "description": "Онбординги",
     "author_slug": "Samuel Hulick",
     "status_slug": "published",
@@ -6109,7 +6109,7 @@
   {
     "slug": 198,
     "title": "DS events",
-    "cover": "covers/198.webp",
+    "cover": "images/covers/198.webp",
     "description": "Справочник о всех мероприятиях, посвящённых ДСкам Есть RSS и iCal рассылки",
     "author_slug": "DS Events, Josh Harwood",
     "status_slug": "published",
@@ -6140,7 +6140,7 @@
   {
     "slug": 199,
     "title": "Большая российская энциклопедия",
-    "cover": "covers/199.webp",
+    "cover": "images/covers/199.webp",
     "description": "",
     "author_slug": "АНО БРЭ",
     "status_slug": "published",
@@ -6171,7 +6171,7 @@
   {
     "slug": 200,
     "title": "Исследование продуктовых дизайнеров (2023)",
-    "cover": "covers/200.webp",
+    "cover": "images/covers/200.webp",
     "description": "",
     "author_slug": "Devcrowd",
     "status_slug": "published",
@@ -6202,7 +6202,7 @@
   {
     "slug": 201,
     "title": "Карьерный цех",
-    "cover": "covers/201.webp",
+    "cover": "images/covers/201.webp",
     "description": "Конкурсы для айтишников",
     "author_slug": "Career Factory",
     "status_slug": "published",
@@ -6233,7 +6233,7 @@
   {
     "slug": 202,
     "title": "SaaS landing page examples",
-    "cover": "covers/202.webp",
+    "cover": "images/covers/202.webp",
     "description": "Лендинги, много лендингов Есть сортировка по блокам лендинга",
     "author_slug": "Davide Pacilio, Pasquale Vitiello",
     "status_slug": "published",
@@ -6264,7 +6264,7 @@
   {
     "slug": 203,
     "title": "Bentogrids",
-    "cover": "covers/203.webp",
+    "cover": "images/covers/203.webp",
     "description": "",
     "author_slug": "Bento",
     "status_slug": "published",
@@ -6295,7 +6295,7 @@
   {
     "slug": 204,
     "title": "3000+ портфолио дизайнеров",
-    "cover": "covers/204.webp",
+    "cover": "images/covers/204.webp",
     "description": "",
     "author_slug": "Женя Шевцов",
     "status_slug": "published",
@@ -6326,7 +6326,7 @@
   {
     "slug": 205,
     "title": "Шаблоны для портфолио во Framer",
-    "cover": "covers/205.webp",
+    "cover": "images/covers/205.webp",
     "description": "",
     "author_slug": "Framer",
     "status_slug": "published",
@@ -6357,7 +6357,7 @@
   {
     "slug": 206,
     "title": "Подборка портфолио #2",
-    "cover": "covers/206.webp",
+    "cover": "images/covers/206.webp",
     "description": "",
     "author_slug": "Andrew Vivil",
     "status_slug": "published",
@@ -6388,7 +6388,7 @@
   {
     "slug": 207,
     "title": "Подборка портфолио #1",
-    "cover": "covers/207.webp",
+    "cover": "images/covers/207.webp",
     "description": "",
     "author_slug": "Влад Калашников",
     "status_slug": "published",
@@ -6419,7 +6419,7 @@
   {
     "slug": 208,
     "title": "What is My Viewport",
-    "cover": "covers/208.webp",
+    "cover": "images/covers/208.webp",
     "description": "Узнать вьюпорт окна браузера/монитора",
     "author_slug": "What Is My Viewport",
     "status_slug": "published",
@@ -6450,7 +6450,7 @@
   {
     "slug": 209,
     "title": "App Motion",
-    "cover": "covers/209.webp",
+    "cover": "images/covers/209.webp",
     "description": "Скринкасты анимаций взаимодействия",
     "author_slug": "Appmotion",
     "status_slug": "published",
@@ -6481,7 +6481,7 @@
   {
     "slug": 210,
     "title": "Stolen Buttons",
-    "cover": "covers/210.webp",
+    "cover": "images/covers/210.webp",
     "description": "Коллекция стыренных кнопок Есть плагин в хроме, который соберёт ваши кнопки с чужих сайтов",
     "author_slug": "Анатолий Зенков",
     "status_slug": "published",
@@ -6512,7 +6512,7 @@
   {
     "slug": 211,
     "title": "Фичизм",
-    "cover": "covers/211.webp",
+    "cover": "images/covers/211.webp",
     "description": "",
     "author_slug": "Алексей Подклетнов",
     "status_slug": "published",
@@ -6543,7 +6543,7 @@
   {
     "slug": 212,
     "title": "Shapes 2.0",
-    "cover": "covers/212.webp",
+    "cover": "images/covers/212.webp",
     "description": "120+ SVG шейпов",
     "author_slug": "Monika michalczyk",
     "status_slug": "published",
@@ -6574,7 +6574,7 @@
   {
     "slug": 213,
     "title": "Папки со всякими приколюхами",
-    "cover": "covers/213.webp",
+    "cover": "images/covers/213.webp",
     "description": "#клад - коллекция достойных пнг выловленная из тучи разных каналов и ресурсов. Она не раз выручала автора в горящие дедлайны и когда просто нужно сделать «что-то прикольное»",
     "author_slug": "Полина",
     "status_slug": "published",
@@ -6605,7 +6605,7 @@
   {
     "slug": 214,
     "title": "Scrnshts",
-    "cover": "covers/214.webp",
+    "cover": "images/covers/214.webp",
     "description": "",
     "author_slug": "Scrnshts Club",
     "status_slug": "published",
@@ -6636,7 +6636,7 @@
   {
     "slug": 215,
     "title": "One Page Love",
-    "cover": "covers/215.webp",
+    "cover": "images/covers/215.webp",
     "description": "+8000 лендингов",
     "author_slug": "Rob Hope",
     "status_slug": "published",
@@ -6667,7 +6667,7 @@
   {
     "slug": 216,
     "title": "Яндекс Go (разные направления)",
-    "cover": "covers/216.webp",
+    "cover": "images/covers/216.webp",
     "description": "",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -6698,7 +6698,7 @@
   {
     "slug": 217,
     "title": "Райффайзен Банк",
-    "cover": "covers/217.webp",
+    "cover": "images/covers/217.webp",
     "description": "",
     "author_slug": "Райффазен Банк",
     "status_slug": "published",
@@ -6729,7 +6729,7 @@
   {
     "slug": 218,
     "title": "Яндекс Лавка",
-    "cover": "covers/218.webp",
+    "cover": "images/covers/218.webp",
     "description": "",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -6760,7 +6760,7 @@
   {
     "slug": 219,
     "title": "МТС",
-    "cover": "covers/219.webp",
+    "cover": "images/covers/219.webp",
     "description": "",
     "author_slug": "МТС",
     "status_slug": "published",
@@ -6791,7 +6791,7 @@
   {
     "slug": 220,
     "title": "Сбер",
-    "cover": "covers/220.webp",
+    "cover": "images/covers/220.webp",
     "description": "",
     "author_slug": "Сбер",
     "status_slug": "published",
@@ -6822,7 +6822,7 @@
   {
     "slug": 221,
     "title": "Контур",
-    "cover": "covers/221.webp",
+    "cover": "images/covers/221.webp",
     "description": "",
     "author_slug": "Контур",
     "status_slug": "published",
@@ -6853,7 +6853,7 @@
   {
     "slug": 222,
     "title": "Alfa Digital",
-    "cover": "covers/222.webp",
+    "cover": "images/covers/222.webp",
     "description": "Рассказываем о работе в IT и Digital в Альфа-Банке, делимся интересными вакансиями, новостями и полезными советами, иногда шутим",
     "author_slug": "Альфа Банк",
     "status_slug": "published",
@@ -6884,7 +6884,7 @@
   {
     "slug": 223,
     "title": "Sub-atomic",
-    "cover": "covers/223.webp",
+    "cover": "images/covers/223.webp",
     "description": "",
     "author_slug": "Cieden",
     "status_slug": "published",
@@ -6915,7 +6915,7 @@
   {
     "slug": 224,
     "title": "Deck.Gallery",
-    "cover": "covers/224.webp",
+    "cover": "images/covers/224.webp",
     "description": "",
     "author_slug": "Muharrem Şenyıl",
     "status_slug": "published",
@@ -6946,7 +6946,7 @@
   {
     "slug": 225,
     "title": "Email Love",
-    "cover": "covers/225.webp",
+    "cover": "images/covers/225.webp",
     "description": "Рассылка #2",
     "author_slug": "Andy",
     "status_slug": "published",
@@ -6977,7 +6977,7 @@
   {
     "slug": 226,
     "title": "Really Good Emails",
-    "cover": "covers/226.webp",
+    "cover": "images/covers/226.webp",
     "description": "Рассылка #1",
     "author_slug": "Really Good Emails",
     "status_slug": "published",
@@ -7008,7 +7008,7 @@
   {
     "slug": 227,
     "title": "Footer",
-    "cover": "covers/227.webp",
+    "cover": "images/covers/227.webp",
     "description": "Футеры/Footers",
     "author_slug": "Benten Woodring, Devin Fountain, Fons Mans, Matt Cram",
     "status_slug": "published",
@@ -7039,7 +7039,7 @@
   {
     "slug": 228,
     "title": "Руководство по доступности продуктов VK",
-    "cover": "covers/228.webp",
+    "cover": "images/covers/228.webp",
     "description": "",
     "author_slug": "VK",
     "status_slug": "published",
@@ -7070,7 +7070,7 @@
   {
     "slug": 229,
     "title": "Как подготовиться к собеседованию",
-    "cover": "covers/229.webp",
+    "cover": "images/covers/229.webp",
     "description": "",
     "author_slug": "Иван Василев",
     "status_slug": "published",
@@ -7101,7 +7101,7 @@
   {
     "slug": 230,
     "title": "Додо",
-    "cover": "covers/230.webp",
+    "cover": "images/covers/230.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -7132,7 +7132,7 @@
   {
     "slug": 231,
     "title": "Лавка",
-    "cover": "covers/231.webp",
+    "cover": "images/covers/231.webp",
     "description": "",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -7163,7 +7163,7 @@
   {
     "slug": 232,
     "title": "Дизайн-процесс",
-    "cover": "covers/232.webp",
+    "cover": "images/covers/232.webp",
     "description": "",
     "author_slug": "Илья Кретов",
     "status_slug": "published",
@@ -7194,7 +7194,7 @@
   {
     "slug": 233,
     "title": "Flutterflow",
-    "cover": "covers/233.webp",
+    "cover": "images/covers/233.webp",
     "description": "",
     "author_slug": "FlutterFlow",
     "status_slug": "published",
@@ -7225,7 +7225,7 @@
   {
     "slug": 234,
     "title": "Сбер",
-    "cover": "covers/234.webp",
+    "cover": "images/covers/234.webp",
     "description": "",
     "author_slug": "Сбер",
     "status_slug": "published",
@@ -7256,7 +7256,7 @@
   {
     "slug": 235,
     "title": "AI стоки Recraft",
-    "cover": "covers/235.webp",
+    "cover": "images/covers/235.webp",
     "description": "Community где можно скачать любую понравившуюся сгенерированную картинку",
     "author_slug": "Recraft AI",
     "status_slug": "published",
@@ -7287,7 +7287,7 @@
   {
     "slug": 236,
     "title": "Godly",
-    "cover": "covers/236.webp",
+    "cover": "images/covers/236.webp",
     "description": "Лучшее из лучших. Реальные сайты. Есть рассылка",
     "author_slug": "Rejiggle",
     "status_slug": "published",
@@ -7318,7 +7318,7 @@
   {
     "slug": 237,
     "title": "SEARCHSYSTEM",
-    "cover": "covers/237.webp",
+    "cover": "images/covers/237.webp",
     "description": "Всё в кучу",
     "author_slug": "Julien Van Havere",
     "status_slug": "published",
@@ -7349,7 +7349,7 @@
   {
     "slug": 238,
     "title": "Auto Interface",
-    "cover": "covers/238.webp",
+    "cover": "images/covers/238.webp",
     "description": "Автомобильные интерфейсы. Есть разбивка по категориям",
     "author_slug": "Auto Interfaces",
     "status_slug": "published",
@@ -7380,7 +7380,7 @@
   {
     "slug": 239,
     "title": "Interface in Game",
-    "cover": "covers/239.webp",
+    "cover": "images/covers/239.webp",
     "description": "Игровые интерфейсы",
     "author_slug": "Interface in Game",
     "status_slug": "published",
@@ -7411,7 +7411,7 @@
   {
     "slug": 240,
     "title": "Audienceful",
-    "cover": "covers/240.webp",
+    "cover": "images/covers/240.webp",
     "description": "",
     "author_slug": "Audienceful",
     "status_slug": "published",
@@ -7442,7 +7442,7 @@
   {
     "slug": 241,
     "title": "Pushkeen AI",
-    "cover": "covers/241.webp",
+    "cover": "images/covers/241.webp",
     "description": "Пуши уведомления / Push notification",
     "author_slug": "Pushkeen",
     "status_slug": "published",
@@ -7473,7 +7473,7 @@
   {
     "slug": 242,
     "title": "Practice Design",
-    "cover": "covers/242.webp",
+    "cover": "images/covers/242.webp",
     "description": "Коллекция Дриббл шотов... Но зачем?",
     "author_slug": "Practice Design",
     "status_slug": "published",
@@ -7504,7 +7504,7 @@
   {
     "slug": 243,
     "title": "Typo/graphic posters",
-    "cover": "covers/243.webp",
+    "cover": "images/covers/243.webp",
     "description": "Постеры. Более 11к из 44 стран",
     "author_slug": "Typographic Posters",
     "status_slug": "published",
@@ -7535,7 +7535,7 @@
   {
     "slug": 244,
     "title": "SHOWREELZ",
-    "cover": "covers/244.webp",
+    "cover": "images/covers/244.webp",
     "description": "Шоурилы",
     "author_slug": "Ales Nesetril",
     "status_slug": "published",
@@ -7566,7 +7566,7 @@
   {
     "slug": 245,
     "title": "Кейсы от агентства Kisrolod",
-    "cover": "covers/245.webp",
+    "cover": "images/covers/245.webp",
     "description": "",
     "author_slug": "КИСЛОРОД",
     "status_slug": "published",
@@ -7597,7 +7597,7 @@
   {
     "slug": 246,
     "title": "Designer Аeed",
-    "cover": "covers/246.webp",
+    "cover": "images/covers/246.webp",
     "description": "Более 6к проектов из 92 ресурсов. Есть разбивка по ресурсам",
     "author_slug": "DesignerFeed",
     "status_slug": "published",
@@ -7628,7 +7628,7 @@
   {
     "slug": 247,
     "title": "Visual Journal",
-    "cover": "covers/247.webp",
+    "cover": "images/covers/247.webp",
     "description": "Много разных направлений дизайна",
     "author_slug": "Visual Journal",
     "status_slug": "published",
@@ -7659,7 +7659,7 @@
   {
     "slug": 248,
     "title": "Wallet opening Onboarding: Playbook",
-    "cover": "covers/248.webp",
+    "cover": "images/covers/248.webp",
     "description": "Много скринов онбординга, пейвола, статистики разных апп. Основательный подход, требуется постучаться в файл",
     "author_slug": "Roast My App",
     "status_slug": "published",
@@ -7690,7 +7690,7 @@
   {
     "slug": 249,
     "title": "OG Image Gallery",
-    "cover": "covers/249.webp",
+    "cover": "images/covers/249.webp",
     "description": "Отборная партия годноты",
     "author_slug": "Luc Chaissac",
     "status_slug": "published",
@@ -7721,7 +7721,7 @@
   {
     "slug": 250,
     "title": "Lapa Ninja",
-    "cover": "covers/250.webp",
+    "cover": "images/covers/250.webp",
     "description": "Большой портал всего",
     "author_slug": "Lapa Ninja",
     "status_slug": "published",
@@ -7752,7 +7752,7 @@
   {
     "slug": 251,
     "title": "Bestfolios",
-    "cover": "covers/251.webp",
+    "cover": "images/covers/251.webp",
     "description": "",
     "author_slug": "Bestfolios",
     "status_slug": "published",
@@ -7783,7 +7783,7 @@
   {
     "slug": 252,
     "title": "Best Website Gallery",
-    "cover": "covers/252.webp",
+    "cover": "images/covers/252.webp",
     "description": "Отборные сайты. С 2008 года",
     "author_slug": "David Hellmann",
     "status_slug": "published",
@@ -7814,7 +7814,7 @@
   {
     "slug": 253,
     "title": "Brutalist",
-    "cover": "covers/253.webp",
+    "cover": "images/covers/253.webp",
     "description": "Много брутализма",
     "author_slug": "Brutalist Websites",
     "status_slug": "published",
@@ -7845,7 +7845,7 @@
   {
     "slug": 254,
     "title": "SaaS #2",
-    "cover": "covers/254.webp",
+    "cover": "images/covers/254.webp",
     "description": "SaaS сервисы",
     "author_slug": "Draftss",
     "status_slug": "published",
@@ -7876,7 +7876,7 @@
   {
     "slug": 255,
     "title": "SaaS #1",
-    "cover": "covers/255.webp",
+    "cover": "images/covers/255.webp",
     "description": "SaaS сервисы. Есть рассылка",
     "author_slug": "SaaS UI Design",
     "status_slug": "published",
@@ -7907,7 +7907,7 @@
   {
     "slug": 256,
     "title": "Design Spells",
-    "cover": "covers/256.webp",
+    "cover": "images/covers/256.webp",
     "description": "Пасхалки в приложениях. Есть рассылка",
     "author_slug": "Chester How, Duncan Leo",
     "status_slug": "published",
@@ -7938,7 +7938,7 @@
   {
     "slug": 257,
     "title": "Seesaw",
-    "cover": "covers/257.webp",
+    "cover": "images/covers/257.webp",
     "description": "Реальные сайты",
     "author_slug": "SEESAW Studios",
     "status_slug": "published",
@@ -7969,7 +7969,7 @@
   {
     "slug": 258,
     "title": "Sneakpeek",
-    "cover": "covers/258.webp",
+    "cover": "images/covers/258.webp",
     "description": "",
     "author_slug": "Sneak Peek Dot Design",
     "status_slug": "published",
@@ -8000,7 +8000,7 @@
   {
     "slug": 259,
     "title": "Dataviz Inspiration",
-    "cover": "covers/259.webp",
+    "cover": "images/covers/259.webp",
     "description": "Датавизы",
     "author_slug": "Yan Holtz",
     "status_slug": "published",
@@ -8031,7 +8031,7 @@
   {
     "slug": 260,
     "title": "Items",
-    "cover": "covers/260.webp",
+    "cover": "images/covers/260.webp",
     "description": "Сгенерированные AI ассеты",
     "author_slug": "Items Design",
     "status_slug": "published",
@@ -8062,7 +8062,7 @@
   {
     "slug": 261,
     "title": "Booklet Library",
-    "cover": "covers/261.webp",
+    "cover": "images/covers/261.webp",
     "description": "Печатные издания / книги",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -8093,7 +8093,7 @@
   {
     "slug": 262,
     "title": "Page not found",
-    "cover": "covers/262.webp",
+    "cover": "images/covers/262.webp",
     "description": "404 страницы",
     "author_slug": "404s Design",
     "status_slug": "published",
@@ -8124,7 +8124,7 @@
   {
     "slug": 263,
     "title": "Pimp My Paywall",
-    "cover": "covers/263.webp",
+    "cover": "images/covers/263.webp",
     "description": "",
     "author_slug": "Pimp My Paywall",
     "status_slug": "published",
@@ -8155,7 +8155,7 @@
   {
     "slug": 264,
     "title": "Плёночные панки",
-    "cover": "covers/264.webp",
+    "cover": "images/covers/264.webp",
     "description": "Плёночные фотки",
     "author_slug": "Film Punks",
     "status_slug": "published",
@@ -8186,7 +8186,7 @@
   {
     "slug": 265,
     "title": "Baymard Institute",
-    "cover": "covers/265.webp",
+    "cover": "images/covers/265.webp",
     "description": "",
     "author_slug": "Baymard Institute",
     "status_slug": "published",
@@ -8217,7 +8217,7 @@
   {
     "slug": 266,
     "title": "Savee",
-    "cover": "covers/266.webp",
+    "cover": "images/covers/266.webp",
     "description": "Разное",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -8248,7 +8248,7 @@
   {
     "slug": 267,
     "title": "60fps",
-    "cover": "covers/267.webp",
+    "cover": "images/covers/267.webp",
     "description": "собраны анимации из различных приложений (мобильные и для вотчей), которые заботливо отсортированы по разным фильтрам.",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -8279,7 +8279,7 @@
   {
     "slug": 268,
     "title": "Interactions",
-    "cover": "covers/268.webp",
+    "cover": "images/covers/268.webp",
     "description": "Авторская подборка",
     "author_slug": "Nitish Khagwal",
     "status_slug": "published",
@@ -8310,7 +8310,7 @@
   {
     "slug": 269,
     "title": "Daily branding",
-    "cover": "covers/269.webp",
+    "cover": "images/covers/269.webp",
     "description": "",
     "author_slug": "Daily Branding",
     "status_slug": "published",
@@ -8341,7 +8341,7 @@
   {
     "slug": 270,
     "title": "721 марка",
-    "cover": "covers/270.webp",
+    "cover": "images/covers/270.webp",
     "description": "Марки",
     "author_slug": "Женя Власов",
     "status_slug": "published",
@@ -8372,7 +8372,7 @@
   {
     "slug": 271,
     "title": "Eleanor Lutz",
-    "cover": "covers/271.webp",
+    "cover": "images/covers/271.webp",
     "description": "Мощные визуализации/инфографики",
     "author_slug": "Eleanor Lutz",
     "status_slug": "published",
@@ -8403,7 +8403,7 @@
   {
     "slug": 272,
     "title": "Tapedeck",
-    "cover": "covers/272.webp",
+    "cover": "images/covers/272.webp",
     "description": "Аудиокассеты",
     "author_slug": "Oliver Gelbrich",
     "status_slug": "published",
@@ -8434,7 +8434,7 @@
   {
     "slug": 273,
     "title": "AB",
-    "cover": "covers/273.webp",
+    "cover": "images/covers/273.webp",
     "description": "АБ",
     "author_slug": "Mobbin",
     "status_slug": "published",
@@ -8465,7 +8465,7 @@
   {
     "slug": 274,
     "title": "The art of Soul",
-    "cover": "covers/274.webp",
+    "cover": "images/covers/274.webp",
     "description": "Артбук фильма «Душа»",
     "author_slug": "Disney",
     "status_slug": "published",
@@ -8496,7 +8496,7 @@
   {
     "slug": 275,
     "title": "The art of Encanto",
-    "cover": "covers/275.webp",
+    "cover": "images/covers/275.webp",
     "description": "Encanto",
     "author_slug": "Disney",
     "status_slug": "published",
@@ -8527,7 +8527,7 @@
   {
     "slug": 276,
     "title": "Артбуки и всякое",
-    "cover": "covers/276.webp",
+    "cover": "images/covers/276.webp",
     "description": "Учебники, артбуки, комиксы, полезные ссылки и прочие штуки",
     "author_slug": "Janiat",
     "status_slug": "published",
@@ -8558,7 +8558,7 @@
   {
     "slug": 277,
     "title": "Open UI",
-    "cover": "covers/277.webp",
+    "cover": "images/covers/277.webp",
     "description": "Open UI",
     "author_slug": "Open UI Community",
     "status_slug": "published",
@@ -8589,7 +8589,7 @@
   {
     "slug": 278,
     "title": "Как мы затащили персональную ленту на главный экран мобильного банка и повысили метрики в несколько раз",
-    "cover": "covers/278.webp",
+    "cover": "images/covers/278.webp",
     "description": "Кейс стади",
     "author_slug": "Сергей Егоров",
     "status_slug": "published",
@@ -8620,7 +8620,7 @@
   {
     "slug": 279,
     "title": "New feed entry point · Tinkoff",
-    "cover": "covers/279.webp",
+    "cover": "images/covers/279.webp",
     "description": "Кейс-стади",
     "author_slug": "Иван Звяхин",
     "status_slug": "published",
@@ -8651,7 +8651,7 @@
   {
     "slug": 280,
     "title": "The branding guidelines archive",
-    "cover": "covers/280.webp",
+    "cover": "images/covers/280.webp",
     "description": "Брендбуки",
     "author_slug": "Branding Style Guides",
     "status_slug": "published",
@@ -8682,7 +8682,7 @@
   {
     "slug": 281,
     "title": "Архитектурные излишества",
-    "cover": "covers/281.webp",
+    "cover": "images/covers/281.webp",
     "description": "Много живой архитектуры",
     "author_slug": "Архитектурный ликбез",
     "status_slug": "published",
@@ -8713,7 +8713,7 @@
   {
     "slug": 282,
     "title": "Реальные и GPT задачи",
-    "cover": "covers/282.webp",
+    "cover": "images/covers/282.webp",
     "description": "",
     "author_slug": "Андрей Одокиенко",
     "status_slug": "published",
@@ -8744,7 +8744,7 @@
   {
     "slug": 283,
     "title": "All in One Bookmark Links for Designer",
-    "cover": "covers/283.webp",
+    "cover": "images/covers/283.webp",
     "description": "База ссылок • Требует VPN",
     "author_slug": "Evernote",
     "status_slug": "published",
@@ -8775,7 +8775,7 @@
   {
     "slug": 284,
     "title": "Lottielab",
-    "cover": "covers/284.webp",
+    "cover": "images/covers/284.webp",
     "description": "",
     "author_slug": "LottieLab",
     "status_slug": "published",
@@ -8806,7 +8806,7 @@
   {
     "slug": 285,
     "title": "1001 free fonts",
-    "cover": "covers/285.webp",
+    "cover": "images/covers/285.webp",
     "description": "",
     "author_slug": "1001 Free Fonts",
     "status_slug": "published",
@@ -8837,7 +8837,7 @@
   {
     "slug": 286,
     "title": "FontBrief",
-    "cover": "covers/286.webp",
+    "cover": "images/covers/286.webp",
     "description": "",
     "author_slug": "FontBrief",
     "status_slug": "published",
@@ -8868,7 +8868,7 @@
   {
     "slug": 287,
     "title": "Free Faces",
-    "cover": "covers/287.webp",
+    "cover": "images/covers/287.webp",
     "description": "Дикие шрифты (OFT)",
     "author_slug": "Free Faces Gallery",
     "status_slug": "published",
@@ -8899,7 +8899,7 @@
   {
     "slug": 288,
     "title": "Шрифтотека",
-    "cover": "covers/288.webp",
+    "cover": "images/covers/288.webp",
     "description": "",
     "author_slug": "Студия МЫ С КОТОМ",
     "status_slug": "published",
@@ -8930,7 +8930,7 @@
   {
     "slug": 289,
     "title": "Фреймворк прохождения",
-    "cover": "covers/289.webp",
+    "cover": "images/covers/289.webp",
     "description": "",
     "author_slug": "Андрей Одокиенко",
     "status_slug": "published",
@@ -8961,7 +8961,7 @@
   {
     "slug": 290,
     "title": "Бесплатные кириллические шрифты",
-    "cover": "covers/290.webp",
+    "cover": "images/covers/290.webp",
     "description": "",
     "author_slug": "Uprock",
     "status_slug": "published",
@@ -8992,7 +8992,7 @@
   {
     "slug": 291,
     "title": "Google Fonts: pairings",
-    "cover": "covers/291.webp",
+    "cover": "images/covers/291.webp",
     "description": "большая коллекция комбинированных шрифтовых пар из Google Fonts.",
     "author_slug": "Google",
     "status_slug": "published",
@@ -9023,7 +9023,7 @@
   {
     "slug": 292,
     "title": "HSE Fonts",
-    "cover": "covers/292.webp",
+    "cover": "images/covers/292.webp",
     "description": "Все можно скачать. Шрифтовая лаборатория HSE Fonts разрабатывает акцидентные шрифты, которые призваны придать яркий, узнаваемый образ для организаций, проектов и продуктов. HSE Fonts приглашает к сотрудничеству дизайн-студии, брендинговые агентства, редакции СМИ и корпоративных изданий.",
     "author_slug": "ВШЭ",
     "status_slug": "published",
@@ -9054,7 +9054,7 @@
   {
     "slug": 293,
     "title": "Whiteboard Challenge для дизайнеров: как нанимать людей быстрее",
-    "cover": "covers/293.webp",
+    "cover": "images/covers/293.webp",
     "description": "",
     "author_slug": "Андрей Одокиенко",
     "status_slug": "published",
@@ -9085,7 +9085,7 @@
   {
     "slug": 294,
     "title": "База знаний",
-    "cover": "covers/294.webp",
+    "cover": "images/covers/294.webp",
     "description": "",
     "author_slug": "Андрей Одокиенко",
     "status_slug": "published",
@@ -9116,7 +9116,7 @@
   {
     "slug": 295,
     "title": "CSS Diner",
-    "cover": "covers/295.webp",
+    "cover": "images/covers/295.webp",
     "description": "Тренажер CSS, 32 уровня",
     "author_slug": "Fluke Out",
     "status_slug": "published",
@@ -9147,7 +9147,7 @@
   {
     "slug": 296,
     "title": "Statcounter",
-    "cover": "covers/296.webp",
+    "cover": "images/covers/296.webp",
     "description": "Статистика по браузерам, по разрешениям, по платформам",
     "author_slug": "StatCounter",
     "status_slug": "published",
@@ -9178,7 +9178,7 @@
   {
     "slug": 297,
     "title": "Как пройти Whiteboard challenge",
-    "cover": "covers/297.webp",
+    "cover": "images/covers/297.webp",
     "description": "",
     "author_slug": "Влад Духнов",
     "status_slug": "published",
@@ -9209,7 +9209,7 @@
   {
     "slug": 298,
     "title": "Блок «Продуктовый дизайнер»",
-    "cover": "covers/298.webp",
+    "cover": "images/covers/298.webp",
     "description": "",
     "author_slug": "Контур",
     "status_slug": "published",
@@ -9240,7 +9240,7 @@
   {
     "slug": 299,
     "title": "Подкаст о вайтбордах в найме дизайнеров",
-    "cover": "covers/299.webp",
+    "cover": "images/covers/299.webp",
     "description": "",
     "author_slug": "Женя Белодед",
     "status_slug": "published",
@@ -9271,7 +9271,7 @@
   {
     "slug": 300,
     "title": "Додо",
-    "cover": "covers/300.webp",
+    "cover": "images/covers/300.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -9302,7 +9302,7 @@
   {
     "slug": 301,
     "title": "Cuva super clean",
-    "cover": "covers/301.webp",
+    "cover": "images/covers/301.webp",
     "description": "",
     "author_slug": "Сергей Мухин",
     "status_slug": "published",
@@ -9333,7 +9333,7 @@
   {
     "slug": 302,
     "title": "Glide",
-    "cover": "covers/302.webp",
+    "cover": "images/covers/302.webp",
     "description": "",
     "author_slug": "Glide Apps",
     "status_slug": "published",
@@ -9364,7 +9364,7 @@
   {
     "slug": 303,
     "title": "Read.cv",
-    "cover": "covers/303.webp",
+    "cover": "images/covers/303.webp",
     "description": "Конструктор CV",
     "author_slug": "Read.cv",
     "status_slug": "published",
@@ -9395,7 +9395,7 @@
   {
     "slug": 304,
     "title": "Design Principles",
-    "cover": "covers/304.webp",
+    "cover": "images/covers/304.webp",
     "description": "",
     "author_slug": "Ben Brignell",
     "status_slug": "published",
@@ -9426,7 +9426,7 @@
   {
     "slug": 305,
     "title": "This Is Responsive.",
-    "cover": "covers/305.webp",
+    "cover": "images/covers/305.webp",
     "description": "Patterns and resources for creating responsive web experiences",
     "author_slug": "Brad Frost",
     "status_slug": "published",
@@ -9457,7 +9457,7 @@
   {
     "slug": 306,
     "title": "Color & Contrast.com",
-    "cover": "covers/306.webp",
+    "cover": "images/covers/306.webp",
     "description": "",
     "author_slug": "Color & Contrast",
     "status_slug": "published",
@@ -9488,7 +9488,7 @@
   {
     "slug": 307,
     "title": "Дизайн-альманах",
-    "cover": "covers/307.webp",
+    "cover": "images/covers/307.webp",
     "description": "Дизайн-альманах Readymag — образовательный проект об основах дизайна",
     "author_slug": "Readymag",
     "status_slug": "published",
@@ -9519,7 +9519,7 @@
   {
     "slug": 308,
     "title": "/designer",
-    "cover": "covers/308.webp",
+    "cover": "images/covers/308.webp",
     "description": "",
     "author_slug": "Саша Окунев",
     "status_slug": "published",
@@ -9550,7 +9550,7 @@
   {
     "slug": 309,
     "title": "LottieFiles",
-    "cover": "covers/309.webp",
+    "cover": "images/covers/309.webp",
     "description": "",
     "author_slug": "Design Barn Inc.",
     "status_slug": "published",
@@ -9581,7 +9581,7 @@
   {
     "slug": 310,
     "title": "RandomA11y",
-    "cover": "covers/310.webp",
+    "cover": "images/covers/310.webp",
     "description": "Требует VPN",
     "author_slug": "Randoma11y",
     "status_slug": "published",
@@ -9612,7 +9612,7 @@
   {
     "slug": 311,
     "title": "МТС",
-    "cover": "covers/311.webp",
+    "cover": "images/covers/311.webp",
     "description": "",
     "author_slug": "МТС",
     "status_slug": "published",
@@ -9643,7 +9643,7 @@
   {
     "slug": 312,
     "title": "Яндекс",
-    "cover": "covers/312.webp",
+    "cover": "images/covers/312.webp",
     "description": "",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -9674,7 +9674,7 @@
   {
     "slug": 313,
     "title": "Учебник по UX/UI-дизайну",
-    "cover": "covers/313.webp",
+    "cover": "images/covers/313.webp",
     "description": "",
     "author_slug": "Uprock",
     "status_slug": "published",
@@ -9705,7 +9705,7 @@
   {
     "slug": 314,
     "title": "Colorfle",
-    "cover": "covers/314.webp",
+    "cover": "images/covers/314.webp",
     "description": "",
     "author_slug": "Colorfle",
     "status_slug": "published",
@@ -9736,7 +9736,7 @@
   {
     "slug": 315,
     "title": "<color> (game)",
-    "cover": "covers/315.webp",
+    "cover": "images/covers/315.webp",
     "description": "Необходимо решать головоломки, чтобы заполнить экран цветом",
     "author_slug": "Bart Bonte",
     "status_slug": "published",
@@ -9767,7 +9767,7 @@
   {
     "slug": 316,
     "title": "Иви",
-    "cover": "covers/316.webp",
+    "cover": "images/covers/316.webp",
     "description": "",
     "author_slug": "ИВИ",
     "status_slug": "published",
@@ -9798,7 +9798,7 @@
   {
     "slug": 317,
     "title": "Dehancer Color Test",
-    "cover": "covers/317.webp",
+    "cover": "images/covers/317.webp",
     "description": "",
     "author_slug": "Dehancer",
     "status_slug": "published",
@@ -9829,7 +9829,7 @@
   {
     "slug": 318,
     "title": "Обводки",
-    "cover": "covers/318.webp",
+    "cover": "images/covers/318.webp",
     "description": "Обводки",
     "author_slug": "Max Bittker",
     "status_slug": "published",
@@ -9860,7 +9860,7 @@
   {
     "slug": 319,
     "title": "NN/g",
-    "cover": "covers/319.webp",
+    "cover": "images/covers/319.webp",
     "description": "",
     "author_slug": "Nielsen Norman Group",
     "status_slug": "published",
@@ -9891,7 +9891,7 @@
   {
     "slug": 320,
     "title": "Ozon",
-    "cover": "covers/320.webp",
+    "cover": "images/covers/320.webp",
     "description": "Расскажем, как мы строили дизайн-систему в большом продукте, который постоянно меняется. Даже не так. Как мы набивали шишки и учились на собственном опыте. Что такое Server Driven UI? Чем этот подход отличается от классической разработки? Причём тут вообще дизайн?! Забудьте на время о Figma и готовьтесь взглянуть на тему шире",
     "author_slug": "Ozon, Богдана Кибза",
     "status_slug": "published",
@@ -9922,7 +9922,7 @@
   {
     "slug": 321,
     "title": "Вкусвилл",
-    "cover": "covers/321.webp",
+    "cover": "images/covers/321.webp",
     "description": "Что такое SDUI? Как повысить скорость разработки и стабильность в несколько раз? Чем вариант ВкусВилла отличается от реализации похожих идей в других компаниях и почему верстальщик не нужен",
     "author_slug": "Сергей Мухин",
     "status_slug": "published",
@@ -9953,7 +9953,7 @@
   {
     "slug": 322,
     "title": "Альфа",
-    "cover": "covers/322.webp",
+    "cover": "images/covers/322.webp",
     "description": "",
     "author_slug": "Альфа Банк",
     "status_slug": "published",
@@ -9984,7 +9984,7 @@
   {
     "slug": 323,
     "title": "Яндекс",
-    "cover": "covers/323.webp",
+    "cover": "images/covers/323.webp",
     "description": "",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -10015,7 +10015,7 @@
   {
     "slug": 324,
     "title": "Porsche",
-    "cover": "covers/324.webp",
+    "cover": "images/covers/324.webp",
     "description": "",
     "author_slug": "Porsche",
     "status_slug": "published",
@@ -10046,7 +10046,7 @@
   {
     "slug": 325,
     "title": "Манго",
-    "cover": "covers/325.webp",
+    "cover": "images/covers/325.webp",
     "description": "Вкусвилл",
     "author_slug": "Systems Chat",
     "status_slug": "published",
@@ -10077,7 +10077,7 @@
   {
     "slug": 326,
     "title": "Gartic Phone",
-    "cover": "covers/326.webp",
+    "cover": "images/covers/326.webp",
     "description": "Сборник игр для совместного рисования",
     "author_slug": "Gartic Phone",
     "status_slug": "published",
@@ -10108,7 +10108,7 @@
   {
     "slug": 327,
     "title": "Игорь Кузнецов о темных паттернах",
-    "cover": "covers/327.webp",
+    "cover": "images/covers/327.webp",
     "description": "Дарк паттерны",
     "author_slug": "BrainShare",
     "status_slug": "published",
@@ -10139,7 +10139,7 @@
   {
     "slug": 328,
     "title": "Плавучая редакция",
-    "cover": "covers/328.webp",
+    "cover": "images/covers/328.webp",
     "description": "Советы по интерфейсным текстам и редактуре, примеры, фейлы, контент-гайды",
     "author_slug": "Вова Лалош",
     "status_slug": "published",
@@ -10170,7 +10170,7 @@
   {
     "slug": 329,
     "title": "Coglode",
-    "cover": "covers/329.webp",
+    "cover": "images/covers/329.webp",
     "description": "Why do we do that?",
     "author_slug": "Coglode",
     "status_slug": "published",
@@ -10201,7 +10201,7 @@
   {
     "slug": 330,
     "title": "ECOMM Design",
-    "cover": "covers/330.webp",
+    "cover": "images/covers/330.webp",
     "description": "",
     "author_slug": "eComm Design",
     "status_slug": "published",
@@ -10232,7 +10232,7 @@
   {
     "slug": 331,
     "title": "Screen Gallery",
-    "cover": "covers/331.webp",
+    "cover": "images/covers/331.webp",
     "description": "",
     "author_slug": "Олег Бухтияр",
     "status_slug": "published",
@@ -10263,7 +10263,7 @@
   {
     "slug": 332,
     "title": "Как устроиться дизайнером без тестового или как пройти whiteboard",
-    "cover": "covers/332.webp",
+    "cover": "images/covers/332.webp",
     "description": "",
     "author_slug": "Настя Шендрик",
     "status_slug": "published",
@@ -10294,7 +10294,7 @@
   {
     "slug": 333,
     "title": "Дизайнеры бюро",
-    "cover": "covers/333.webp",
+    "cover": "images/covers/333.webp",
     "description": "Дизайнеры делятся находками и мыслями о дизайне, интерфейсе, типографике, разработке и редактуре",
     "author_slug": "Бюро Горбунова",
     "status_slug": "published",
@@ -10325,7 +10325,7 @@
   {
     "slug": 334,
     "title": "Не исключение: об инклюзии в цифровом и физическом мире",
-    "cover": "covers/334.webp",
+    "cover": "images/covers/334.webp",
     "description": "Канал об инклизии в цифровом и физическом мире",
     "author_slug": "Не исключение",
     "status_slug": "published",
@@ -10356,7 +10356,7 @@
   {
     "slug": 335,
     "title": "Reveal the Data",
-    "cover": "covers/335.webp",
+    "cover": "images/covers/335.webp",
     "description": "Визуализация данных, дашборды и развитие BI-систем",
     "author_slug": "Рома Бунин",
     "status_slug": "published",
@@ -10387,7 +10387,7 @@
   {
     "slug": 336,
     "title": "Posterino | искусство плаката",
-    "cover": "covers/336.webp",
+    "cover": "images/covers/336.webp",
     "description": "Плакаты, постеры и афиши",
     "author_slug": "Виктор Севрюков",
     "status_slug": "published",
@@ -10418,7 +10418,7 @@
   {
     "slug": 337,
     "title": "Дизайн-детектив",
-    "cover": "covers/337.webp",
+    "cover": "images/covers/337.webp",
     "description": "Это небольшая активность (игра) для дизайнеров, выстроенная как детектив. Если ты любишь проводить время весело и с пользой, то мы тебя ждём!",
     "author_slug": "Detective Design",
     "status_slug": "published",
@@ -10449,7 +10449,7 @@
   {
     "slug": 338,
     "title": "Designing Numbers",
-    "cover": "covers/338.webp",
+    "cover": "images/covers/338.webp",
     "description": "Пишу про необычные визуализации, которые нахожу в сети",
     "author_slug": "Надя Здорова",
     "status_slug": "published",
@@ -10480,7 +10480,7 @@
   {
     "slug": 339,
     "title": "Дизайн Домашка",
-    "cover": "covers/339.webp",
+    "cover": "images/covers/339.webp",
     "description": "Проект c заданиями для прокачки и полезными UX-лайфхаками для работы продуктовых дизайнеров",
     "author_slug": "Александр Ковальский",
     "status_slug": "published",
@@ -10511,7 +10511,7 @@
   {
     "slug": 340,
     "title": "Дизайн — Разминка",
-    "cover": "covers/340.webp",
+    "cover": "images/covers/340.webp",
     "description": "Крафтовый проект о дизайне и разминках Потренируйте и развивайте свою креативность и логику, Поработайте с лидами индустрии айти",
     "author_slug": "Design Warmups",
     "status_slug": "published",
@@ -10542,7 +10542,7 @@
   {
     "slug": 341,
     "title": "#ФФДД2Д",
-    "cover": "covers/341.webp",
+    "cover": "images/covers/341.webp",
     "description": "Официальный канал дизайнеров и редакторов Т-банка",
     "author_slug": "Т-Банк",
     "status_slug": "published",
@@ -10573,7 +10573,7 @@
   {
     "slug": 342,
     "title": "THE DUOLINGO HANDBOOK",
-    "cover": "covers/342.webp",
+    "cover": "images/covers/342.webp",
     "description": "",
     "author_slug": "Duolingo",
     "status_slug": "published",
@@ -10604,7 +10604,7 @@
   {
     "slug": 343,
     "title": "Переменные в Figma",
-    "cover": "covers/343.webp",
+    "cover": "images/covers/343.webp",
     "description": "Авторский курс",
     "author_slug": "Ozon, Саша Сметанина",
     "status_slug": "published",
@@ -10635,7 +10635,7 @@
   {
     "slug": 344,
     "title": "Т-Банк",
-    "cover": "covers/344.webp",
+    "cover": "images/covers/344.webp",
     "description": "",
     "author_slug": "Т-Банк",
     "status_slug": "published",
@@ -10666,7 +10666,7 @@
   {
     "slug": 345,
     "title": "Sticker Emoji Downloader",
-    "cover": "covers/345.webp",
+    "cover": "images/covers/345.webp",
     "description": "Поможет скачать эмодзи/стикеры в любых разрешениях",
     "author_slug": "Gimme Sticker Bot",
     "status_slug": "published",
@@ -10697,7 +10697,7 @@
   {
     "slug": 346,
     "title": "Retro View",
-    "cover": "covers/346.webp",
+    "cover": "images/covers/346.webp",
     "description": "Старые фотографи",
     "author_slug": "PastVu",
     "status_slug": "published",
@@ -10728,7 +10728,7 @@
   {
     "slug": 347,
     "title": "Human Interface Guidelines",
-    "cover": "covers/347.webp",
+    "cover": "images/covers/347.webp",
     "description": "Learn how to design great apps and games that integrate seamlessly with Apple platforms",
     "author_slug": "Apple",
     "status_slug": "published",
@@ -10759,7 +10759,7 @@
   {
     "slug": 348,
     "title": "Фильм «Откуда взялось столько дизайнеров?»",
-    "cover": "covers/348.webp",
+    "cover": "images/covers/348.webp",
     "description": "Почему никто не говорит, что все дизайнеры появились благодаря одному конкретному решению? А потом продолжило расти в геометрической прогрессии. В лекциях по истории дизайна упускают одну важную деталь — когда дизайнеры стали востребованы? Почему? Как это влияет конкретно на вас. Конкретно сейчас. При чём тут две мировые войны, золото, гос облигации США, Великая Депрессия и пластик?",
     "author_slug": "Никитá Новá",
     "status_slug": "published",
@@ -10790,7 +10790,7 @@
   {
     "slug": 349,
     "title": "Как свет и цвет влияют на кино",
-    "cover": "covers/349.webp",
+    "cover": "images/covers/349.webp",
     "description": "Почему для триллеров и комедий необходимо разное освещение? Когда в кино появился цвет? В каких случаях уместнее использовать черно-белое изображение? Почему цветовая гамма в «Гарри Поттере» со временем меняется? И как цвета могут показать эволюцию персонажа?",
     "author_slug": "Кинопоиск",
     "status_slug": "published",
@@ -10821,7 +10821,7 @@
   {
     "slug": 350,
     "title": "builder.io",
-    "cover": "covers/350.webp",
+    "cover": "images/covers/350.webp",
     "description": "Take Ideas to Production in Seconds, Not Sprints",
     "author_slug": "Builder.io",
     "status_slug": "published",
@@ -10852,7 +10852,7 @@
   {
     "slug": 351,
     "title": "Самоучитель по дизайну интерфейсов. Старт не за миллион деняк",
-    "cover": "covers/351.webp",
+    "cover": "images/covers/351.webp",
     "description": "",
     "author_slug": "Рома Хмелёв",
     "status_slug": "published",
@@ -10883,7 +10883,7 @@
   {
     "slug": 352,
     "title": "iOS Example",
-    "cover": "covers/352.webp",
+    "cover": "images/covers/352.webp",
     "description": "Готовые куски кода на Objective-C и Swift. Не обновляется с апреля 2024",
     "author_slug": "iOS Example",
     "status_slug": "published",
@@ -10914,7 +10914,7 @@
   {
     "slug": 353,
     "title": "Цифровая доступность",
-    "cover": "covers/353.webp",
+    "cover": "images/covers/353.webp",
     "description": "",
     "author_slug": "Мос.ру",
     "status_slug": "published",
@@ -10945,7 +10945,7 @@
   {
     "slug": 354,
     "title": "Детепр",
-    "cover": "covers/354.webp",
+    "cover": "images/covers/354.webp",
     "description": "",
     "author_slug": "ДЕТЕПР",
     "status_slug": "published",
@@ -10976,7 +10976,7 @@
   {
     "slug": 355,
     "title": "Httpster",
-    "cover": "covers/355.webp",
+    "cover": "images/covers/355.webp",
     "description": "+3000 отобранных сайтов",
     "author_slug": "Dom x",
     "status_slug": "published",
@@ -11007,7 +11007,7 @@
   {
     "slug": 356,
     "title": "Пицца на пышном тексте",
-    "cover": "covers/356.webp",
+    "cover": "images/covers/356.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -11038,7 +11038,7 @@
   {
     "slug": 357,
     "title": "Любовь, дизайн и метрики",
-    "cover": "covers/357.webp",
+    "cover": "images/covers/357.webp",
     "description": "Это коллективный канал дизайнеров, редакторов и UX-исследователей Авито. Мы пишем про то, что нам нравится, нас интересует и вдохновляет",
     "author_slug": "Авито",
     "status_slug": "published",
@@ -11069,7 +11069,7 @@
   {
     "slug": 358,
     "title": "Метрики AARRR",
-    "cover": "covers/358.webp",
+    "cover": "images/covers/358.webp",
     "description": "Метрики",
     "author_slug": "Иван Цыганков",
     "status_slug": "published",
@@ -11100,7 +11100,7 @@
   {
     "slug": 359,
     "title": "Офферы для дизайнеров",
-    "cover": "covers/359.webp",
+    "cover": "images/covers/359.webp",
     "description": "Вакансии для продуктовых дизайнеров и UX-исследователей.",
     "author_slug": "Design Offers",
     "status_slug": "published",
@@ -11131,7 +11131,7 @@
   {
     "slug": 360,
     "title": "UI/UX Jobs — вакансии и аналитика",
-    "cover": "covers/360.webp",
+    "cover": "images/covers/360.webp",
     "description": "",
     "author_slug": "UI/UX Jobs",
     "status_slug": "published",
@@ -11162,7 +11162,7 @@
   {
     "slug": 361,
     "title": "Guide to User Research (UXR)",
-    "cover": "covers/361.webp",
+    "cover": "images/covers/361.webp",
     "description": "A curated collection of 250+ resources & tools dedicated to user research, that will help you incorporate it into your design practice",
     "author_slug": "Paulina Barlik",
     "status_slug": "published",
@@ -11193,7 +11193,7 @@
   {
     "slug": 362,
     "title": "13 User Onboarding flows",
-    "cover": "covers/362.webp",
+    "cover": "images/covers/362.webp",
     "description": "Here is the board with 13 User Onboarding flows from top products (that we found with our Onboard Report 80+ companies research). I highlighted mistakes you should overcome and ideas you can take in work.",
     "author_slug": "Vicki Kharlamova",
     "status_slug": "published",
@@ -11224,7 +11224,7 @@
   {
     "slug": 363,
     "title": "Avito Design",
-    "cover": "covers/363.webp",
+    "cover": "images/covers/363.webp",
     "description": "",
     "author_slug": "Авито",
     "status_slug": "published",
@@ -11255,7 +11255,7 @@
   {
     "slug": 364,
     "title": "Фигма",
-    "cover": "covers/364.webp",
+    "cover": "images/covers/364.webp",
     "description": "",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11286,7 +11286,7 @@
   {
     "slug": 365,
     "title": "Cash App",
-    "cover": "covers/365.webp",
+    "cover": "images/covers/365.webp",
     "description": "",
     "author_slug": "Cash App Design",
     "status_slug": "published",
@@ -11317,7 +11317,7 @@
   {
     "slug": 366,
     "title": "Wallet-opening Onboarding: Playbook",
-    "cover": "covers/366.webp",
+    "cover": "images/covers/366.webp",
     "description": "",
     "author_slug": "Muhammad Rahat",
     "status_slug": "published",
@@ -11348,7 +11348,7 @@
   {
     "slug": 367,
     "title": "Как стать дизайнером",
-    "cover": "covers/367.webp",
+    "cover": "images/covers/367.webp",
     "description": "Программа самостоятельного обучения и наш взгляд на профессию дизайнера",
     "author_slug": "Аня Худякова, Женя Арутюнов",
     "status_slug": "published",
@@ -11379,7 +11379,7 @@
   {
     "slug": 368,
     "title": "Прототипирование",
-    "cover": "covers/368.webp",
+    "cover": "images/covers/368.webp",
     "description": "Advanced prototyping now lets you build more realistic prototypes with fewer frames and connections! Learn how you can use variables, conditional logic, and expressions to prototype more dynamically.",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11410,7 +11410,7 @@
   {
     "slug": 369,
     "title": "Переменные",
-    "cover": "covers/369.webp",
+    "cover": "images/covers/369.webp",
     "description": "Variables in Figma can help unlock design tokens and theming! Learn how you can use variables for color, string, number, and boolean to adapt your design for different contexts and align closer to code.",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11441,7 +11441,7 @@
   {
     "slug": 370,
     "title": "Component Properties",
-    "cover": "covers/370.webp",
+    "cover": "images/covers/370.webp",
     "description": "Get your design system in order! Learn how you can use component properties to significantly reduce variants for a more streamlined and code-aligned design system.",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11472,7 +11472,7 @@
   {
     "slug": 371,
     "title": "Варианты",
-    "cover": "covers/371.webp",
+    "cover": "images/covers/371.webp",
     "description": "Variants are a new way to create, organize, and use components. If you’ve ever created multiple variations of a component, you’ll want to give variants a try. This playground will walk you through everything you need to know to start working with them!",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11503,7 +11503,7 @@
   {
     "slug": 372,
     "title": "АЛ (авто лейаут)",
-    "cover": "covers/372.webp",
+    "cover": "images/covers/372.webp",
     "description": "Auto Layout lets you create dynamic frames that respond to their content. With our latest round of updates, we’ve taken it one step further: Figma can now suggest when multiple frames of auto layout might be needed to make full design elements responsive. Learn how to apply multiple frames of Auto Layout or ignore Auto Layout when absolute positioning, and experience some usability improvements that make Auto Layout frames more responsive by default.",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11534,7 +11534,7 @@
   {
     "slug": 373,
     "title": "Мультиредактирование",
-    "cover": "covers/373.webp",
+    "cover": "images/covers/373.webp",
     "description": "Multi-edit simplifies editing across multiple frames in Figma. Learn how you can find and select matching layers, resize and align them to their frames, batch edit text boxes, make changes to all variants at once, and more-- all in just a couple clicks.",
     "author_slug": "Figma",
     "status_slug": "published",
@@ -11565,7 +11565,7 @@
   {
     "slug": 374,
     "title": "Редактору в Авито",
-    "cover": "covers/374.webp",
+    "cover": "images/covers/374.webp",
     "description": "",
     "author_slug": "Авито",
     "status_slug": "published",
@@ -11596,7 +11596,7 @@
   {
     "slug": 375,
     "title": "Vuexy",
-    "cover": "covers/375.webp",
+    "cover": "images/covers/375.webp",
     "description": "Демо всей библиотеки #1",
     "author_slug": "Pixinvent",
     "status_slug": "published",
@@ -11627,7 +11627,7 @@
   {
     "slug": 376,
     "title": "Making UX Decisions Course Materials",
-    "cover": "covers/376.webp",
+    "cover": "images/covers/376.webp",
     "description": "Материалы к одноимённому курсу",
     "author_slug": "UX Decisions",
     "status_slug": "published",
@@ -11658,7 +11658,7 @@
   {
     "slug": 377,
     "title": "AppMetrica",
-    "cover": "covers/377.webp",
+    "cover": "images/covers/377.webp",
     "description": "Демо",
     "author_slug": "Яндекс",
     "status_slug": "published",
@@ -11689,7 +11689,7 @@
   {
     "slug": 378,
     "title": "Модель информационных ожиданий",
-    "cover": "covers/378.webp",
+    "cover": "images/covers/378.webp",
     "description": "",
     "author_slug": "Собака Павлова",
     "status_slug": "published",
@@ -11720,7 +11720,7 @@
   {
     "slug": 379,
     "title": "IDS — Intuition Design System",
-    "cover": "covers/379.webp",
+    "cover": "images/covers/379.webp",
     "description": "",
     "author_slug": "Далер Алиёров, Женя Арутюнов, Женя Власов, Команда Интуиции, Рамиль Каримов",
     "status_slug": "published",
@@ -11751,7 +11751,7 @@
   {
     "slug": 380,
     "title": "Primer",
-    "cover": "covers/380.webp",
+    "cover": "images/covers/380.webp",
     "description": "",
     "author_slug": "GitHub",
     "status_slug": "published",
@@ -11782,7 +11782,7 @@
   {
     "slug": 381,
     "title": "Workbench",
-    "cover": "covers/381.webp",
+    "cover": "images/covers/381.webp",
     "description": "Нужен VPN",
     "author_slug": "Gusto",
     "status_slug": "published",
@@ -11813,7 +11813,7 @@
   {
     "slug": 382,
     "title": "Как подготовиться к Whiteboard Challenge: мой провал, выводы и советы для дизайнеров",
-    "cover": "covers/382.webp",
+    "cover": "images/covers/382.webp",
     "description": "",
     "author_slug": "Влада",
     "status_slug": "published",
@@ -11844,7 +11844,7 @@
   {
     "slug": 383,
     "title": "Carbon",
-    "cover": "covers/383.webp",
+    "cover": "images/covers/383.webp",
     "description": "",
     "author_slug": "IBM",
     "status_slug": "published",
@@ -11875,7 +11875,7 @@
   {
     "slug": 384,
     "title": "DDRILLS",
-    "cover": "covers/384.webp",
+    "cover": "images/covers/384.webp",
     "description": "Прокачка дизайн-скиллов через простые упражнения каждый день",
     "author_slug": "Рома Кужель",
     "status_slug": "published",
@@ -11906,7 +11906,7 @@
   {
     "slug": 385,
     "title": "Chill Talk",
-    "cover": "covers/385.webp",
+    "cover": "images/covers/385.webp",
     "description": "",
     "author_slug": "Карина",
     "status_slug": "published",
@@ -11937,7 +11937,7 @@
   {
     "slug": 386,
     "title": "Кейсы по дизайну интерфейсов от Собаки Павлова",
-    "cover": "covers/386.webp",
+    "cover": "images/covers/386.webp",
     "description": "Полезный источник для насмотренности, особенно B2B интерфейсов. Иногда кейсы описаны достаточно подробны, есть ссылки на демо (файлы, записи, фигма).",
     "author_slug": "Собака Павлова",
     "status_slug": "published",
@@ -11968,7 +11968,7 @@
   {
     "slug": 387,
     "title": "Музеи мира",
-    "cover": "covers/387.webp",
+    "cover": "images/covers/387.webp",
     "description": "",
     "author_slug": "Исторический факультет МГУ",
     "status_slug": "published",
@@ -11999,7 +11999,7 @@
   {
     "slug": 388,
     "title": "Hard Client",
-    "cover": "covers/388.webp",
+    "cover": "images/covers/388.webp",
     "description": "Разборы разных продуктов",
     "author_slug": "Станислав Хрусталёв",
     "status_slug": "published",
@@ -12030,7 +12030,7 @@
   {
     "slug": 389,
     "title": "Archive 2003–2023",
-    "cover": "covers/389.webp",
+    "cover": "images/covers/389.webp",
     "description": "An semi-complete archive of every project we designed since 2003",
     "author_slug": "area17",
     "status_slug": "published",
@@ -12061,7 +12061,7 @@
   {
     "slug": 390,
     "title": "Prompt Engineering",
-    "cover": "covers/390.webp",
+    "cover": "images/covers/390.webp",
     "description": "Гайд для правильного составления запросов для нейросетей",
     "author_slug": "Google",
     "status_slug": "published",
@@ -12092,7 +12092,7 @@
   {
     "slug": 391,
     "title": "Frest",
-    "cover": "covers/391.webp",
+    "cover": "images/covers/391.webp",
     "description": "Демо всей библиотеки #2",
     "author_slug": "Pixinvent",
     "status_slug": "published",
@@ -12123,7 +12123,7 @@
   {
     "slug": 392,
     "title": "Materialize",
-    "cover": "covers/392.webp",
+    "cover": "images/covers/392.webp",
     "description": "Демо всей библиотеки #3",
     "author_slug": "Pixinvent",
     "status_slug": "published",
@@ -12154,7 +12154,7 @@
   {
     "slug": 393,
     "title": "M3 Expressive",
-    "cover": "covers/393.webp",
+    "cover": "images/covers/393.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -12185,7 +12185,7 @@
   {
     "slug": 394,
     "title": "M3",
-    "cover": "covers/394.webp",
+    "cover": "images/covers/394.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -12216,7 +12216,7 @@
   {
     "slug": 395,
     "title": "M1",
-    "cover": "covers/395.webp",
+    "cover": "images/covers/395.webp",
     "description": "",
     "author_slug": "Google",
     "status_slug": "published",
@@ -12247,7 +12247,7 @@
   {
     "slug": 396,
     "title": "Как проводить вайтборд для нанимателей",
-    "cover": "covers/396.webp",
+    "cover": "images/covers/396.webp",
     "description": "",
     "author_slug": "Женя Белодед",
     "status_slug": "published",
@@ -12278,7 +12278,7 @@
   {
     "slug": 397,
     "title": "Т-Банк",
-    "cover": "covers/397.webp",
+    "cover": "images/covers/397.webp",
     "description": "Некоторые разделы закрыты под корпоративный VPN",
     "author_slug": "Т-Банк",
     "status_slug": "published",
@@ -12309,7 +12309,7 @@
   {
     "slug": 398,
     "title": "Как проходить вайтборд, чтобы увеличить шансы к найму",
-    "cover": "covers/398.webp",
+    "cover": "images/covers/398.webp",
     "description": "",
     "author_slug": "Женя Белодед",
     "status_slug": "published",
@@ -12340,7 +12340,7 @@
   {
     "slug": 399,
     "title": "Как выглядит стандартный процесс найма + микросоветы",
-    "cover": "covers/399.webp",
+    "cover": "images/covers/399.webp",
     "description": "",
     "author_slug": "Женя Белодед",
     "status_slug": "published",
@@ -12371,7 +12371,7 @@
   {
     "slug": 400,
     "title": "Oraculo — задачник",
-    "cover": "covers/400.webp",
+    "cover": "images/covers/400.webp",
     "description": "",
     "author_slug": "Oraculo, Лера Глазунова, Сергей Аненко",
     "status_slug": "published",
@@ -12402,7 +12402,7 @@
   {
     "slug": 401,
     "title": "106 Cognitive Biases & Principles",
-    "cover": "covers/401.webp",
+    "cover": "images/covers/401.webp",
     "description": "",
     "author_slug": "Dan Benoni, Louis-Xavier Lavallee",
     "status_slug": "published",
@@ -12433,7 +12433,7 @@
   {
     "slug": 402,
     "title": "64 UX Case Studies To Improve Your Product Skills",
-    "cover": "covers/402.webp",
+    "cover": "images/covers/402.webp",
     "description": "",
     "author_slug": "Dan Benoni, Louis-Xavier Lavallee",
     "status_slug": "published",
@@ -12464,7 +12464,7 @@
   {
     "slug": 403,
     "title": "Библиотека курсов МИФа",
-    "cover": "covers/403.webp",
+    "cover": "images/covers/403.webp",
     "description": "",
     "author_slug": "МИФ",
     "status_slug": "published",
@@ -12495,7 +12495,7 @@
   {
     "slug": 404,
     "title": "Fuse.kiwi",
-    "cover": "covers/404.webp",
+    "cover": "images/covers/404.webp",
     "description": "Разное",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -12526,7 +12526,7 @@
   {
     "slug": 405,
     "title": "WOW – WEB",
-    "cover": "covers/405.webp",
+    "cover": "images/covers/405.webp",
     "description": "+2000 живых сайтов",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -12557,7 +12557,7 @@
   {
     "slug": 406,
     "title": "MaxiBestOf",
-    "cover": "covers/406.webp",
+    "cover": "images/covers/406.webp",
     "description": "",
     "author_slug": "Bertrand Bruandet",
     "status_slug": "published",
@@ -12588,7 +12588,7 @@
   {
     "slug": 407,
     "title": "CPGD",
-    "cover": "covers/407.webp",
+    "cover": "images/covers/407.webp",
     "description": "Подборка сайтов промышленного дизайна",
     "author_slug": "Andrea Popova, Henry Armistead, Ronak Shah",
     "status_slug": "published",
@@ -12619,7 +12619,7 @@
   {
     "slug": 408,
     "title": "Game UI Database",
-    "cover": "covers/408.webp",
+    "cover": "images/covers/408.webp",
     "description": "Игры",
     "author_slug": "Edd Coates",
     "status_slug": "published",
@@ -12650,7 +12650,7 @@
   {
     "slug": 409,
     "title": "Dark Mode Design",
-    "cover": "covers/409.webp",
+    "cover": "images/covers/409.webp",
     "description": "Стильные тёмные темы сайтов. Сами сайты отобраны очень интересные",
     "author_slug": "Cai Cardenas",
     "status_slug": "published",
@@ -12681,7 +12681,7 @@
   {
     "slug": 410,
     "title": "Motion Log",
-    "cover": "covers/410.webp",
+    "cover": "images/covers/410.webp",
     "description": "",
     "author_slug": "Сергей Дюжев",
     "status_slug": "published",
@@ -12712,7 +12712,7 @@
   {
     "slug": 411,
     "title": "Redesigning design.systems",
-    "cover": "covers/411.webp",
+    "cover": "images/covers/411.webp",
     "description": "Инструкция по введению ДС",
     "author_slug": "Ness",
     "status_slug": "published",
@@ -12743,7 +12743,7 @@
   {
     "slug": 412,
     "title": "Storybook",
-    "cover": "covers/412.webp",
+    "cover": "images/covers/412.webp",
     "description": "Популярные открытые сторибуки",
     "author_slug": "Storybook",
     "status_slug": "published",
@@ -12774,7 +12774,7 @@
   {
     "slug": 413,
     "title": "Design Systems Index",
-    "cover": "covers/413.webp",
+    "cover": "images/covers/413.webp",
     "description": "",
     "author_slug": "Ruben Ferreira Duarte",
     "status_slug": "published",
@@ -12805,7 +12805,7 @@
   {
     "slug": 414,
     "title": "Design System News",
-    "cover": "covers/414.webp",
+    "cover": "images/covers/414.webp",
     "description": "Рассылка о мире ДС",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -12836,7 +12836,7 @@
   {
     "slug": 415,
     "title": "Безос, выкуси!",
-    "cover": "covers/415.webp",
+    "cover": "images/covers/415.webp",
     "description": "Презентации на русском языке",
     "author_slug": "Лаборатория слайдов",
     "status_slug": "published",
@@ -12867,7 +12867,7 @@
   {
     "slug": 416,
     "title": "Банк слайдов",
-    "cover": "covers/416.webp",
+    "cover": "images/covers/416.webp",
     "description": "+2000 слайдов презентаций",
     "author_slug": "Бонни и Слайд",
     "status_slug": "published",
@@ -12898,7 +12898,7 @@
   {
     "slug": 417,
     "title": "SaaSFrame",
-    "cover": "covers/417.webp",
+    "cover": "images/covers/417.webp",
     "description": "Фильтры доступны только в платной версии",
     "author_slug": "SaaSFrame",
     "status_slug": "published",
@@ -12929,7 +12929,7 @@
   {
     "slug": 418,
     "title": "SaaSFrame",
-    "cover": "covers/418.webp",
+    "cover": "images/covers/418.webp",
     "description": "Фильтры доступны только в платной версии",
     "author_slug": "SaaSFrame",
     "status_slug": "published",
@@ -12960,7 +12960,7 @@
   {
     "slug": 419,
     "title": "Appshot.Gallery",
-    "cover": "covers/419.webp",
+    "cover": "images/covers/419.webp",
     "description": "+500 экранов из App Store",
     "author_slug": "AppShot Gallery",
     "status_slug": "published",
@@ -12991,7 +12991,7 @@
   {
     "slug": 420,
     "title": "the screenshot first company",
-    "cover": "covers/420.webp",
+    "cover": "images/covers/420.webp",
     "description": "Экраны из App Store",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -13022,7 +13022,7 @@
   {
     "slug": 421,
     "title": "Landing Gallery",
-    "cover": "covers/421.webp",
+    "cover": "images/covers/421.webp",
     "description": "",
     "author_slug": "Landing Gallery",
     "status_slug": "published",
@@ -13053,7 +13053,7 @@
   {
     "slug": 422,
     "title": "awesomemarketingwebsites",
-    "cover": "covers/422.webp",
+    "cover": "images/covers/422.webp",
     "description": "",
     "author_slug": "Honey & Jam",
     "status_slug": "published",
@@ -13084,7 +13084,7 @@
   {
     "slug": 423,
     "title": "Landing Love",
-    "cover": "covers/423.webp",
+    "cover": "images/covers/423.webp",
     "description": "Анимации в лендигах",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -13115,7 +13115,7 @@
   {
     "slug": 424,
     "title": "Minimal Gallery",
-    "cover": "covers/424.webp",
+    "cover": "images/covers/424.webp",
     "description": "",
     "author_slug": "Piet Terheyden",
     "status_slug": "published",
@@ -13146,7 +13146,7 @@
   {
     "slug": 425,
     "title": "HOVERSTAT.ES",
-    "cover": "covers/425.webp",
+    "cover": "images/covers/425.webp",
     "description": "Курируемая подборка веб сайтов",
     "author_slug": "Dan Powell, Mike Guppy",
     "status_slug": "published",
@@ -13177,7 +13177,7 @@
   {
     "slug": 426,
     "title": "Siiimple",
-    "cover": "covers/426.webp",
+    "cover": "images/covers/426.webp",
     "description": "",
     "author_slug": "Siiimple",
     "status_slug": "published",
@@ -13208,7 +13208,7 @@
   {
     "slug": 427,
     "title": "Подборка от Uprock",
-    "cover": "covers/427.webp",
+    "cover": "images/covers/427.webp",
     "description": "Сайты на кириллице",
     "author_slug": "Uprock",
     "status_slug": "published",
@@ -13239,7 +13239,7 @@
   {
     "slug": 428,
     "title": "tiny blocks",
-    "cover": "covers/428.webp",
+    "cover": "images/covers/428.webp",
     "description": "",
     "author_slug": "MetaOne",
     "status_slug": "published",
@@ -13270,7 +13270,7 @@
   {
     "slug": 429,
     "title": "a-fresh",
-    "cover": "covers/429.webp",
+    "cover": "images/covers/429.webp",
     "description": "Много разных рубрик. Есть платная подписка",
     "author_slug": "a-fresh",
     "status_slug": "published",
@@ -13301,7 +13301,7 @@
   {
     "slug": 430,
     "title": "FOUNTN.",
-    "cover": "covers/430.webp",
+    "cover": "images/covers/430.webp",
     "description": "",
     "author_slug": "Onur Oztaskiran, Ozan Oztaskiran",
     "status_slug": "published",
@@ -13332,7 +13332,7 @@
   {
     "slug": 431,
     "title": "База",
-    "cover": "covers/431.webp",
+    "cover": "images/covers/431.webp",
     "description": "коллекция ссылок на дизайнерские инструменты, ресурсы, коллекции сайтов, приложений и UI-референсов, телеграм-каналы и всякое другое",
     "author_slug": "Ира Васюк, Роман Бено",
     "status_slug": "published",
@@ -13363,7 +13363,7 @@
   {
     "slug": 432,
     "title": "dsgn.zone",
-    "cover": "covers/432.webp",
+    "cover": "images/covers/432.webp",
     "description": "",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -13394,7 +13394,7 @@
   {
     "slug": 433,
     "title": "Infinite Canvas",
-    "cover": "covers/433.webp",
+    "cover": "images/covers/433.webp",
     "description": "",
     "author_slug": "Arun Venkatesan, Muse",
     "status_slug": "published",
@@ -13425,7 +13425,7 @@
   {
     "slug": 434,
     "title": "Patttterns",
-    "cover": "covers/434.webp",
+    "cover": "images/covers/434.webp",
     "description": "",
     "author_slug": "Pablo Armen",
     "status_slug": "published",
@@ -13456,7 +13456,7 @@
   {
     "slug": 435,
     "title": "Screen Sizes",
-    "cover": "covers/435.webp",
+    "cover": "images/covers/435.webp",
     "description": "",
     "author_slug": "Christopher Muller, Trevor Kay",
     "status_slug": "published",
@@ -13487,7 +13487,7 @@
   {
     "slug": 436,
     "title": "App Dissection",
-    "cover": "covers/436.webp",
+    "cover": "images/covers/436.webp",
     "description": "",
     "author_slug": "Brian Lovin",
     "status_slug": "published",
@@ -13518,7 +13518,7 @@
   {
     "slug": 437,
     "title": "Landingvault",
-    "cover": "covers/437.webp",
+    "cover": "images/covers/437.webp",
     "description": "",
     "author_slug": "Landingvault",
     "status_slug": "published",
@@ -13549,7 +13549,7 @@
   {
     "slug": 438,
     "title": "Лучшие ресурсы для дизайнеров",
-    "cover": "covers/438.webp",
+    "cover": "images/covers/438.webp",
     "description": "",
     "author_slug": "Uprock",
     "status_slug": "published",
@@ -13580,7 +13580,7 @@
   {
     "slug": 439,
     "title": "a—fresh",
-    "cover": "covers/439.webp",
+    "cover": "images/covers/439.webp",
     "description": "",
     "author_slug": "a-fresh.website",
     "status_slug": "published",
@@ -13611,7 +13611,7 @@
   {
     "slug": 440,
     "title": "Nicelydone",
-    "cover": "covers/440.webp",
+    "cover": "images/covers/440.webp",
     "description": "",
     "author_slug": "Bertrand Bruandet",
     "status_slug": "published",
@@ -13642,7 +13642,7 @@
   {
     "slug": 441,
     "title": "A curated list of mobile design resources",
-    "cover": "covers/441.webp",
+    "cover": "images/covers/441.webp",
     "description": "",
     "author_slug": "Jon Rundle",
     "status_slug": "published",
@@ -13673,7 +13673,7 @@
   {
     "slug": 442,
     "title": "Дока",
-    "cover": "covers/442.webp",
+    "cover": "images/covers/442.webp",
     "description": "",
     "author_slug": "Алёна Батицкая, Анастасия Шапошникова, Егор Левченко, Игорь Коровченко, Кира Кустова, Полина Гуртовая, Света Коробцева, Татьяна Фокина",
     "status_slug": "published",
@@ -13704,7 +13704,7 @@
   {
     "slug": 443,
     "title": "Fluent 2 Web",
-    "cover": "covers/443.webp",
+    "cover": "images/covers/443.webp",
     "description": "",
     "author_slug": "Microsoft",
     "status_slug": "published",
@@ -13735,7 +13735,7 @@
   {
     "slug": 444,
     "title": "Дизайн паттерны",
-    "cover": "covers/444.webp",
+    "cover": "images/covers/444.webp",
     "description": "",
     "author_slug": "Refactoring.Guru",
     "status_slug": "published",
@@ -13766,7 +13766,7 @@
   {
     "slug": 445,
     "title": "Дизайн паттерны",
-    "cover": "covers/445.webp",
+    "cover": "images/covers/445.webp",
     "description": "",
     "author_slug": "SourceMaking",
     "status_slug": "published",
@@ -13797,7 +13797,7 @@
   {
     "slug": 446,
     "title": "Huetone",
-    "cover": "covers/446.webp",
+    "cover": "images/covers/446.webp",
     "description": "",
     "author_slug": "Alexey Ardov",
     "status_slug": "published",
@@ -13828,7 +13828,7 @@
   {
     "slug": 447,
     "title": "Best of Behance",
-    "cover": "covers/447.webp",
+    "cover": "images/covers/447.webp",
     "description": "Лучшие работы в Бехансе",
     "author_slug": "Behance",
     "status_slug": "published",
@@ -13859,7 +13859,7 @@
   {
     "slug": 448,
     "title": "Glossary",
-    "cover": "covers/448.webp",
+    "cover": "images/covers/448.webp",
     "description": "Глоссарий",
     "author_slug": "Mobbin",
     "status_slug": "published",
@@ -13890,7 +13890,7 @@
   {
     "slug": 449,
     "title": "Explore Brand Colors",
-    "cover": "covers/449.webp",
+    "cover": "images/covers/449.webp",
     "description": "Брендовые цвета компаний",
     "author_slug": "Mobbin",
     "status_slug": "published",
@@ -13921,7 +13921,7 @@
   {
     "slug": 450,
     "title": "FWA",
-    "cover": "covers/450.webp",
+    "cover": "images/covers/450.webp",
     "description": "showcasing innovation every day since 2000",
     "author_slug": "The FWA",
     "status_slug": "published",
@@ -13952,7 +13952,7 @@
   {
     "slug": 451,
     "title": "ART FOR INTROVERT",
-    "cover": "covers/451.webp",
+    "cover": "images/covers/451.webp",
     "description": "",
     "author_slug": "Артинтроверт",
     "status_slug": "published",
@@ -13983,7 +13983,7 @@
   {
     "slug": 452,
     "title": "Pexels",
-    "cover": "covers/452.webp",
+    "cover": "images/covers/452.webp",
     "description": "Бесплатный фотосток",
     "author_slug": "Pexels",
     "status_slug": "published",
@@ -14014,7 +14014,7 @@
   {
     "slug": 453,
     "title": "Spotted in Prod",
-    "cover": "covers/453.webp",
+    "cover": "images/covers/453.webp",
     "description": "",
     "author_slug": "Raffi Chilingaryan",
     "status_slug": "published",
@@ -14045,7 +14045,7 @@
   {
     "slug": 454,
     "title": "Components",
-    "cover": "covers/454.webp",
+    "cover": "images/covers/454.webp",
     "description": "Learn how to use and customize system-defined components to give people a familiar and consistent experience.",
     "author_slug": "Apple",
     "status_slug": "published",
@@ -14076,7 +14076,7 @@
   {
     "slug": 455,
     "title": "Blueprints",
-    "cover": "covers/455.webp",
+    "cover": "images/covers/455.webp",
     "description": "",
     "author_slug": "Design Systems Surf",
     "status_slug": "published",
@@ -14107,7 +14107,7 @@
   {
     "slug": 456,
     "title": "Главред",
-    "cover": "covers/456.webp",
+    "cover": "images/covers/456.webp",
     "description": "",
     "author_slug": "Бюро Горбунова",
     "status_slug": "published",
@@ -14138,7 +14138,7 @@
   {
     "slug": 457,
     "title": "Типограф",
-    "cover": "covers/457.webp",
+    "cover": "images/covers/457.webp",
     "description": "",
     "author_slug": "Артемий Лебедев",
     "status_slug": "published",
@@ -14169,7 +14169,7 @@
   {
     "slug": 458,
     "title": "ColorBox",
-    "cover": "covers/458.webp",
+    "cover": "images/covers/458.webp",
     "description": "",
     "author_slug": "Kevyn Arnott",
     "status_slug": "published",
@@ -14200,7 +14200,7 @@
   {
     "slug": 459,
     "title": "Типографика и вёрстка",
-    "cover": "covers/459.webp",
+    "cover": "images/covers/459.webp",
     "description": "",
     "author_slug": "Артём Горбунов",
     "status_slug": "published",
@@ -14231,7 +14231,7 @@
   {
     "slug": 460,
     "title": "Пользовательский интерфейс",
-    "cover": "covers/460.webp",
+    "cover": "images/covers/460.webp",
     "description": "",
     "author_slug": "Илья Бирман",
     "status_slug": "published",
@@ -14262,7 +14262,7 @@
   {
     "slug": 461,
     "title": "Пиши, сокращай",
-    "cover": "covers/461.webp",
+    "cover": "images/covers/461.webp",
     "description": "",
     "author_slug": "Людмила Сарычева, Максим Ильяхов",
     "status_slug": "published",
@@ -14293,7 +14293,7 @@
   {
     "slug": 462,
     "title": "Информационный стиль",
-    "cover": "covers/462.webp",
+    "cover": "images/covers/462.webp",
     "description": "",
     "author_slug": "Максим Ильяхов",
     "status_slug": "published",
@@ -14324,7 +14324,7 @@
   {
     "slug": 463,
     "title": "Управление проектами, людьми и собой",
-    "cover": "covers/463.webp",
+    "cover": "images/covers/463.webp",
     "description": "",
     "author_slug": "Николай Товеровский",
     "status_slug": "published",
@@ -14355,7 +14355,7 @@
   {
     "slug": 464,
     "title": "Vilky",
-    "cover": "covers/464.webp",
+    "cover": "images/covers/464.webp",
     "description": "Анализ IT зарплат",
     "author_slug": "Не смогли выйти на автора",
     "status_slug": "published",
@@ -14386,7 +14386,7 @@
   {
     "slug": 465,
     "title": "Психология дизайна",
-    "cover": "covers/465.webp",
+    "cover": "images/covers/465.webp",
     "description": "Ваш путеводитель в мире, где дизайн встречается\nс психологией, наукой и бизнесом. Учебное пособие школы тильды",
     "author_slug": "Алена Спирина, Анжела Черкесова, Антон Командин, Витас Греф, Денис Сиземов, Миша Таби, Роман Яковенко",
     "status_slug": "published",
@@ -14417,7 +14417,7 @@
   {
     "slug": 466,
     "title": "Сто шпаргалок",
-    "cover": "covers/466.webp",
+    "cover": "images/covers/466.webp",
     "description": "Шпаргалки по дизайну интерфейсов",
     "author_slug": "Собака Павлова",
     "status_slug": "published",
@@ -14448,7 +14448,7 @@
   {
     "slug": 467,
     "title": "Исследование Т⁠—⁠Ж: как изменились зарплаты дизайне­ров в 2025 году",
-    "cover": "covers/467.webp",
+    "cover": "images/covers/467.webp",
     "description": "",
     "author_slug": "Т-Банк",
     "status_slug": "published",
@@ -14479,7 +14479,7 @@
   {
     "slug": 468,
     "title": "Free UX Templates and Guides",
-    "cover": "covers/468.webp",
+    "cover": "images/covers/468.webp",
     "description": "Use this curated set of free NN/g templates and guides for inspiration and to accelerate your product development activities and UX career",
     "author_slug": "NN/Group",
     "status_slug": "published",
@@ -14510,7 +14510,7 @@
   {
     "slug": 469,
     "title": "Приключение на 20 минут, или Как мы редизайнили приложение Додо Пиццы",
-    "cover": "covers/469.webp",
+    "cover": "images/covers/469.webp",
     "description": "",
     "author_slug": "Додо",
     "status_slug": "published",
@@ -14541,7 +14541,7 @@
   {
     "slug": 470,
     "title": "от BBE",
-    "cover": "covers/470.webp",
+    "cover": "images/covers/470.webp",
     "description": "",
     "author_slug": "Bang Bang Education",
     "status_slug": "published",
@@ -14572,7 +14572,7 @@
   {
     "slug": 471,
     "title": "Дизайн привычных вещей",
-    "cover": "covers/471.webp",
+    "cover": "images/covers/471.webp",
     "description": "",
     "author_slug": "Дон Норман",
     "status_slug": "published",
@@ -14603,7 +14603,7 @@
   {
     "slug": 472,
     "title": "Интерфейс. Основы проектирования взаимодействия",
-    "cover": "covers/472.webp",
+    "cover": "images/covers/472.webp",
     "description": "",
     "author_slug": "Алан Купер",
     "status_slug": "published",
@@ -14634,7 +14634,7 @@
   {
     "slug": 473,
     "title": "Психбольница в руках пациентов",
-    "cover": "covers/473.webp",
+    "cover": "images/covers/473.webp",
     "description": "",
     "author_slug": "Алан Купер",
     "status_slug": "published",
@@ -14665,7 +14665,7 @@
   {
     "slug": 474,
     "title": "Новая типографика. Руководство для современного дизайнера",
-    "cover": "covers/474.webp",
+    "cover": "images/covers/474.webp",
     "description": "",
     "author_slug": "Ян Чихольд",
     "status_slug": "published",
@@ -14696,7 +14696,7 @@
   {
     "slug": 475,
     "title": "Не заставляйте меня думать. Веб-юзабилити и здравый смысл",
-    "cover": "covers/475.webp",
+    "cover": "images/covers/475.webp",
     "description": "",
     "author_slug": "Стив Круг",
     "status_slug": "published",
@@ -14727,7 +14727,7 @@
   {
     "slug": 476,
     "title": "Ководство",
-    "cover": "covers/476.webp",
+    "cover": "images/covers/476.webp",
     "description": "",
     "author_slug": "Артемий Лебедев",
     "status_slug": "published",
@@ -14758,7 +14758,7 @@
   {
     "slug": 477,
     "title": "Сожги свое портфолио! То, чему не учат в дизайнерских школах",
-    "cover": "covers/477.webp",
+    "cover": "images/covers/477.webp",
     "description": "",
     "author_slug": "Майкл Джанда",
     "status_slug": "published",
@@ -14789,7 +14789,7 @@
   {
     "slug": 478,
     "title": "Спроси маму: Как общаться с клиентами и подтвердить правоту своей бизнес-идеи, если все кругом врут?",
-    "cover": "covers/478.webp",
+    "cover": "images/covers/478.webp",
     "description": "",
     "author_slug": "Роберт Фитцпатрик",
     "status_slug": "published",
@@ -14820,7 +14820,7 @@
   {
     "slug": 479,
     "title": "Универсальные принципы дизайна",
-    "cover": "covers/479.webp",
+    "cover": "images/covers/479.webp",
     "description": "",
     "author_slug": "Джилл Батлер, Кимберли Элам, Критина Холден, Уильям Лидвелл",
     "status_slug": "published",
@@ -14851,7 +14851,7 @@
   {
     "slug": 480,
     "title": "Дизайн для реального мира",
-    "cover": "covers/480.webp",
+    "cover": "images/covers/480.webp",
     "description": "",
     "author_slug": "Виктор Папанек",
     "status_slug": "published",
@@ -14882,7 +14882,7 @@
   {
     "slug": 481,
     "title": "Дизайн для недизайнеров",
-    "cover": "covers/481.webp",
+    "cover": "images/covers/481.webp",
     "description": "",
     "author_slug": "Робин Уильямс",
     "status_slug": "published",
@@ -14913,7 +14913,7 @@
   {
     "slug": 482,
     "title": "Модульные системы в графическом дизайне",
-    "cover": "covers/482.webp",
+    "cover": "images/covers/482.webp",
     "description": "",
     "author_slug": "Йозеф Мюллер-Брокманн",
     "status_slug": "published",
@@ -14944,7 +14944,7 @@
   {
     "slug": 483,
     "title": "Кради как художник",
-    "cover": "covers/483.webp",
+    "cover": "images/covers/483.webp",
     "description": "",
     "author_slug": "Остин Клеон",
     "status_slug": "published",
@@ -14975,7 +14975,7 @@
   {
     "slug": 484,
     "title": "Интерфейс: новые направления в проектировании компьютерных систем",
-    "cover": "covers/484.webp",
+    "cover": "images/covers/484.webp",
     "description": "",
     "author_slug": "Джеф Раскин",
     "status_slug": "published",
@@ -15006,7 +15006,7 @@
   {
     "slug": 485,
     "title": "Сложный дизайнер",
-    "cover": "covers/485.webp",
+    "cover": "images/covers/485.webp",
     "description": "",
     "author_slug": "Женя Арутюнов",
     "status_slug": "published",
@@ -15037,7 +15037,7 @@
   {
     "slug": 486,
     "title": "Искусство цвета (14-е издание)",
-    "cover": "covers/486.webp",
+    "cover": "images/covers/486.webp",
     "description": "",
     "author_slug": "Иоханнес Иттен",
     "status_slug": "published",
@@ -15068,7 +15068,7 @@
   {
     "slug": 487,
     "title": "Справочник издателя и автора (шестое издание)",
-    "cover": "covers/487.webp",
+    "cover": "images/covers/487.webp",
     "description": "",
     "author_slug": "Аркадий Мильчин, Людмила Чельцова",
     "status_slug": "published",
@@ -15099,7 +15099,7 @@
   {
     "slug": 488,
     "title": "Книга про буквы от Аа до Яя (четвертое издание)",
-    "cover": "covers/488.webp",
+    "cover": "images/covers/488.webp",
     "description": "",
     "author_slug": "Юрий Гордон",
     "status_slug": "published",
@@ -15130,7 +15130,7 @@
   {
     "slug": 489,
     "title": "Облик книги (пятое издание)",
-    "cover": "covers/489.webp",
+    "cover": "images/covers/489.webp",
     "description": "",
     "author_slug": "Ян Чихольд",
     "status_slug": "published",
@@ -15161,7 +15161,7 @@
   {
     "slug": 490,
     "title": "Искусство формы. Мой форкурс в Баухаузе и других школах (9-е издание)",
-    "cover": "covers/490.webp",
+    "cover": "images/covers/490.webp",
     "description": "",
     "author_slug": "Иоханнес Иттен",
     "status_slug": "published",
@@ -15192,7 +15192,7 @@
   {
     "slug": 491,
     "title": "Job-to-be-done",
-    "cover": "covers/491.webp",
+    "cover": "images/covers/491.webp",
     "description": "",
     "author_slug": "Intercom",
     "status_slug": "published",
@@ -15223,7 +15223,7 @@
   {
     "slug": 492,
     "title": "Visual Explanations",
-    "cover": "covers/492.webp",
+    "cover": "images/covers/492.webp",
     "description": "",
     "author_slug": "Эдвард Тафти",
     "status_slug": "published",
@@ -15254,7 +15254,7 @@
   {
     "slug": 493,
     "title": "Envisioning Informaton",
-    "cover": "covers/493.webp",
+    "cover": "images/covers/493.webp",
     "description": "",
     "author_slug": "Эдвард Тафти",
     "status_slug": "published",
@@ -15285,7 +15285,7 @@
   {
     "slug": 494,
     "title": "The visual display of Quantitive Information",
-    "cover": "covers/494.webp",
+    "cover": "images/covers/494.webp",
     "description": "",
     "author_slug": "Эдвард Тафти",
     "status_slug": "published",
@@ -15316,7 +15316,7 @@
   {
     "slug": 495,
     "title": "Дизайн-мышление в бизнесе",
-    "cover": "covers/495.webp",
+    "cover": "images/covers/495.webp",
     "description": "",
     "author_slug": "Тим Браун",
     "status_slug": "published",
@@ -15347,7 +15347,7 @@
   {
     "slug": 496,
     "title": "Баухаус",
-    "cover": "covers/496.webp",
+    "cover": "images/covers/496.webp",
     "description": "",
     "author_slug": "Фрэнк Уитфорд",
     "status_slug": "published",
@@ -15378,7 +15378,7 @@
   {
     "slug": 497,
     "title": "С помощью дизайна. Почему не было замков на дверях ванных комнат в отеле «Людовик XIV» и другие примеры (второе издание)",
-    "cover": "covers/497.webp",
+    "cover": "images/covers/497.webp",
     "description": "",
     "author_slug": "Ральф Каплан",
     "status_slug": "published",
@@ -15409,7 +15409,7 @@
   {
     "slug": 498,
     "title": "Lab UI",
-    "cover": "covers/498.webp",
+    "cover": "images/covers/498.webp",
     "description": "",
     "author_slug": "Даня Лимон",
     "status_slug": "published",
@@ -15440,7 +15440,7 @@
   {
     "slug": 499,
     "title": "Плакат о синтаксисе элементов интерфейса",
-    "cover": "covers/499.webp",
+    "cover": "images/covers/499.webp",
     "description": "",
     "author_slug": "Бюро Горбунова",
     "status_slug": "published",
@@ -15471,7 +15471,7 @@
   {
     "slug": 500,
     "title": "Коллектив",
-    "cover": "covers/500.webp",
+    "cover": "images/covers/500.webp",
     "description": "О чем мы поем? Во что верим? Чем живет глубинка? Мы — коллектив авторов. Снимаем документальные фильмы про всю нашу необъятную страну в поисках идентичности и любви",
     "author_slug": "Коллектив",
     "status_slug": "published",
@@ -15502,7 +15502,7 @@
   {
     "slug": 501,
     "title": "Спектр",
-    "cover": "covers/501.webp",
+    "cover": "images/covers/501.webp",
     "description": "Это фильмы о людях, местах и явлениях, которые проходят ниже радаров. Необычные персонажи, захватывающие истории и закрытые сообщества — мы поможем оказаться там, куда сложно попасть, и покажем то, что сложно заметить",
     "author_slug": "Спектр",
     "status_slug": "published",
@@ -15533,7 +15533,7 @@
   {
     "slug": 502,
     "title": "Aalto Repository beta",
-    "cover": "covers/502.webp",
+    "cover": "images/covers/502.webp",
     "description": "",
     "author_slug": "Aalto University",
     "status_slug": "published",
@@ -15564,7 +15564,7 @@
   {
     "slug": 503,
     "title": "Nokia Design Archive",
-    "cover": "covers/503.webp",
+    "cover": "images/covers/503.webp",
     "description": "",
     "author_slug": "Aalto University",
     "status_slug": "published",
@@ -15595,7 +15595,7 @@
   {
     "slug": 504,
     "title": "Раскадровка",
-    "cover": "covers/504.webp",
+    "cover": "images/covers/504.webp",
     "description": "",
     "author_slug": "Раскадровка",
     "status_slug": "published",
@@ -15626,7 +15626,7 @@
   {
     "slug": 505,
     "title": "Арзамас",
-    "cover": "covers/505.webp",
+    "cover": "images/covers/505.webp",
     "description": "Это магический проект, посвященный истории культуры. Мы рассказываем самыми разными способами о литературе, искусстве, истории и других гуманитарных науках, то есть о самом интересном в мире.",
     "author_slug": "Arzamas",
     "status_slug": "published",
@@ -15657,7 +15657,7 @@
   {
     "slug": 506,
     "title": "Пинтерест",
-    "cover": "covers/506.webp",
+    "cover": "images/covers/506.webp",
     "description": "",
     "author_slug": "Pinterest",
     "status_slug": "published",
@@ -15688,7 +15688,7 @@
   {
     "slug": 507,
     "title": "iOS 26",
-    "cover": "covers/507.webp",
+    "cover": "images/covers/507.webp",
     "description": "",
     "author_slug": "Apple",
     "status_slug": "published",
@@ -15719,7 +15719,7 @@
   {
     "slug": 508,
     "title": "iOS 18",
-    "cover": "covers/508.webp",
+    "cover": "images/covers/508.webp",
     "description": "",
     "author_slug": "Apple",
     "status_slug": "published",
@@ -15750,7 +15750,7 @@
   {
     "slug": 509,
     "title": "Безопасно и точка: правила продуктовой безопасности на кухне",
-    "cover": "covers/509.webp",
+    "cover": "images/covers/509.webp",
     "description": "",
     "author_slug": "Виктория Вишнякова",
     "status_slug": "published",
@@ -15781,7 +15781,7 @@
   {
     "slug": 510,
     "title": "Xerox Star User Interface",
-    "cover": "covers/510.webp",
+    "cover": "images/covers/510.webp",
     "description": "",
     "author_slug": "Xerox",
     "status_slug": "published",
@@ -15812,7 +15812,7 @@
   {
     "slug": 511,
     "title": "Fluent 2 iOS",
-    "cover": "covers/511.webp",
+    "cover": "images/covers/511.webp",
     "description": "",
     "author_slug": "Microsoft",
     "status_slug": "published",
@@ -15843,7 +15843,7 @@
   {
     "slug": 512,
     "title": "Fluent 2 Android",
-    "cover": "covers/512.webp",
+    "cover": "images/covers/512.webp",
     "description": "",
     "author_slug": "Microsoft",
     "status_slug": "published",
@@ -15874,7 +15874,7 @@
   {
     "slug": 513,
     "title": "Windows UI",
-    "cover": "covers/513.webp",
+    "cover": "images/covers/513.webp",
     "description": "",
     "author_slug": "Microsoft",
     "status_slug": "published",
@@ -15905,7 +15905,7 @@
   {
     "slug": 514,
     "title": "Microsoft 365 UI Kit",
-    "cover": "covers/514.webp",
+    "cover": "images/covers/514.webp",
     "description": "",
     "author_slug": "Microsoft",
     "status_slug": "published",
@@ -15936,7 +15936,7 @@
   {
     "slug": 515,
     "title": "Советы и статьи о тексте, редактуре, информационном стиле и рекламе",
-    "cover": "covers/515.webp",
+    "cover": "images/covers/515.webp",
     "description": "",
     "author_slug": "Максим Ильяхов",
     "status_slug": "published",
@@ -15967,7 +15967,7 @@
   {
     "slug": 516,
     "title": "Издательство Лебедева",
-    "cover": "covers/516.webp",
+    "cover": "images/covers/516.webp",
     "description": "",
     "author_slug": "Студия Артемия Лебедева",
     "status_slug": "published",
@@ -15998,7 +15998,7 @@
   {
     "slug": 517,
     "title": "Книги Главреда",
-    "cover": "covers/517.webp",
+    "cover": "images/covers/517.webp",
     "description": "",
     "author_slug": "Бюро Горбунова",
     "status_slug": "published",
@@ -16029,7 +16029,7 @@
   {
     "slug": 518,
     "title": "Shotdeck",
-    "cover": "covers/518.webp",
+    "cover": "images/covers/518.webp",
     "description": "Кадры из фильмов. 2 недели бесплатной подписки",
     "author_slug": "Filmmaker's Research Lab",
     "status_slug": "published",
@@ -16060,7 +16060,7 @@
   {
     "slug": 519,
     "title": "Лаборатория данных",
-    "cover": "covers/519.webp",
+    "cover": "images/covers/519.webp",
     "description": "Интерактивные визуализации на D3.js для банкиров и экономистов, транспортных аналитиков, учёных, спортсменов, предпринимателей",
     "author_slug": "Лаборатория данных",
     "status_slug": "published",
@@ -16091,7 +16091,7 @@
   {
     "slug": 520,
     "title": "App Stacks",
-    "cover": "covers/520.webp",
+    "cover": "images/covers/520.webp",
     "description": "Истории разработки приложений",
     "author_slug": "Roman Tesliuk",
     "status_slug": "published",
@@ -16122,7 +16122,7 @@
   {
     "slug": 521,
     "title": "DOS Zone",
-    "cover": "covers/521.webp",
+    "cover": "images/covers/521.webp",
     "description": "Облачный веб-каталог ретро игр",
     "author_slug": "caiiiycuk",
     "status_slug": "published",
@@ -16153,7 +16153,7 @@
   {
     "slug": 522,
     "title": "21st.dev",
-    "cover": "covers/522.webp",
+    "cover": "images/covers/522.webp",
     "description": "Есть платная версия",
     "author_slug": "21st Labs",
     "status_slug": "published",
@@ -16184,7 +16184,7 @@
   {
     "slug": 523,
     "title": "Cosmos",
-    "cover": "covers/523.webp",
+    "cover": "images/covers/523.webp",
     "description": "",
     "author_slug": "Cosmos",
     "status_slug": "published",
@@ -16215,7 +16215,7 @@
   {
     "slug": 524,
     "title": "Lotus diagram",
-    "cover": "covers/524.webp",
+    "cover": "images/covers/524.webp",
     "description": "",
     "author_slug": "Yasuo Matsumura",
     "status_slug": "published",
@@ -16246,7 +16246,7 @@
   {
     "slug": 525,
     "title": "База знаний для UX-писателей",
-    "cover": "covers/525.webp",
+    "cover": "images/covers/525.webp",
     "description": "",
     "author_slug": "Моторина Ира",
     "status_slug": "published",
@@ -16277,7 +16277,7 @@
   {
     "slug": 526,
     "title": "Материалы",
-    "cover": "covers/526.webp",
+    "cover": "images/covers/526.webp",
     "description": "Коллекция материалов, разбитые по навыкам. Несколько сумбурно",
     "author_slug": "Dzmitry Vanitski",
     "status_slug": "published",
@@ -16308,7 +16308,7 @@
   {
     "slug": 527,
     "title": "ДЗГН'360",
-    "cover": "covers/527.webp",
+    "cover": "images/covers/527.webp",
     "description": "",
     "author_slug": "Говердовский Артем",
     "status_slug": "published",
@@ -16339,7 +16339,7 @@
   {
     "slug": 528,
     "title": "useful web",
-    "cover": "covers/528.webp",
+    "cover": "images/covers/528.webp",
     "description": "",
     "author_slug": "Dima Grinkevych",
     "status_slug": "published",
@@ -16370,7 +16370,7 @@
   {
     "slug": 529,
     "title": "Подборка каналов доказательных врачей",
-    "cover": "covers/529.webp",
+    "cover": "images/covers/529.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16401,7 +16401,7 @@
   {
     "slug": 530,
     "title": "Рассылка от Docmed",
-    "cover": "covers/530.webp",
+    "cover": "images/covers/530.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16432,7 +16432,7 @@
   {
     "slug": 531,
     "title": "Lummi",
-    "cover": "covers/531.webp",
+    "cover": "images/covers/531.webp",
     "description": "Платно для скачивания изображений с высоким разрешением",
     "author_slug": "",
     "status_slug": "draft",
@@ -16463,7 +16463,7 @@
   {
     "slug": 532,
     "title": "GENERATED PHOTOS",
-    "cover": "covers/532.webp",
+    "cover": "images/covers/532.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16494,7 +16494,7 @@
   {
     "slug": 533,
     "title": "Helper. Прокачка",
-    "cover": "covers/533.webp",
+    "cover": "images/covers/533.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16525,7 +16525,7 @@
   {
     "slug": 534,
     "title": "Research skills 2023",
-    "cover": "covers/534.webp",
+    "cover": "images/covers/534.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16556,7 +16556,7 @@
   {
     "slug": 535,
     "title": "Цифровая доступность",
-    "cover": "covers/535.webp",
+    "cover": "images/covers/535.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16587,7 +16587,7 @@
   {
     "slug": 536,
     "title": "Юзабилити-аудит сайта: чек-листс примерами",
-    "cover": "covers/536.webp",
+    "cover": "images/covers/536.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16618,7 +16618,7 @@
   {
     "slug": 537,
     "title": "Правила русского языка",
-    "cover": "covers/537.webp",
+    "cover": "images/covers/537.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16649,7 +16649,7 @@
   {
     "slug": 538,
     "title": "Атомаро",
-    "cover": "covers/538.webp",
+    "cover": "images/covers/538.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16680,7 +16680,7 @@
   {
     "slug": 539,
     "title": "Dodo Design Checklist",
-    "cover": "covers/539.webp",
+    "cover": "images/covers/539.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16711,7 +16711,7 @@
   {
     "slug": 540,
     "title": "WB Check",
-    "cover": "covers/540.webp",
+    "cover": "images/covers/540.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16742,7 +16742,7 @@
   {
     "slug": 541,
     "title": "Portfolio Hero",
-    "cover": "covers/541.webp",
+    "cover": "images/covers/541.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16773,7 +16773,7 @@
   {
     "slug": 542,
     "title": "Macintosh Human Interface Guidelines",
-    "cover": "covers/542.webp",
+    "cover": "images/covers/542.webp",
     "description": "",
     "author_slug": "Apple",
     "status_slug": "draft",
@@ -16804,7 +16804,7 @@
   {
     "slug": 543,
     "title": "VintageApple.org",
-    "cover": "covers/543.webp",
+    "cover": "images/covers/543.webp",
     "description": "Information from the early Apple era",
     "author_slug": "",
     "status_slug": "draft",
@@ -16835,7 +16835,7 @@
   {
     "slug": 544,
     "title": "МТС",
-    "cover": "covers/544.webp",
+    "cover": "images/covers/544.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16866,7 +16866,7 @@
   {
     "slug": 545,
     "title": "Dropbox",
-    "cover": "covers/545.webp",
+    "cover": "images/covers/545.webp",
     "description": "",
     "author_slug": "Dropbox",
     "status_slug": "draft",
@@ -16897,7 +16897,7 @@
   {
     "slug": 546,
     "title": "whocanuse",
-    "cover": "covers/546.webp",
+    "cover": "images/covers/546.webp",
     "description": "Можно посмотреть как видят кнопку люди со всеми видами нарушения зрения. Хороший референс всех видов нарушений зрения",
     "author_slug": "",
     "status_slug": "draft",
@@ -16928,7 +16928,7 @@
   {
     "slug": 547,
     "title": "Библиотека левел дизайнера",
-    "cover": "covers/547.webp",
+    "cover": "images/covers/547.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -16959,7 +16959,7 @@
   {
     "slug": 548,
     "title": "Best Designs on X.com",
-    "cover": "covers/548.webp",
+    "cover": "images/covers/548.webp",
     "description": "Обновляется ежечасно",
     "author_slug": "",
     "status_slug": "draft",
@@ -16990,7 +16990,7 @@
   {
     "slug": 549,
     "title": "Patterned Al",
-    "cover": "covers/549.webp",
+    "cover": "images/covers/549.webp",
     "description": "Ai паттерны",
     "author_slug": "",
     "status_slug": "draft",
@@ -17021,7 +17021,7 @@
   {
     "slug": 550,
     "title": "wplace",
-    "cover": "covers/550.webp",
+    "cover": "images/covers/550.webp",
     "description": "Пиксель арт на карте мира",
     "author_slug": "",
     "status_slug": "draft",
@@ -17052,7 +17052,7 @@
   {
     "slug": 551,
     "title": "",
-    "cover": "covers/551.webp",
+    "cover": "images/covers/551.webp",
     "description": "Спрайты",
     "author_slug": "",
     "status_slug": "draft",
@@ -17083,7 +17083,7 @@
   {
     "slug": 552,
     "title": "EYECANDY",
-    "cover": "covers/552.webp",
+    "cover": "images/covers/552.webp",
     "description": "Приемы съемок",
     "author_slug": "",
     "status_slug": "draft",
@@ -17114,7 +17114,7 @@
   {
     "slug": 553,
     "title": "",
-    "cover": "covers/553.webp",
+    "cover": "images/covers/553.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17145,7 +17145,7 @@
   {
     "slug": 554,
     "title": "",
-    "cover": "covers/554.webp",
+    "cover": "images/covers/554.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17176,7 +17176,7 @@
   {
     "slug": 555,
     "title": "",
-    "cover": "covers/555.webp",
+    "cover": "images/covers/555.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17207,7 +17207,7 @@
   {
     "slug": 556,
     "title": "",
-    "cover": "covers/556.webp",
+    "cover": "images/covers/556.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17238,7 +17238,7 @@
   {
     "slug": 557,
     "title": "",
-    "cover": "covers/557.webp",
+    "cover": "images/covers/557.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17269,7 +17269,7 @@
   {
     "slug": 558,
     "title": "",
-    "cover": "covers/558.webp",
+    "cover": "images/covers/558.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17300,7 +17300,7 @@
   {
     "slug": 559,
     "title": "",
-    "cover": "covers/559.webp",
+    "cover": "images/covers/559.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17331,7 +17331,7 @@
   {
     "slug": 560,
     "title": "",
-    "cover": "covers/560.webp",
+    "cover": "images/covers/560.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17362,7 +17362,7 @@
   {
     "slug": 561,
     "title": "",
-    "cover": "covers/561.webp",
+    "cover": "images/covers/561.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17393,7 +17393,7 @@
   {
     "slug": 562,
     "title": "Gam.Onl",
-    "cover": "covers/562.webp",
+    "cover": "images/covers/562.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17424,7 +17424,7 @@
   {
     "slug": 563,
     "title": "Deceptive Patterns",
-    "cover": "covers/563.webp",
+    "cover": "images/covers/563.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17455,7 +17455,7 @@
   {
     "slug": 564,
     "title": "",
-    "cover": "covers/564.webp",
+    "cover": "images/covers/564.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17486,7 +17486,7 @@
   {
     "slug": 565,
     "title": "Будущее. Принципы и практики созидания",
-    "cover": "covers/565.webp",
+    "cover": "images/covers/565.webp",
     "description": "",
     "author_slug": "Ник Монтфорт",
     "status_slug": "draft",
@@ -17517,7 +17517,7 @@
   {
     "slug": 566,
     "title": "The Manual of Design Fiction",
-    "cover": "covers/566.webp",
+    "cover": "images/covers/566.webp",
     "description": "",
     "author_slug": "Fabien Girardin, Julian Bleecker, Nick Foster, Nicolas Nova",
     "status_slug": "draft",
@@ -17548,7 +17548,7 @@
   {
     "slug": 567,
     "title": "Дизайн как отношение",
-    "cover": "covers/567.webp",
+    "cover": "images/covers/567.webp",
     "description": "",
     "author_slug": "Элис Росторн",
     "status_slug": "draft",
@@ -17579,7 +17579,7 @@
   {
     "slug": 568,
     "title": "История дизайна",
-    "cover": "covers/568.webp",
+    "cover": "images/covers/568.webp",
     "description": "",
     "author_slug": "Charlotte Fiell, Филл Питер",
     "status_slug": "draft",
@@ -17610,7 +17610,7 @@
   {
     "slug": 569,
     "title": "Design of the 20th Century",
-    "cover": "covers/569.webp",
+    "cover": "images/covers/569.webp",
     "description": "",
     "author_slug": "Charlotte Fiell, Peter Fiell",
     "status_slug": "draft",
@@ -17641,7 +17641,7 @@
   {
     "slug": 570,
     "title": "Industrial Design A-Z",
-    "cover": "covers/570.webp",
+    "cover": "images/covers/570.webp",
     "description": "",
     "author_slug": "Charlotte Fiell",
     "status_slug": "draft",
@@ -17672,7 +17672,7 @@
   {
     "slug": 571,
     "title": "100 Ideas that Changed Design",
-    "cover": "covers/571.webp",
+    "cover": "images/covers/571.webp",
     "description": "",
     "author_slug": "Charlotte Fiell, Peter Fiell",
     "status_slug": "draft",
@@ -17703,7 +17703,7 @@
   {
     "slug": 572,
     "title": "Грейд в Product Design",
-    "cover": "covers/572.webp",
+    "cover": "images/covers/572.webp",
     "description": "",
     "author_slug": "Сергей Мекрюков",
     "status_slug": "draft",
@@ -17734,7 +17734,7 @@
   {
     "slug": 573,
     "title": "",
-    "cover": "covers/573.webp",
+    "cover": "images/covers/573.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17765,7 +17765,7 @@
   {
     "slug": 574,
     "title": "",
-    "cover": "covers/574.webp",
+    "cover": "images/covers/574.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17796,7 +17796,7 @@
   {
     "slug": 575,
     "title": "",
-    "cover": "covers/575.webp",
+    "cover": "images/covers/575.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17827,7 +17827,7 @@
   {
     "slug": 576,
     "title": "",
-    "cover": "covers/576.webp",
+    "cover": "images/covers/576.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17858,7 +17858,7 @@
   {
     "slug": 577,
     "title": "",
-    "cover": "covers/577.webp",
+    "cover": "images/covers/577.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17889,7 +17889,7 @@
   {
     "slug": 578,
     "title": "",
-    "cover": "covers/578.webp",
+    "cover": "images/covers/578.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17920,7 +17920,7 @@
   {
     "slug": 579,
     "title": "",
-    "cover": "covers/579.webp",
+    "cover": "images/covers/579.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17951,7 +17951,7 @@
   {
     "slug": 580,
     "title": "",
-    "cover": "covers/580.webp",
+    "cover": "images/covers/580.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -17982,7 +17982,7 @@
   {
     "slug": 581,
     "title": "",
-    "cover": "covers/581.webp",
+    "cover": "images/covers/581.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18013,7 +18013,7 @@
   {
     "slug": 582,
     "title": "",
-    "cover": "covers/582.webp",
+    "cover": "images/covers/582.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18044,7 +18044,7 @@
   {
     "slug": 583,
     "title": "",
-    "cover": "covers/583.webp",
+    "cover": "images/covers/583.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18075,7 +18075,7 @@
   {
     "slug": 584,
     "title": "",
-    "cover": "covers/584.webp",
+    "cover": "images/covers/584.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18106,7 +18106,7 @@
   {
     "slug": 585,
     "title": "",
-    "cover": "covers/585.webp",
+    "cover": "images/covers/585.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18137,7 +18137,7 @@
   {
     "slug": 586,
     "title": "",
-    "cover": "covers/586.webp",
+    "cover": "images/covers/586.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18168,7 +18168,7 @@
   {
     "slug": 587,
     "title": "",
-    "cover": "covers/587.webp",
+    "cover": "images/covers/587.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18199,7 +18199,7 @@
   {
     "slug": 588,
     "title": "",
-    "cover": "covers/588.webp",
+    "cover": "images/covers/588.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18230,7 +18230,7 @@
   {
     "slug": 589,
     "title": "",
-    "cover": "covers/589.webp",
+    "cover": "images/covers/589.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18261,7 +18261,7 @@
   {
     "slug": 590,
     "title": "",
-    "cover": "covers/590.webp",
+    "cover": "images/covers/590.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18292,7 +18292,7 @@
   {
     "slug": 591,
     "title": "",
-    "cover": "covers/591.webp",
+    "cover": "images/covers/591.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18323,7 +18323,7 @@
   {
     "slug": 592,
     "title": "",
-    "cover": "covers/592.webp",
+    "cover": "images/covers/592.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18354,7 +18354,7 @@
   {
     "slug": 593,
     "title": "",
-    "cover": "covers/593.webp",
+    "cover": "images/covers/593.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18385,7 +18385,7 @@
   {
     "slug": 594,
     "title": "",
-    "cover": "covers/594.webp",
+    "cover": "images/covers/594.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18416,7 +18416,7 @@
   {
     "slug": 595,
     "title": "",
-    "cover": "covers/595.webp",
+    "cover": "images/covers/595.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18447,7 +18447,7 @@
   {
     "slug": 596,
     "title": "",
-    "cover": "covers/596.webp",
+    "cover": "images/covers/596.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18478,7 +18478,7 @@
   {
     "slug": 597,
     "title": "",
-    "cover": "covers/597.webp",
+    "cover": "images/covers/597.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18509,7 +18509,7 @@
   {
     "slug": 598,
     "title": "",
-    "cover": "covers/598.webp",
+    "cover": "images/covers/598.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18540,7 +18540,7 @@
   {
     "slug": 599,
     "title": "",
-    "cover": "covers/599.webp",
+    "cover": "images/covers/599.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18571,7 +18571,7 @@
   {
     "slug": 600,
     "title": "",
-    "cover": "covers/600.webp",
+    "cover": "images/covers/600.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18602,7 +18602,7 @@
   {
     "slug": 601,
     "title": "",
-    "cover": "covers/601.webp",
+    "cover": "images/covers/601.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18633,7 +18633,7 @@
   {
     "slug": 602,
     "title": "",
-    "cover": "covers/602.webp",
+    "cover": "images/covers/602.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18664,7 +18664,7 @@
   {
     "slug": 603,
     "title": "",
-    "cover": "covers/603.webp",
+    "cover": "images/covers/603.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18695,7 +18695,7 @@
   {
     "slug": 604,
     "title": "",
-    "cover": "covers/604.webp",
+    "cover": "images/covers/604.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18726,7 +18726,7 @@
   {
     "slug": 605,
     "title": "",
-    "cover": "covers/605.webp",
+    "cover": "images/covers/605.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18757,7 +18757,7 @@
   {
     "slug": 606,
     "title": "",
-    "cover": "covers/606.webp",
+    "cover": "images/covers/606.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18788,7 +18788,7 @@
   {
     "slug": 607,
     "title": "",
-    "cover": "covers/607.webp",
+    "cover": "images/covers/607.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18819,7 +18819,7 @@
   {
     "slug": 608,
     "title": "",
-    "cover": "covers/608.webp",
+    "cover": "images/covers/608.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18850,7 +18850,7 @@
   {
     "slug": 609,
     "title": "",
-    "cover": "covers/609.webp",
+    "cover": "images/covers/609.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18881,7 +18881,7 @@
   {
     "slug": 610,
     "title": "",
-    "cover": "covers/610.webp",
+    "cover": "images/covers/610.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18912,7 +18912,7 @@
   {
     "slug": 611,
     "title": "",
-    "cover": "covers/611.webp",
+    "cover": "images/covers/611.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18943,7 +18943,7 @@
   {
     "slug": 612,
     "title": "",
-    "cover": "covers/612.webp",
+    "cover": "images/covers/612.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -18974,7 +18974,7 @@
   {
     "slug": 613,
     "title": "",
-    "cover": "covers/613.webp",
+    "cover": "images/covers/613.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19005,7 +19005,7 @@
   {
     "slug": 614,
     "title": "",
-    "cover": "covers/614.webp",
+    "cover": "images/covers/614.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19036,7 +19036,7 @@
   {
     "slug": 615,
     "title": "",
-    "cover": "covers/615.webp",
+    "cover": "images/covers/615.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19067,7 +19067,7 @@
   {
     "slug": 616,
     "title": "",
-    "cover": "covers/616.webp",
+    "cover": "images/covers/616.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19098,7 +19098,7 @@
   {
     "slug": 617,
     "title": "",
-    "cover": "covers/617.webp",
+    "cover": "images/covers/617.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19129,7 +19129,7 @@
   {
     "slug": 618,
     "title": "",
-    "cover": "covers/618.webp",
+    "cover": "images/covers/618.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19160,7 +19160,7 @@
   {
     "slug": 619,
     "title": "",
-    "cover": "covers/619.webp",
+    "cover": "images/covers/619.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19191,7 +19191,7 @@
   {
     "slug": 620,
     "title": "",
-    "cover": "covers/620.webp",
+    "cover": "images/covers/620.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19222,7 +19222,7 @@
   {
     "slug": 621,
     "title": "",
-    "cover": "covers/621.webp",
+    "cover": "images/covers/621.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19253,7 +19253,7 @@
   {
     "slug": 622,
     "title": "",
-    "cover": "covers/622.webp",
+    "cover": "images/covers/622.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19284,7 +19284,7 @@
   {
     "slug": 623,
     "title": "",
-    "cover": "covers/623.webp",
+    "cover": "images/covers/623.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19315,7 +19315,7 @@
   {
     "slug": 624,
     "title": "",
-    "cover": "covers/624.webp",
+    "cover": "images/covers/624.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19346,7 +19346,7 @@
   {
     "slug": 625,
     "title": "",
-    "cover": "covers/625.webp",
+    "cover": "images/covers/625.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19377,7 +19377,7 @@
   {
     "slug": 626,
     "title": "",
-    "cover": "covers/626.webp",
+    "cover": "images/covers/626.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19408,7 +19408,7 @@
   {
     "slug": 627,
     "title": "",
-    "cover": "covers/627.webp",
+    "cover": "images/covers/627.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19439,7 +19439,7 @@
   {
     "slug": 628,
     "title": "",
-    "cover": "covers/628.webp",
+    "cover": "images/covers/628.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19470,7 +19470,7 @@
   {
     "slug": 629,
     "title": "",
-    "cover": "covers/629.webp",
+    "cover": "images/covers/629.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19501,7 +19501,7 @@
   {
     "slug": 630,
     "title": "",
-    "cover": "covers/630.webp",
+    "cover": "images/covers/630.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19532,7 +19532,7 @@
   {
     "slug": 631,
     "title": "",
-    "cover": "covers/631.webp",
+    "cover": "images/covers/631.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19563,7 +19563,7 @@
   {
     "slug": 632,
     "title": "",
-    "cover": "covers/632.webp",
+    "cover": "images/covers/632.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19594,7 +19594,7 @@
   {
     "slug": 633,
     "title": "",
-    "cover": "covers/633.webp",
+    "cover": "images/covers/633.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19625,7 +19625,7 @@
   {
     "slug": 634,
     "title": "",
-    "cover": "covers/634.webp",
+    "cover": "images/covers/634.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19656,7 +19656,7 @@
   {
     "slug": 635,
     "title": "",
-    "cover": "covers/635.webp",
+    "cover": "images/covers/635.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19687,7 +19687,7 @@
   {
     "slug": 636,
     "title": "",
-    "cover": "covers/636.webp",
+    "cover": "images/covers/636.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19718,7 +19718,7 @@
   {
     "slug": 637,
     "title": "",
-    "cover": "covers/637.webp",
+    "cover": "images/covers/637.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19749,7 +19749,7 @@
   {
     "slug": 638,
     "title": "",
-    "cover": "covers/638.webp",
+    "cover": "images/covers/638.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19780,7 +19780,7 @@
   {
     "slug": 639,
     "title": "",
-    "cover": "covers/639.webp",
+    "cover": "images/covers/639.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19811,7 +19811,7 @@
   {
     "slug": 640,
     "title": "",
-    "cover": "covers/640.webp",
+    "cover": "images/covers/640.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19842,7 +19842,7 @@
   {
     "slug": 641,
     "title": "",
-    "cover": "covers/641.webp",
+    "cover": "images/covers/641.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19873,7 +19873,7 @@
   {
     "slug": 642,
     "title": "",
-    "cover": "covers/642.webp",
+    "cover": "images/covers/642.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19904,7 +19904,7 @@
   {
     "slug": 643,
     "title": "",
-    "cover": "covers/643.webp",
+    "cover": "images/covers/643.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19935,7 +19935,7 @@
   {
     "slug": 644,
     "title": "",
-    "cover": "covers/644.webp",
+    "cover": "images/covers/644.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19966,7 +19966,7 @@
   {
     "slug": 645,
     "title": "",
-    "cover": "covers/645.webp",
+    "cover": "images/covers/645.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -19997,7 +19997,7 @@
   {
     "slug": 646,
     "title": "",
-    "cover": "covers/646.webp",
+    "cover": "images/covers/646.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20028,7 +20028,7 @@
   {
     "slug": 647,
     "title": "",
-    "cover": "covers/647.webp",
+    "cover": "images/covers/647.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20059,7 +20059,7 @@
   {
     "slug": 648,
     "title": "",
-    "cover": "covers/648.webp",
+    "cover": "images/covers/648.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20090,7 +20090,7 @@
   {
     "slug": 649,
     "title": "",
-    "cover": "covers/649.webp",
+    "cover": "images/covers/649.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20121,7 +20121,7 @@
   {
     "slug": 650,
     "title": "",
-    "cover": "covers/650.webp",
+    "cover": "images/covers/650.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20152,7 +20152,7 @@
   {
     "slug": 651,
     "title": "",
-    "cover": "covers/651.webp",
+    "cover": "images/covers/651.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20183,7 +20183,7 @@
   {
     "slug": 652,
     "title": "",
-    "cover": "covers/652.webp",
+    "cover": "images/covers/652.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20214,7 +20214,7 @@
   {
     "slug": 653,
     "title": "",
-    "cover": "covers/653.webp",
+    "cover": "images/covers/653.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20245,7 +20245,7 @@
   {
     "slug": 654,
     "title": "",
-    "cover": "covers/654.webp",
+    "cover": "images/covers/654.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20276,7 +20276,7 @@
   {
     "slug": 655,
     "title": "",
-    "cover": "covers/655.webp",
+    "cover": "images/covers/655.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20307,7 +20307,7 @@
   {
     "slug": 656,
     "title": "",
-    "cover": "covers/656.webp",
+    "cover": "images/covers/656.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20338,7 +20338,7 @@
   {
     "slug": 657,
     "title": "",
-    "cover": "covers/657.webp",
+    "cover": "images/covers/657.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20369,7 +20369,7 @@
   {
     "slug": 658,
     "title": "",
-    "cover": "covers/658.webp",
+    "cover": "images/covers/658.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20400,7 +20400,7 @@
   {
     "slug": 659,
     "title": "",
-    "cover": "covers/659.webp",
+    "cover": "images/covers/659.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20431,7 +20431,7 @@
   {
     "slug": 660,
     "title": "",
-    "cover": "covers/660.webp",
+    "cover": "images/covers/660.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20462,7 +20462,7 @@
   {
     "slug": 661,
     "title": "",
-    "cover": "covers/661.webp",
+    "cover": "images/covers/661.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20493,7 +20493,7 @@
   {
     "slug": 662,
     "title": "",
-    "cover": "covers/662.webp",
+    "cover": "images/covers/662.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20524,7 +20524,7 @@
   {
     "slug": 663,
     "title": "",
-    "cover": "covers/663.webp",
+    "cover": "images/covers/663.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20555,7 +20555,7 @@
   {
     "slug": 664,
     "title": "",
-    "cover": "covers/664.webp",
+    "cover": "images/covers/664.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20586,7 +20586,7 @@
   {
     "slug": 665,
     "title": "",
-    "cover": "covers/665.webp",
+    "cover": "images/covers/665.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20617,7 +20617,7 @@
   {
     "slug": 666,
     "title": "",
-    "cover": "covers/666.webp",
+    "cover": "images/covers/666.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20648,7 +20648,7 @@
   {
     "slug": 667,
     "title": "",
-    "cover": "covers/667.webp",
+    "cover": "images/covers/667.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20679,7 +20679,7 @@
   {
     "slug": 668,
     "title": "",
-    "cover": "covers/668.webp",
+    "cover": "images/covers/668.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20710,7 +20710,7 @@
   {
     "slug": 669,
     "title": "",
-    "cover": "covers/669.webp",
+    "cover": "images/covers/669.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20741,7 +20741,7 @@
   {
     "slug": 670,
     "title": "",
-    "cover": "covers/670.webp",
+    "cover": "images/covers/670.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20772,7 +20772,7 @@
   {
     "slug": 671,
     "title": "",
-    "cover": "covers/671.webp",
+    "cover": "images/covers/671.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20803,7 +20803,7 @@
   {
     "slug": 672,
     "title": "",
-    "cover": "covers/672.webp",
+    "cover": "images/covers/672.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20834,7 +20834,7 @@
   {
     "slug": 673,
     "title": "",
-    "cover": "covers/673.webp",
+    "cover": "images/covers/673.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20865,7 +20865,7 @@
   {
     "slug": 674,
     "title": "",
-    "cover": "covers/674.webp",
+    "cover": "images/covers/674.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20896,7 +20896,7 @@
   {
     "slug": 675,
     "title": "",
-    "cover": "covers/675.webp",
+    "cover": "images/covers/675.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20927,7 +20927,7 @@
   {
     "slug": 676,
     "title": "",
-    "cover": "covers/676.webp",
+    "cover": "images/covers/676.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20958,7 +20958,7 @@
   {
     "slug": 677,
     "title": "",
-    "cover": "covers/677.webp",
+    "cover": "images/covers/677.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -20989,7 +20989,7 @@
   {
     "slug": 678,
     "title": "",
-    "cover": "covers/678.webp",
+    "cover": "images/covers/678.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21020,7 +21020,7 @@
   {
     "slug": 679,
     "title": "",
-    "cover": "covers/679.webp",
+    "cover": "images/covers/679.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21051,7 +21051,7 @@
   {
     "slug": 680,
     "title": "",
-    "cover": "covers/680.webp",
+    "cover": "images/covers/680.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21082,7 +21082,7 @@
   {
     "slug": 681,
     "title": "",
-    "cover": "covers/681.webp",
+    "cover": "images/covers/681.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21113,7 +21113,7 @@
   {
     "slug": 682,
     "title": "",
-    "cover": "covers/682.webp",
+    "cover": "images/covers/682.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21144,7 +21144,7 @@
   {
     "slug": 683,
     "title": "",
-    "cover": "covers/683.webp",
+    "cover": "images/covers/683.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21175,7 +21175,7 @@
   {
     "slug": 684,
     "title": "",
-    "cover": "covers/684.webp",
+    "cover": "images/covers/684.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21206,7 +21206,7 @@
   {
     "slug": 685,
     "title": "",
-    "cover": "covers/685.webp",
+    "cover": "images/covers/685.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21237,7 +21237,7 @@
   {
     "slug": 686,
     "title": "",
-    "cover": "covers/686.webp",
+    "cover": "images/covers/686.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21268,7 +21268,7 @@
   {
     "slug": 687,
     "title": "",
-    "cover": "covers/687.webp",
+    "cover": "images/covers/687.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21299,7 +21299,7 @@
   {
     "slug": 688,
     "title": "",
-    "cover": "covers/688.webp",
+    "cover": "images/covers/688.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21330,7 +21330,7 @@
   {
     "slug": 689,
     "title": "",
-    "cover": "covers/689.webp",
+    "cover": "images/covers/689.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21361,7 +21361,7 @@
   {
     "slug": 690,
     "title": "",
-    "cover": "covers/690.webp",
+    "cover": "images/covers/690.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21392,7 +21392,7 @@
   {
     "slug": 691,
     "title": "",
-    "cover": "covers/691.webp",
+    "cover": "images/covers/691.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21423,7 +21423,7 @@
   {
     "slug": 692,
     "title": "",
-    "cover": "covers/692.webp",
+    "cover": "images/covers/692.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21454,7 +21454,7 @@
   {
     "slug": 693,
     "title": "",
-    "cover": "covers/693.webp",
+    "cover": "images/covers/693.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21485,7 +21485,7 @@
   {
     "slug": 694,
     "title": "",
-    "cover": "covers/694.webp",
+    "cover": "images/covers/694.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21516,7 +21516,7 @@
   {
     "slug": 695,
     "title": "",
-    "cover": "covers/695.webp",
+    "cover": "images/covers/695.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21547,7 +21547,7 @@
   {
     "slug": 696,
     "title": "",
-    "cover": "covers/696.webp",
+    "cover": "images/covers/696.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21578,7 +21578,7 @@
   {
     "slug": 697,
     "title": "",
-    "cover": "covers/697.webp",
+    "cover": "images/covers/697.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21609,7 +21609,7 @@
   {
     "slug": 698,
     "title": "",
-    "cover": "covers/698.webp",
+    "cover": "images/covers/698.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21640,7 +21640,7 @@
   {
     "slug": 699,
     "title": "",
-    "cover": "covers/699.webp",
+    "cover": "images/covers/699.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
@@ -21671,7 +21671,7 @@
   {
     "slug": 700,
     "title": "",
-    "cover": "covers/700.webp",
+    "cover": "images/covers/700.webp",
     "description": "",
     "author_slug": "",
     "status_slug": "draft",
