@@ -125,7 +125,7 @@ function displayCards(data) {
             loadMoreCards();
         }
     }, {
-        rootMargin: '500px'
+        rootMargin: '1px'
     });
     
     observer.observe(loader);

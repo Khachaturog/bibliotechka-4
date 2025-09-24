@@ -4,34 +4,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     const dataResponse = await fetch('data/data.json');
     const data = await dataResponse.json();
     displayDetail(data);
-
-    // Навигация по карточкам
-    const params = new URLSearchParams(window.location.search);
-    const slug = params.get('slug');
-    const currentIndex = data.findIndex(item => item.slug === slug || parseInt(item.slug) === parseInt(slug));
-
-    // Кнопка "предыдущая"
-    const prevBtn = document.querySelector('.detail-footer-container-2 button:first-child');
-    if (prevBtn && currentIndex > 0) {
-        prevBtn.onclick = () => {
-            const prevSlug = data[currentIndex - 1].slug;
-            window.location.href = `detail.html?slug=${prevSlug}`;
-        };
-    } else if (prevBtn) {
-        prevBtn.disabled = true;
-    }
     
-    // Кнопка "следующая"
+    // Генерация случайной карточки
     const nextBtn = document.querySelector('.detail-footer-container-2 button:last-child');
-    if (nextBtn && currentIndex !== -1 && currentIndex < data.length - 1) {
+    if (nextBtn) {
         nextBtn.onclick = () => {
-            const nextSlug = data[currentIndex + 1].slug;
-            window.location.href = `detail.html?slug=${nextSlug}`;
+            const randomIndex = Math.floor(Math.random() * data.length);
+            const randomSlug = data[randomIndex].slug;
+            window.location.href = `detail.html?slug=${randomSlug}`;
         };
-    } else if (nextBtn) {
-        nextBtn.disabled = true;
     }
-
 });
 
 // Функция для отображения деталей
@@ -141,7 +123,7 @@ function displayDetail(data) {
     container.appendChild(clone);
 }
 
-// Функция для возврата к группе
+// Импорт функции для возврата к группе
 function goBackToGroup() {
     // Получаем свойства текущей карточки
     const groupSlug = document.querySelector('.group-slug').textContent;

@@ -1,58 +1,74 @@
 [
   {
+    "sort": 6,
     "slug": "community",
     "title": "Community",
     "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp",
+    "cover": "images/groups/community.webp"
   },
   {
+    "sort": 3,
     "slug": "trainer",
     "title": "Тренажёры",
     "description": "Игры, брифы, челленджи",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-trainer.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-trainer.webp",
+    "cover": "images/groups/trainer.webp"
   },
   {
+    "sort": 2,
     "slug": "reference",
     "title": "Насмотренность",
     "description": "Подборки референсов почти на все темы",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-reference.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-reference.webp",
+    "cover": "images/groups/reference.webp"
   },
   {
+    "sort": 4,
     "slug": "designsystem",
     "title": "Дизайн-система",
     "description": "Разбор компонентов на примере компаний / Гайдлайны / Брендбуки",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-designsystem.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-designsystem.webp",
+    "cover": "images/groups/designsystem.webp"
   },
   {
+    "sort": 5,
     "slug": "resource",
     "title": "Ресурсы",
     "description": "Графические плюшки и разный арт",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-resource.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-resource.webp",
+    "cover": "images/groups/resource.webp"
   },
   {
+    "sort": 1,
     "slug": "skill",
     "title": "Навыки",
     "description": "Материалы для развития скиллов",
     "badge": "",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp",
+    "cover": "images/groups/skill.webp"
   },
   {
-    "slug": "books",
+    "sort": 7,
+    "slug": "book",
     "title": "Книги",
     "description": "Покажите мне людей которые читают книги — и я покажу кто двигает мир",
-    "badge": "Новинка",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp"
+    "badge": "❇️ Новый раздел",
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp",
+    "cover": "images/groups/book.webp"
   },
   {
+    "sort": 8,
     "slug": "life",
     "title": "Жизнь",
     "description": "Быт, здоровье и советы",
-    "badge": "Новинка",
-    "cover": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-life.webp"
+    "badge": "❇️ Новый раздел",
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-life.webp",
+    "cover": "images/groups/life.webp"
   }
 ]
