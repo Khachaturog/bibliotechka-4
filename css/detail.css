@@ -2,6 +2,8 @@
     margin: 0 auto;
     width: 100%;
     min-height: 100vh; /* Минимальная высота равна высоте окна */
+    /* border-radius: 0 0 12px 12px; */
+    /* background: var(--01-layer-background); */
 }
 
 .detail-container-image {
@@ -176,13 +178,14 @@ font-size: var(--module-400);
 }
 
 .detail-footer {
+    width: 768px;
+    padding: 0 24px;
     display: flex;
     position: fixed;
     z-index: 100;
-    left: 16px;
+    bottom: 24px;
     right: 16px;
-    bottom: 16px;
-    justify-content: center;
+    justify-content: end;
 }
 
 .detail-footer-container-1 {
@@ -190,7 +193,7 @@ font-size: var(--module-400);
     display: flex;
     padding: 12px;
     align-items: flex-start;
-    gap: 36px;
+    gap: 16px;
 
     background: var(--01-layer-blur);
     border: 1px solid var(--04-border-on-layer-2);

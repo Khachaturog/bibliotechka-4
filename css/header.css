@@ -86,3 +86,47 @@
   display: none;
 }
 
+
+
+
+
+/* Футер */
+.footer {
+  border-radius: 12px 12px 0 0;
+  display: grid;
+  flex-direction: column;
+  width: 100%;
+  padding: 36px 16px;
+  align-items: center;
+  background: var(--01-layer-1);
+  gap: 24px;
+  align-self: stretch;
+}
+
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-text {
+  display: grid;
+  gap: 12px;
+  text-align: center;
+}
+
+.wishes {
+  color: var(--02-content-primary);
+  font-family: var(--font-primary);
+  font-size: var(--module-400);
+  font-weight: var(--fw-semibold);
+  line-height: var(--module-500);
+}
+
+.copyright {
+  color: var(--02-content-secondary);
+  font-family: var(--font-secondary);
+  font-size: var(--module-350);
+  line-height: var(--module-00);
+}

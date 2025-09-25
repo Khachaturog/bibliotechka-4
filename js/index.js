@@ -97,39 +97,43 @@ function displayCards(data) {
     });
 }
 
-    // Функция для загрузки следующей порции карточек
-    function loadMoreCards() {
-        const fragment = document.createDocumentFragment();
-        const itemsToLoad = Math.min(itemsPerPage, data.length - currentIndex);
-        
-        for (let i = 0; i < itemsToLoad; i++) {
-            const card = createCard(data[currentIndex + i]);
-            fragment.appendChild(card);
-        }
-        
-        container.appendChild(fragment);
-        currentIndex += itemsToLoad;
-        
-        // Скрыть loader если все карточки загружены
-        if (currentIndex >= data.length) {
-            observer.disconnect();
-        }
+// Определяем переменные для бесконечной загрузки
+const itemsPerPage = 10; // Количество карточек на одну загрузку
+let currentIndex = 0; // Текущий индекс для загрузки карточек
+
+// Функция для загрузки следующей порции карточек
+function loadMoreCards() {
+    const fragment = document.createDocumentFragment();
+    const itemsToLoad = Math.min(itemsPerPage, data.length - currentIndex);
+    
+    for (let i = 0; i < itemsToLoad; i++) {
+        const card = createCard(data[currentIndex + i]);
+        fragment.appendChild(card);
     }
     
-    // Получаем loader элемент из HTML
-    const loader = document.querySelector('.cards-loader');
+    container.appendChild(fragment);
+    currentIndex += itemsToLoad;
     
-    // Настраиваем IntersectionObserver для бесконечного скролла
-    const observer = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting && currentIndex < data.length) {
-            loadMoreCards();
-        }
-    }, {
-        rootMargin: '1px'
-    });
-    
-    observer.observe(loader);
-    
-    // Загружаем первую порцию карточек
-    loadMoreCards();
+    // Скрыть loader если все карточки загружены
+    if (currentIndex >= data.length) {
+        observer.disconnect();
+    }
+}
+
+// Получаем loader элемент из HTML
+const loader = document.querySelector('.cards-loader');
+
+// Настраиваем IntersectionObserver для бесконечного скролла
+const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && currentIndex < data.length) {
+        loadMoreCards();
+    }
+}, {
+    rootMargin: '1px'
+});
+
+observer.observe(loader);
+
+// Загружаем первую порцию карточек
+loadMoreCards();
 
