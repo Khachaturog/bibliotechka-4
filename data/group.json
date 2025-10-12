@@ -1,21 +1,12 @@
 [
   {
-    "sort": 6,
-    "slug": "community",
-    "title": "Community",
-    "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
+    "sort": 1,
+    "slug": "skill",
+    "title": "Навыки",
+    "description": "Материалы для развития скиллов",
     "badge": "",
-    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp",
-    "cover": "images/groups/community.webp"
-  },
-  {
-    "sort": 3,
-    "slug": "trainer",
-    "title": "Тренажёры",
-    "description": "Игры, брифы, челленджи",
-    "badge": "",
-    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-trainer.webp",
-    "cover": "images/groups/trainer.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp",
+    "cover": "images/groups/skill.webp"
   },
   {
     "sort": 2,
@@ -25,6 +16,15 @@
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-reference.webp",
     "cover": "images/groups/reference.webp"
+  },
+  {
+    "sort": 3,
+    "slug": "trainer",
+    "title": "Тренажёры",
+    "description": "Игры, брифы, челленджи",
+    "badge": "",
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-trainer.webp",
+    "cover": "images/groups/trainer.webp"
   },
   {
     "sort": 4,
@@ -45,20 +45,20 @@
     "cover": "images/groups/resource.webp"
   },
   {
-    "sort": 1,
-    "slug": "skill",
-    "title": "Навыки",
-    "description": "Материалы для развития скиллов",
+    "sort": 6,
+    "slug": "community",
+    "title": "Community",
+    "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
     "badge": "",
-    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp",
-    "cover": "images/groups/skill.webp"
+    "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp",
+    "cover": "images/groups/community.webp"
   },
   {
     "sort": 7,
     "slug": "book",
     "title": "Книги",
     "description": "Покажите мне людей которые читают книги — и я покажу кто двигает мир",
-    "badge": "❇️ Новый раздел",
+    "badge": "Новинка",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp",
     "cover": "images/groups/book.webp"
   },
@@ -67,7 +67,7 @@
     "slug": "life",
     "title": "Жизнь",
     "description": "Быт, здоровье и советы",
-    "badge": "❇️ Новый раздел",
+    "badge": "Новинка",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-life.webp",
     "cover": "images/groups/life.webp"
   }

@@ -23,18 +23,14 @@
 
 .container-title {
   color: var(--02-content-primary);
-  font-family: var(--font-primary);
-  font-size: var(--module-500);
-  font-weight: var(--fw-bold);
-  line-height: var(--module-600);
+}
+
+.container-title span {
+  color: var(--02-content-secondary);
 }
 
 .container-description {
   color: var(--02-content-secondary);
-  font-family: var(--font-secondary);
-  font-size: var(--module-400);
-  font-weight: var(--fw-regular);
-  line-height: var(--module-500);
 }
 
 .cards-container {
@@ -69,7 +65,7 @@
   justify-content: flex-start;
   align-items: stretch;
   overflow: hidden;
-  
+  min-height: 184px;
   padding: 4px;
 
   background: var(--01-layer-1);
@@ -82,7 +78,6 @@
 
 .card:hover {
   box-shadow: 0 0 0 3px var(--06-theme-violet-content);
-  /* transition: box-shadow 0.05s ease; */
   /* outline: 3px var(--06-theme-violet-content solid); */
 }
 
@@ -94,7 +89,7 @@
 
 .card img {
   border-radius: 4px;
-  width: 100%;
+  width: auto;
   height: 125px;
   object-fit: cover;
   margin-bottom: 12px;
@@ -110,28 +105,21 @@
 
 .card-title {
   color: var(--02-content-primary);
-  font-size: var(--module-400);
-  font-weight: var(--fw-medium);
-  line-height: var(--module-500);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-
   margin: 0 8px 4px 8px;
 }
 
 .card-description {
-  color: var(--02-content-secondary);
-  font-size: var(--module-350);
-  line-height: var(--module-400);
+  color: var(--02-content-tertiary);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   /* line-clamp: 2; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   /* text-overflow: ellipsis; */
-
   margin: 0 8px 8px 8px;
 }
 

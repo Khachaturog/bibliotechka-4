@@ -6,16 +6,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         fetch('data/group.json')
     ]);
     const data = await dataResponse.json();
-    const groups = await groupsResponse.json();
+    let groups = await groupsResponse.json();
+    // Сортировка групп по свойству sort
+    groups = groups.slice().sort((a, b) => a.sort - b.sort);
     displayGroups(groups);
-    displayCards(data);
+    displayCards(data); // включаем обычную отрисовку всех карточек
 });
 
 // Функция для отображения групп
 function displayGroups(groups) {
     const container = document.querySelector('.groups-container');
     const template = document.querySelector('.group-template');
-    container.innerHTML = ''; // Clear existing content
 
     groups.forEach(group => {
         const clone = template.content.cloneNode(true);
@@ -97,43 +98,20 @@ function displayCards(data) {
     });
 }
 
-// Определяем переменные для бесконечной загрузки
-const itemsPerPage = 10; // Количество карточек на одну загрузку
-let currentIndex = 0; // Текущий индекс для загрузки карточек
-
-// Функция для загрузки следующей порции карточек
-function loadMoreCards() {
-    const fragment = document.createDocumentFragment();
-    const itemsToLoad = Math.min(itemsPerPage, data.length - currentIndex);
-    
-    for (let i = 0; i < itemsToLoad; i++) {
-        const card = createCard(data[currentIndex + i]);
-        fragment.appendChild(card);
-    }
-    
-    container.appendChild(fragment);
-    currentIndex += itemsToLoad;
-    
-    // Скрыть loader если все карточки загружены
-    if (currentIndex >= data.length) {
-        observer.disconnect();
-    }
-}
-
 // Получаем loader элемент из HTML
-const loader = document.querySelector('.cards-loader');
+// const loader = document.querySelector('.cards-loader');
 
 // Настраиваем IntersectionObserver для бесконечного скролла
-const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && currentIndex < data.length) {
-        loadMoreCards();
-    }
-}, {
-    rootMargin: '1px'
-});
+// const observer = new IntersectionObserver((entries) => {
+//     if (entries[0].isIntersecting && currentIndex < data.length) {
+//         loadMoreCards();
+//     }
+// }, {
+//     rootMargin: '1px'
+// });
 
-observer.observe(loader);
+// observer.observe(loader);
 
 // Загружаем первую порцию карточек
-loadMoreCards();
+// loadMoreCards();
 

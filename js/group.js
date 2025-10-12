@@ -54,7 +54,7 @@ function createBadge(subgroup) {
         e.preventDefault(); // Предотвращаем стандартное поведение
         const targetElement = document.getElementById(subgroup.slug);
         if (targetElement) {
-            const offset = 60; // Отступ в 60px
+            const offset = 70; // Отступ в px
             const elementPosition = targetElement.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.scrollY - offset;
 
@@ -63,15 +63,24 @@ function createBadge(subgroup) {
                 behavior: 'smooth'
             });
 
+            // Обновляем URL с якорем
+            history.pushState(null, null, `#${subgroup.slug}`);
+
             // Устанавливаем класс active для текущего бейджа с задержкой
             setTimeout(() => {
                 document.querySelectorAll('.badge').forEach(b => b.classList.remove('active'));
                 badge.classList.add('active');
-            }, 300); // Задержка 300 мс
+                centerBadge(badge);
+            }, 100); // Задержка в мс
         }
     });
 
     return clone;
+}
+
+// Простое центрирование бейджа
+function centerBadge(badge) {
+    badge.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
 }
 
 // Добавляем обработчик для изменения active бейджа при скролле
@@ -85,13 +94,14 @@ window.addEventListener('scroll', () => {
             const targetElement = document.getElementById(targetId);
             if (targetElement) {
                 const rect = targetElement.getBoundingClientRect();
-                if (rect.top <= 60 && rect.bottom > 60) { // Проверяем, находится ли блок в видимой области
+                if (rect.top <= 90  && rect.bottom > 90) { // Проверяем, находится ли блок в видимой области
                     badges.forEach(b => b.classList.remove('active'));
                     badge.classList.add('active');
+                    centerBadge(badge);
                 }
             }
         });
-    }, 200); // Задержка 200 мс после завершения прокрутки
+    }, 10); // Задержка 10мс после завершения прокрутки
 });
 
 // Подгруппы
@@ -116,7 +126,7 @@ const copiedIcon = button.querySelector('.icon-copied');
     // Обработчик клика по кнопке
     button.addEventListener('click', (e) => {
         e.preventDefault();
-        const url = `${window.location.origin}${window.location.pathname}#${subgroup.slug}`;
+        const url = `${window.location.origin}${window.location.pathname}${window.location.search}#${subgroup.slug}`;
         navigator.clipboard.writeText(url).then(() => {
             linkIcon.style.display = 'none';
             copiedIcon.style.display = 'inline';
@@ -145,7 +155,7 @@ return clone;
 
 // Карточки
 function createCard(item) {
-    const cardTemplate = document.getElementById('card-template');
+    const cardTemplate = document.querySelector('.card-template');
     if (!cardTemplate) {
         console.error("Template with ID 'card-template' not found in the DOM.");
         return document.createElement('div'); // Возвращаем пустой div как запасной вариант

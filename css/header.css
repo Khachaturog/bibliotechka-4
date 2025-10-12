@@ -45,10 +45,6 @@
 
 .header-title {
   color: var(--02-content-primary);
-  font-family: var(--font-primary);
-  font-size: var(--module-400);
-  font-weight: var(--fw-bold);
-  line-height: var(--module-600);
 }
 
 .icon-burger svg, .icon-close svg {
@@ -118,17 +114,10 @@
 
 .wishes {
   color: var(--02-content-primary);
-  font-family: var(--font-primary);
-  font-size: var(--module-400);
-  font-weight: var(--fw-semibold);
-  line-height: var(--module-500);
 }
 
 .copyright {
   color: var(--02-content-secondary);
-  font-family: var(--font-secondary);
-  font-size: var(--module-350);
-  line-height: var(--module-00);
 }
 
 @media (max-width: 767px) {

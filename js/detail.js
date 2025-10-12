@@ -70,8 +70,8 @@ function displayDetail(data) {
             linkElement.href = link.url;
             linkElement.target = '_blank';
             linkElement.innerHTML = `
-                <div class="detail-block2-list-link">${link.title || link.url}</div>
-                <div class="detail-block2-list-icon">↗</div>
+                <div class="lg-regular detail-block2-list-link">${link.title || link.url}</div>
+                <div class="md-medium detail-block2-list-icon">↗</div>
             `;
             linksContainer.appendChild(linkElement);
         }

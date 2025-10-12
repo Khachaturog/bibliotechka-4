@@ -4,6 +4,8 @@ html {
   scroll-behavior: smooth; /* Плавный скролл для всей страницы */
 }
 
+/* Главная страница */
+
 .groups-container {
   /* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
   width: 100%;
@@ -72,16 +74,11 @@ html {
 }
 
 .group-title {
-  color: var(--02-content-primary); /* Цвет текста */
-  font-size: var(--module-400);
-  font-weight: var(--fw-medium);
-  line-height: var(--module-500);
+  color: var(--02-content-primary);
 }
 
 .group-description {
-  color: var(--02-content-secondary); /* Цвет текста с прозрачностью */
-  font-size: var(--module-350); /* Размер шрифта описания */
-  line-height: var(--module-400);
+  color: var(--02-content-secondary);
 
   display: -webkit-box; /* Для обрезки текста */
   -webkit-line-clamp: 3; /* Количество строк до обрезки */
@@ -116,12 +113,9 @@ html {
 
 .group-badge-text {
   color: var(--02-content-secondary);
-  font-family: var(--font-secondary); /* Шрифт текста бейджа */
-  font-size: var(--module-350); /* Размер шрифта текста бейджа */
-  line-height: var(--module-500); /* Высота строки текста бейджа */
 }
 
-/* ———————————————————————————————————- */
+/* Страница раздела */
 
 .icon-schevron-left svg {
   fill: var(--02-content-secondary);
@@ -161,12 +155,6 @@ html {
   border-radius: var(--radius-200);
   cursor: pointer;
   transition: background-color 0.15s ease;
-}
-
-.badge-title {
-  text-align: center;
-  font-family: var(--font-secondary);
-  font-size: 14px;
 }
 
 .badge.active {
