@@ -3,7 +3,7 @@
     "sort": 1,
     "slug": "skill",
     "title": "Навыки",
-    "description": "Материалы для развития скиллов",
+    "description": "Для развития скиллов",
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-skill.webp",
     "cover": "images/groups/skill.webp"
@@ -12,7 +12,7 @@
     "sort": 2,
     "slug": "reference",
     "title": "Насмотренность",
-    "description": "Подборки референсов почти на все темы",
+    "description": "Референсы на все темы",
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-reference.webp",
     "cover": "images/groups/reference.webp"
@@ -30,7 +30,7 @@
     "sort": 4,
     "slug": "designsystem",
     "title": "Дизайн-система",
-    "description": "Разбор компонентов на примере компаний / Гайдлайны / Брендбуки",
+    "description": "Компоненты, гайдлайны, брендбуки",
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-designsystem.webp",
     "cover": "images/groups/designsystem.webp"
@@ -39,7 +39,7 @@
     "sort": 5,
     "slug": "resource",
     "title": "Ресурсы",
-    "description": "Графические плюшки и разный арт",
+    "description": "Графические плюшки и арт",
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-resource.webp",
     "cover": "images/groups/resource.webp"
@@ -48,7 +48,7 @@
     "sort": 6,
     "slug": "community",
     "title": "Community",
-    "description": "Личные блоги / конференции / митапы / воркшопы / дизайн-выходные",
+    "description": "Блоги и конференции",
     "badge": "",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-community.webp",
     "cover": "images/groups/community.webp"
@@ -57,7 +57,7 @@
     "sort": 7,
     "slug": "books",
     "title": "Книги",
-    "description": "Покажите мне людей которые читают книги — и я покажу кто двигает мир",
+    "description": "Читай и размышляй",
     "badge": "Новинка",
     "cover_notion": "https://gdozktobkosdlddavthj.supabase.co/storage/v1/object/public/service/new-book.webp",
     "cover": "images/groups/book.webp"

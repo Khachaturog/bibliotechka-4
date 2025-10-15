@@ -24,6 +24,15 @@
     box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
 }
 
+.secondary-48 svg {
+    fill: var(--02-content-secondary);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Secondary · Text · 48px */
 .secondary-text-48 {
     display: inline-flex;
@@ -83,4 +92,13 @@
     background: var(--06-theme-violet-layer-soft-pressed);
     /* ⤵ inner/XS */
     box-shadow: var(--08-Shadow-Inner-XS-1-x, 0) var(--08-Shadow-Inner-XS-1-y, 1px) var(--08-Shadow-Inner-XS-1-blur, 2px) var(--08-Shadow-Inner-XS-1-spread, 0) var(--08-Shadow-Inner-XS-1-color, rgba(22, 33, 88, 0.09)) inset;
+}
+
+.subtle-violet-36 svg {
+    fill: var(--06-theme-violet-content);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

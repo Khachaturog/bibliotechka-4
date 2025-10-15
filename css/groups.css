@@ -7,70 +7,40 @@ html {
 /* Главная страница */
 
 .groups-container {
-  /* Основной контейнер для групп. Настройки для горизонтальной прокрутки */
-  width: 100%;
-  display: flex; /* Устанавливаем флекс-контейнер для горизонтального выравнивания */
-  overflow: auto;
-  padding: 4px 0;
-  scroll-snap-type: x mandatory; /* Прокрутка с привязкой */
-  scrollbar-width: none; /* Убираем скроллбар для Firefox */
-  -ms-overflow-style: none; /* Убираем скроллбар для IE */
-}
-
-.groups-container::-webkit-scrollbar {
-  display: none; /* Убираем скроллбар для Chrome, Safari, Opera */
-}
-
-.group-wrapper {
-  width: 350px; /* Фиксированная ширина обёртки для карточки */
-  padding: 0px 16px; /* Внутренние отступы для создания пространства вокруг карточки */
-  margin-right: -16px; /* Отрицательный отступ для выравнивания с соседними элементами */
-  flex: 0 0 auto; /* Элемент не растягивается и не сжимается, занимает фиксированное место */
-  scroll-snap-align: start; /* Привязка для прокрутки с учётом отступов */
-  display: flex; /* Устанавливаем флекс-контейнер для вертикального выравнивания */
-  flex-direction: column; /* Элементы внутри располагаются вертикально */
-  align-items: stretch; /* Карточки растягиваются по высоте самой высокой */
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
 }
 
 .group {
-  background: var(--01-layer-1); /* Фон карточки */
-  border: 1px solid var(--04-border-control); /* Граница карточки */
-  /* overflow: hidden; */
-  position: relative;
-  border-radius: var(--radius-200); /* Скругление углов */
-  transition: all 0.15s ease-out; /* Плавный переход при наведении */
-  cursor: pointer; /* Указатель при наведении */
-  text-decoration: none; /* Убираем подчёркивание ссылок */
-  display: block; /* Элемент отображается как блочный */
-  flex: 0 0 auto; /* Карточка не растягивается и не сжимается, занимает фиксированное место */
-  height: 100%; /* Карточка занимает всю высоту обёртки */
-  flex-grow: 1; /* Карточка растягивается до высоты самой высокой */
+  display: flex;
+  padding: 8px 12px 8px 8px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 20px;
+  background: var(--01-layer-1);
+  text-decoration: none;  
 }
 
 .group:hover {
-  box-shadow: 0 0 0 3px var(--06-theme-violet-content);
-  /* transition: box-shadow 0.05s ease; */
-  /* outline: 3px var(--06-theme-violet-content) solid; */
-}
-
-.group-cover-wrapper {
-  padding: 4px;
-  width: 100%;
-  height: 125px;
+  box-shadow: 0 0 0 2px var(--06-theme-violet-content);
 }
 
 .group-cover {
-  border-radius: 4px;
-  width: 100%; /* Изображение занимает всю ширину карточки */
-  height: 100%;
-  object-fit: cover; /* Изображение обрезается по размеру контейнера */
-  object-position: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .group-content {
   display: grid;
-  padding: 8px 12px 12px 12px;
-  gap: 4px;
+  gap: 0px;
 }
 
 .group-title {
@@ -79,63 +49,20 @@ html {
 
 .group-description {
   color: var(--02-content-secondary);
-
-  display: -webkit-box; /* Для обрезки текста */
-  -webkit-line-clamp: 3; /* Количество строк до обрезки */
-  line-clamp: 2; /* Количество строк до обрезки */
-  -webkit-box-orient: vertical; /* Ориентация текста */
-  overflow: hidden; /* Скрытие текста за пределами блока */
-  text-overflow: ellipsis; /* Добавление троеточия при обрезке */
 }
 
-.group-badge {
-  display: flex;
-  position: absolute; /* Абсолютное позиционирование бейджа */
-  right: 12px; /* Отступ справа */
-  top: 12px; /* Отступ сверху */
-  align-items: center; /* Выравнивание по центру */
-  justify-content: center;
-
-  background: var(--06-theme-neutral-layer-soft); /* Фон бейджа */
-  padding: var(--space-50) var(--space-200); /* Внутренние отступы */
-  gap: 4px; /* Расстояние между элементами */
-  border-radius: var(--radius-200); /* Скругление углов */
-}
-
-.icon-strike svg {
-  fill: var(--02-content-secondary);
-  width: 16px;
-  height: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.group-badge-text {
-  color: var(--02-content-secondary);
-}
 
 /* Страница раздела */
-
-.icon-schevron-left svg {
-  fill: var(--02-content-secondary);
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #subgroups-container {
   position: sticky;
   top: 0px;
   z-index: 10;
-  background-color: var(--01-layer-blur); /* Основной цвет страницы */
-  backdrop-filter: blur(12px);
+  background-color: var(--01-layer-background); /* Основной цвет страницы */
+  /* backdrop-filter: blur(12px); */
   display: flex;
   overflow-x: auto; /* Добавлено для горизонтального скроллинга */
   overflow-y: hidden; /* Убираем вертикальный скроллинг */
-  padding: 16px 16px 16px 16px;
+  padding: 16px 0;
   align-items: flex-start;
   gap: 8px;
   white-space: nowrap; /* Запрещаем перенос элементов */
@@ -160,4 +87,29 @@ html {
 .badge.active {
   background: var(--06-theme-violet-layer-solid);
   color: var(--02-content-on-solid);
+}
+
+@media (max-width: 497px) {
+/* .group-content p {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-transform: none;
+  font-style: italic;
+} */
+
+.groups-container {
+  gap: 8px;
+}
+.group-cover {
+  width: 24px;
+  height: 24px;
+  aspect-ratio: 1/1;
+}
+
+.group-description {
+  display: none;
+}
 }

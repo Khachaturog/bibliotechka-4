@@ -349,9 +349,9 @@
   },
   {
     "slug": "editor",
-    "description": "Редактура текстов",
+    "description": "О редактуре и работе с текстом",
     "status": "new",
-    "title": "Редакторы"
+    "title": "Редактура"
   },
   {
     "slug": "food",

@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   display: flex;
-  padding: 16px;
+  padding: 16px 0;
   /* align-items: flex-start; */
   gap: 8px;
   align-self: stretch;
@@ -47,15 +47,6 @@
   color: var(--02-content-primary);
 }
 
-.icon-burger svg, .icon-close svg {
-  fill: var(--06-theme-violet-content);
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .icon-close {
   display: none;
 }
@@ -69,22 +60,9 @@
 }
 
 /* Переключение темы */
-.icon-night svg, .icon-day svg {
-  fill: var(--06-theme-violet-content);
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .icon-night {
   display: none;
 }
-
-
-
-
 
 /* Футер */
 .footer {
